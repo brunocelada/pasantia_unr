@@ -47,3 +47,5 @@ for file in glob.glob("*.gjc"):
 for file in glob.glob("*.gjf"):
     newfile = file.replace('.gjf', '.gjc')
     os.rename(file, newfile)
+
+print("Terminó")

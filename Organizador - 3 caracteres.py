@@ -26,3 +26,5 @@ for archivo in archivos:
     
     # Mover el archivo a la carpeta correspondiente
     shutil.move(os.path.join(carpeta_base, archivo), carpetas_creadas[primeros_tres])
+
+print("Terminó")

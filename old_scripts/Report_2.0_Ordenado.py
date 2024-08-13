@@ -54,3 +54,5 @@ for carpeta in carpetas:
                     wentalpie = rline[gibbs - 1].split()
                     wgibbs = rline[gibbs].split()
                     print((file.rsplit(".", 1)[0]) + "," + rline[scf].split()[4] + "," + wzpe[6] + "," + wentalpie[6] + "," + wgibbs[7], file=new)
+
+print("Terminó")

@@ -30,3 +30,5 @@ for file in glob.glob("*.log"):
 
     if any(phrase in content for phrase in target_phrases):
         move_file_to_folder(file, "Frecuencias Negativas")
+
+print("Terminó bien")
