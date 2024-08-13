@@ -55,6 +55,8 @@ echo "END_TIME (success)   = `date +'%y-%m-%d %H:%M:%S %s'`"
 END_TIME=`date +%s`
 echo "RUN_TIME (hours)     = `echo \"$START_TIME $END_TIME\" | awk '{{printf(\"%.4f\",($2-$1)/60.0/60.0)}}'`"
 
+{twilio_section}
+
 exit 0
 """
 
@@ -106,13 +108,28 @@ def procesar_archivos(files, carpeta_base, nproc, mem, command_line):
         except Exception as e:
             logging.info(f"Error al procesar el archivo {file}: {e}")
 
-def crear_archivo_sh(file, part, nprocshared, tiempo, fold):
+def crear_archivo_sh(file, part, nprocshared, tiempo, fold, send_whatsapp, account_sid="", auth_token="", 
+                     from_number="", to_number=""):
     os.chdir(carpeta_base)
     job_name = os.path.splitext(file)[0]
     commands = fold + file
 
+    # Generar la sección de Twilio solo si se seleccionó enviar mensajes
+    twilio_section = ""
+    if send_whatsapp:
+        twilio_section = f"""
+# -------- Send WhatsApp Notification -----------------------------------------
+
+curl -X POST https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json \\
+--data-urlencode "To=whatsapp:{to_number}" \\
+--data-urlencode "From=whatsapp:{from_number}" \\
+--data-urlencode "Body=Cálculo finalizado para {job_name}.sh" \\
+-u {account_sid}:{auth_token}
+"""
+
     with open(f"{job_name}.sh", "w") as f:
-        f.write(sh_template.format(job_name=job_name, part=part, nprocshared=nprocshared, tiempo=tiempo, commands=commands))
+        f.write(sh_template.format(job_name=job_name, part=part, nprocshared=nprocshared, 
+                                   tiempo=tiempo, commands=commands, twilio_section=twilio_section))
 
     logging.info(f"Archivo {job_name}.sh creado con éxito.")
 
@@ -157,10 +174,27 @@ def main():
     # Aclaración
     print("Recordar que se trabaja con 1 input por sh.")
 
-    for file in files:
-        crear_archivo_sh(file, part, nprocshared, tiempo, fold)
+    # Preguntar si se desea enviar notificaciones por WhatsApp de los .sh finalizados
+    send_whatsapp = input("¿Deseas enviar una notificación por WhatsApp cuando el cálculo termine? (s/n): ").lower() in ["s", "si"]
+    
+    account_sid = auth_token = from_number = to_number = ""
 
-    print("Finalizado.")
+    if send_whatsapp:
+        # Solicitar detalles de Twilio
+        account_sid = "AC707d65d2fb51e0479ec46ec2a4675bb1"
+        auth_token = "f29b2061e8cdcdacba199a062903a20b"
+        from_number = "+543416518799"
+        to_number = input("Ingresa el número de destino (formato: +543419999999): ")
+        
+        logging.info(f"Se enviarán notificaciones al Whatsapp: {to_number}")
+    else:
+        print("\nNo se enviarán notificaciones por whatsapp.\n")
+        logging.info(f"Sin notificaciones por whatsapp.")
+
+    for file in files:
+        crear_archivo_sh(file, part, nprocshared, tiempo, fold, send_whatsapp, account_sid, auth_token, from_number, to_number)
+
+    print("\nFinalizado.")
 
 if __name__ == "__main__":
     main()

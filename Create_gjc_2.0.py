@@ -48,7 +48,7 @@ for file in glob.glob("*.log"):
 # Solicitar entradas del usuario
 nprocshared = input("nprocshared= ")
 mem = input("mem= ")
-command_line = input("command line= # ")
+command_line = input("command line= ")
 charge = 0
 multip = 1
 

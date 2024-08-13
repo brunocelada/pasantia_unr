@@ -718,3 +718,225 @@
 2024-08-12 22:16:14,731 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-prod-optb_c1.gjc
 2024-08-12 22:16:14,732 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-prod-optb_c2.gjc
 2024-08-12 22:16:14,733 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-prod-optb_c3.gjc
+2024-08-13 11:15:57,873 - INFO - Spa-Gaus+CreateSH:122 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 11:15:57,889 - INFO - Spa-Gaus+CreateSH:71 - No se necesita procesar ningún archivo
+2024-08-13 11:16:08,690 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-E-R-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,691 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-E-R-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,693 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-E-S-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,694 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-E-S-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-E-S-TS-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-Z-R-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-Z-R-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-endo-Z-R-TS-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-prod-sp-solv_c3.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-TS-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-TS-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-R-TS-sp-solv_c3.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-S-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-S-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-E-S-TS-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-Z-S-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-Z-S-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-Z-S-TS-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-exo-Z-S-TS-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-Im-E-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-Im-E-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-Im-E-sp-solv_c3.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-Im-Z-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo 001-Im-Z-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:103 - El archivo 001_(E)-Im-5Ba_c3.gjc se procesó correctamente.
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo cyclopentadiene-sp-solv.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo trans-2-butenal-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo trans-2-butenal-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-endo-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-endo-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-endo-prod-sp-solv_c3.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-exo-prod-sp-solv_c1.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-exo-prod-sp-solv_c2.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:08,695 - INFO - Spa-Gaus+CreateSH:85 - El archivo uncat-exo-prod-sp-solv_c3.gjc ya ha sido procesado. Saltando...
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:16:19,872 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,889 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,890 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:16:19,892 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,894 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,895 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,897 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,900 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,900 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,900 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,905 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,907 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001_(E)-Im-5Ba_c3.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:16:19,908 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:20:04,795 - INFO - Spa-Gaus+CreateSH:122 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 11:20:17,849 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,852 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,854 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,856 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,859 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,861 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,865 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,869 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,871 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,874 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,876 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:20:17,879 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,882 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,885 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:20:17,887 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,891 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,893 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,896 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,899 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,901 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,904 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,905 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,907 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,910 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:20:17,912 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,915 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,917 - INFO - Spa-Gaus+CreateSH:117 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 11:20:17,919 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,921 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,924 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,928 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,930 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 11:20:17,934 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 11:20:17,936 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 11:20:17,938 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 16:50:48,185 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-13 16:50:48,185 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-13 16:50:48,186 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_008_c1.sh
+2024-08-13 16:50:48,187 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_010_c1.sh
+2024-08-13 16:50:48,187 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_011_c1.sh
+2024-08-13 16:50:48,188 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_012_c1.sh
+2024-08-13 16:50:48,188 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_012_c2.sh
+2024-08-13 16:50:48,189 - INFO - multi_procesador:56 - Relanzar archivo: TS_008_186320.log - No finalizó correctamente
+2024-08-13 16:50:48,198 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-13 16:50:48,200 - INFO - multi_procesador:42 - Archivo movido: TS_008_186320.log a Termino Mal
+2024-08-13 16:50:48,231 - INFO - multi_procesador:56 - Relanzar archivo: TS_008_c1.log - No finalizó correctamente
+2024-08-13 16:50:48,237 - INFO - multi_procesador:42 - Archivo movido: TS_008_c1.log a Termino Mal
+2024-08-13 16:50:48,238 - INFO - multi_procesador:56 - Relanzar archivo: TS_010_186324.log - No finalizó correctamente
+2024-08-13 16:50:48,244 - INFO - multi_procesador:42 - Archivo movido: TS_010_186324.log a Termino Mal
+2024-08-13 16:50:48,275 - INFO - multi_procesador:56 - Relanzar archivo: TS_010_c1.log - No finalizó correctamente
+2024-08-13 16:50:48,282 - INFO - multi_procesador:42 - Archivo movido: TS_010_c1.log a Termino Mal
+2024-08-13 16:50:48,283 - INFO - multi_procesador:56 - Relanzar archivo: TS_011_186322.log - No finalizó correctamente
+2024-08-13 16:50:48,286 - INFO - multi_procesador:42 - Archivo movido: TS_011_186322.log a Termino Mal
+2024-08-13 16:50:48,316 - INFO - multi_procesador:56 - Relanzar archivo: TS_012_186354.log - No finalizó correctamente
+2024-08-13 16:50:48,318 - INFO - multi_procesador:42 - Archivo movido: TS_012_186354.log a Termino Mal
+2024-08-13 16:50:48,319 - INFO - multi_procesador:56 - Relanzar archivo: TS_012_186355.log - No finalizó correctamente
+2024-08-13 16:50:48,321 - INFO - multi_procesador:42 - Archivo movido: TS_012_186355.log a Termino Mal
+2024-08-13 16:50:48,349 - INFO - multi_procesador:56 - Relanzar archivo: TS_012_c1.log - No finalizó correctamente
+2024-08-13 16:50:48,363 - INFO - multi_procesador:42 - Archivo movido: TS_012_c1.log a Termino Mal
+2024-08-13 16:50:48,392 - INFO - multi_procesador:56 - Relanzar archivo: TS_012_c2.log - No finalizó correctamente
+2024-08-13 16:50:48,398 - INFO - multi_procesador:42 - Archivo movido: TS_012_c2.log a Termino Mal
+2024-08-13 16:50:48,399 - INFO - multi_procesador:99 - Archivos .log encontrados: ['TS_011_c1.gjc']
+2024-08-13 16:50:48,399 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: TS_008_c1.gjc
+2024-08-13 16:50:48,400 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-13 16:50:48,402 - INFO - multi_procesador:42 - Archivo movido: TS_008_c1.gjc a Relanzar
+2024-08-13 16:50:48,402 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: TS_010_c1.gjc
+2024-08-13 16:50:48,404 - INFO - multi_procesador:42 - Archivo movido: TS_010_c1.gjc a Relanzar
+2024-08-13 16:50:48,404 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: TS_012_c1.gjc
+2024-08-13 16:50:48,407 - INFO - multi_procesador:42 - Archivo movido: TS_012_c1.gjc a Relanzar
+2024-08-13 16:50:48,407 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: TS_012_c2.gjc
+2024-08-13 16:50:48,410 - INFO - multi_procesador:42 - Archivo movido: TS_012_c2.gjc a Relanzar
+2024-08-13 16:50:48,412 - INFO - multi_procesador:177 - Archivo Nueva carpeta movido a: C:\Linux\Nue
+2024-08-13 16:50:48,413 - INFO - multi_procesador:177 - Archivo TS_011_c1.gjc movido a: C:\Linux\TS_011
+2024-08-13 16:50:48,414 - INFO - multi_procesador:177 - Archivo TS_011_c1.log movido a: C:\Linux\TS_011
+2024-08-13 16:50:48,434 - INFO - multi_procesador:153 - Archivo Excel guardado: Nue.xlsx
+2024-08-13 16:50:48,469 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_011_c1.log al Excel 'TS_011'
+2024-08-13 16:50:48,484 - INFO - multi_procesador:153 - Archivo Excel guardado: TS_011.xlsx
+2024-08-13 16:57:01,544 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-13 16:57:01,599 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a TS_008_c1.gjc
+2024-08-13 16:57:01,646 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a TS_010_c1.gjc
+2024-08-13 16:57:01,702 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a TS_012_c1.gjc
+2024-08-13 16:57:01,761 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a TS_012_c2.gjc
+2024-08-13 16:57:26,466 - INFO - Create_gjc_2.0:77 - Archivo creado TS_008_c1.gjc
+2024-08-13 16:57:26,473 - INFO - Create_gjc_2.0:77 - Archivo creado TS_010_c1.gjc
+2024-08-13 16:57:26,474 - INFO - Create_gjc_2.0:77 - Archivo creado TS_011_c1.gjc
+2024-08-13 16:57:26,482 - INFO - Create_gjc_2.0:77 - Archivo creado TS_012_c1.gjc
+2024-08-13 16:57:26,490 - INFO - Create_gjc_2.0:77 - Archivo creado TS_012_c2.gjc
+2024-08-13 17:07:19,538 - INFO - Spa-Gaus+CreateSH:122 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 17:07:30,014 - INFO - Spa-Gaus+CreateSH:117 - Archivo TS_008_c1.sh creado con éxito.
+2024-08-13 17:07:30,015 - INFO - Spa-Gaus+CreateSH:117 - Archivo TS_010_c1.sh creado con éxito.
+2024-08-13 17:07:30,015 - INFO - Spa-Gaus+CreateSH:117 - Archivo TS_011_c1.sh creado con éxito.
+2024-08-13 17:07:30,016 - INFO - Spa-Gaus+CreateSH:117 - Archivo TS_012_c1.sh creado con éxito.
+2024-08-13 17:07:30,017 - INFO - Spa-Gaus+CreateSH:117 - Archivo TS_012_c2.sh creado con éxito.
+2024-08-13 17:12:04,594 - INFO - Spa-Gaus+CreateSH:122 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 17:12:14,506 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,508 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,508 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,510 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,512 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,513 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,513 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,513 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-endo-Z-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,514 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,516 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,516 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 17:12:14,516 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,517 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,517 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-R-TS-sp-solv_c3.sh creado con éxito.
+2024-08-13 17:12:14,518 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,520 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,521 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-E-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,522 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,522 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,523 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,523 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-exo-Z-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,523 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,523 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,525 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-E-sp-solv_c3.sh creado con éxito.
+2024-08-13 17:12:14,525 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,526 - INFO - Spa-Gaus+CreateSH:117 - Archivo 001-Im-Z-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,526 - INFO - Spa-Gaus+CreateSH:117 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 17:12:14,526 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,527 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,527 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,529 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,529 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 17:12:14,529 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 17:12:14,531 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 17:12:14,531 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c3.sh creado con éxito.
