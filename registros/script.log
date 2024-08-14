@@ -1429,3 +1429,88 @@
 2024-08-14 11:50:14,842 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
 2024-08-14 11:50:14,843 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
 2024-08-14 11:50:14,845 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-14 18:00:08,751 - INFO - master_excel:50 - Processing file: C:\Linux\cyclopentadiene.csv
+2024-08-14 18:00:08,759 - INFO - master_excel:73 - Added sheet cyclopentadiene from C:\Linux\cyclopentadiene.csv
+2024-08-14 18:00:08,759 - INFO - master_excel:50 - Processing file: C:\Linux\trans-2-butenal.csv
+2024-08-14 18:00:08,761 - INFO - master_excel:73 - Added sheet trans-2-butenal from C:\Linux\trans-2-butenal.csv
+2024-08-14 18:00:08,774 - INFO - master_excel:79 - Master Excel file 'C:\Linux\1-Reac.xlsx' created successfully.
+2024-08-14 18:10:23,364 - INFO - master_excel:63 - Processing file: C:\Linux\cyclopentadiene.csv
+2024-08-14 18:10:23,370 - INFO - master_excel:90 - Added sheet cyclopentadiene from C:\Linux\cyclopentadiene.csv
+2024-08-14 18:10:23,370 - INFO - master_excel:63 - Processing file: C:\Linux\trans-2-butenal.csv
+2024-08-14 18:10:23,372 - INFO - master_excel:90 - Added sheet trans-2-butenal from C:\Linux\trans-2-butenal.csv
+2024-08-14 18:11:00,415 - INFO - master_excel:63 - Processing file: C:\Linux\1-Reac.xlsx
+2024-08-14 18:11:00,429 - INFO - master_excel:77 - Added sheet 1-Reac from C:\Linux\1-Reac.xlsx
+2024-08-14 18:11:00,429 - INFO - master_excel:77 - Added sheet 1-Reac-2 from C:\Linux\1-Reac.xlsx
+2024-08-14 18:11:00,430 - INFO - master_excel:63 - Processing file: C:\Linux\cyclopentadiene.csv
+2024-08-14 18:11:00,436 - INFO - master_excel:90 - Added sheet cyclopentadiene from C:\Linux\cyclopentadiene.csv
+2024-08-14 18:11:00,436 - INFO - master_excel:63 - Processing file: C:\Linux\trans-2-butenal.csv
+2024-08-14 18:11:00,438 - INFO - master_excel:90 - Added sheet trans-2-butenal from C:\Linux\trans-2-butenal.csv
+2024-08-14 18:11:00,457 - INFO - master_excel:96 - Master Excel file 'C:\Linux\1-Reac.xlsx' created successfully.
+2024-08-14 18:12:24,568 - INFO - master_excel:56 - Processing file: C:\Linux\cyclopentadiene.csv
+2024-08-14 18:12:24,575 - INFO - master_excel:83 - Added sheet cyclopentadiene from C:\Linux\cyclopentadiene.csv
+2024-08-14 18:12:24,575 - INFO - master_excel:56 - Processing file: C:\Linux\trans-2-butenal.csv
+2024-08-14 18:12:24,578 - INFO - master_excel:83 - Added sheet trans-2-butenal from C:\Linux\trans-2-butenal.csv
+2024-08-14 18:12:24,605 - INFO - master_excel:89 - Master Excel file 'C:\Linux\1-Reac.xlsx' created successfully.
+2024-08-14 18:14:17,626 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-14 18:14:17,627 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-14 18:14:17,628 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_008_c1.sh
+2024-08-14 18:14:17,628 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_010_c1.sh
+2024-08-14 18:14:17,629 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_011_c1.sh
+2024-08-14 18:14:17,629 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_012_c1.sh
+2024-08-14 18:14:17,630 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\TS_012_c2.sh
+2024-08-14 18:14:17,683 - INFO - multi_procesador:99 - Archivos .log encontrados: ['TS_008_c1.gjc', 'TS_010_c1.gjc', 'TS_011_c1.gjc', 'TS_012_c1.gjc', 'TS_012_c2.gjc']
+2024-08-14 18:14:17,685 - INFO - multi_procesador:177 - Archivo TS_008_c1.gjc movido a: C:\Linux\TS_008
+2024-08-14 18:14:17,686 - INFO - multi_procesador:177 - Archivo TS_008_c1.log movido a: C:\Linux\TS_008
+2024-08-14 18:14:17,687 - INFO - multi_procesador:177 - Archivo TS_010_c1.gjc movido a: C:\Linux\TS_010
+2024-08-14 18:14:17,688 - INFO - multi_procesador:177 - Archivo TS_010_c1.log movido a: C:\Linux\TS_010
+2024-08-14 18:14:17,690 - INFO - multi_procesador:177 - Archivo TS_011_c1.gjc movido a: C:\Linux\TS_011
+2024-08-14 18:14:17,692 - INFO - multi_procesador:177 - Archivo TS_011_c1.log movido a: C:\Linux\TS_011
+2024-08-14 18:14:17,693 - INFO - multi_procesador:177 - Archivo TS_012_c1.gjc movido a: C:\Linux\TS_012
+2024-08-14 18:14:17,694 - INFO - multi_procesador:177 - Archivo TS_012_c1.log movido a: C:\Linux\TS_012
+2024-08-14 18:14:17,695 - INFO - multi_procesador:177 - Archivo TS_012_c2.gjc movido a: C:\Linux\TS_012
+2024-08-14 18:14:17,698 - INFO - multi_procesador:177 - Archivo TS_012_c2.log movido a: C:\Linux\TS_012
+2024-08-14 18:14:17,715 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_008_c1.log al Excel 'TS_008'
+2024-08-14 18:14:17,733 - INFO - multi_procesador:153 - Archivo Excel guardado: TS_008.xlsx
+2024-08-14 18:14:17,745 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_010_c1.log al Excel 'TS_010'
+2024-08-14 18:14:17,757 - INFO - multi_procesador:153 - Archivo Excel guardado: TS_010.xlsx
+2024-08-14 18:14:17,772 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_011_c1.log al Excel 'TS_011'
+2024-08-14 18:14:17,785 - INFO - multi_procesador:153 - Archivo Excel guardado: TS_011.xlsx
+2024-08-14 18:14:17,798 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_012_c1.log al Excel 'TS_012'
+2024-08-14 18:14:17,811 - INFO - multi_procesador:143 - Datos añadidos del archivo TS_012_c2.log al Excel 'TS_012'
+2024-08-14 18:14:17,823 - INFO - multi_procesador:153 - Archivo Excel guardado: TS_012.xlsx
+2024-08-14 18:20:02,139 - INFO - master_excel:56 - Processing file: C:\Linux\001-endo-E-R-TS-optb.xlsx
+2024-08-14 18:20:02,146 - INFO - master_excel:70 - Added sheet 001-endo-E-R-TS-optb from C:\Linux\001-endo-E-R-TS-optb.xlsx
+2024-08-14 18:20:02,146 - INFO - master_excel:56 - Processing file: C:\Linux\001-endo-E-S-TS-optb.xlsx
+2024-08-14 18:20:02,150 - INFO - master_excel:70 - Added sheet 001-endo-E-S-TS-optb from C:\Linux\001-endo-E-S-TS-optb.xlsx
+2024-08-14 18:20:02,150 - INFO - master_excel:56 - Processing file: C:\Linux\001-endo-Z-R-TS-optb.xlsx
+2024-08-14 18:20:02,154 - INFO - master_excel:70 - Added sheet 001-endo-Z-R-TS-optb from C:\Linux\001-endo-Z-R-TS-optb.xlsx
+2024-08-14 18:20:02,155 - INFO - master_excel:56 - Processing file: C:\Linux\001-endo-Z-R-TS-optb_c1.xlsx
+2024-08-14 18:20:02,160 - INFO - master_excel:70 - Added sheet 001-endo-Z-R-TS-optb_c1 from C:\Linux\001-endo-Z-R-TS-optb_c1.xlsx
+2024-08-14 18:20:02,160 - INFO - master_excel:56 - Processing file: C:\Linux\001-exo-E-R-TS-optb.xlsx
+2024-08-14 18:20:02,164 - INFO - master_excel:70 - Added sheet 001-exo-E-R-TS-optb from C:\Linux\001-exo-E-R-TS-optb.xlsx
+2024-08-14 18:20:02,164 - INFO - master_excel:56 - Processing file: C:\Linux\001-exo-E-S-TS-optb.xlsx
+2024-08-14 18:20:02,168 - INFO - master_excel:70 - Added sheet 001-exo-E-S-TS-optb from C:\Linux\001-exo-E-S-TS-optb.xlsx
+2024-08-14 18:20:02,168 - INFO - master_excel:56 - Processing file: C:\Linux\001-exo-E-S-TS-optb_c1.xlsx
+2024-08-14 18:20:02,173 - INFO - master_excel:70 - Added sheet 001-exo-E-S-TS-optb_c1 from C:\Linux\001-exo-E-S-TS-optb_c1.xlsx
+2024-08-14 18:20:02,173 - INFO - master_excel:56 - Processing file: C:\Linux\001-exo-Z-S-TS-optb.xlsx
+2024-08-14 18:20:02,177 - INFO - master_excel:70 - Added sheet 001-exo-Z-S-TS-optb from C:\Linux\001-exo-Z-S-TS-optb.xlsx
+2024-08-14 18:20:02,235 - INFO - master_excel:89 - Master Excel file 'C:\Linux\TS.xlsx' created successfully.
+2024-08-14 18:23:21,207 - INFO - Spa-Gaus+CreateSH notific 2.0:169 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-14 18:23:39,428 - INFO - Spa-Gaus+CreateSH notific 2.0:211 - Se enviarán notificaciones por Slack
+2024-08-14 18:23:39,429 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo 001-endo-E-S-TS-optb_c1.sh creado con éxito.
+2024-08-14 18:25:12,255 - INFO - master_excel:56 - Processing file: C:\Linux\uncat-endo-prod-optb.xlsx
+2024-08-14 18:25:12,263 - INFO - master_excel:70 - Added sheet uncat-endo-prod-optb from C:\Linux\uncat-endo-prod-optb.xlsx
+2024-08-14 18:25:12,263 - INFO - master_excel:56 - Processing file: C:\Linux\uncat-exo-prod-optb.xlsx
+2024-08-14 18:25:12,267 - INFO - master_excel:70 - Added sheet uncat-exo-prod-optb from C:\Linux\uncat-exo-prod-optb.xlsx
+2024-08-14 18:25:12,297 - INFO - master_excel:89 - Master Excel file 'C:\Linux\5-Uncat-3-prod.xlsx' created successfully.
+2024-08-14 18:26:47,799 - INFO - master_excel:56 - Processing file: C:\Linux\cyc.xlsx
+2024-08-14 18:26:47,806 - INFO - master_excel:70 - Added sheet cyc from C:\Linux\cyc.xlsx
+2024-08-14 18:26:47,807 - INFO - master_excel:56 - Processing file: C:\Linux\tra.xlsx
+2024-08-14 18:26:47,810 - INFO - master_excel:70 - Added sheet tra from C:\Linux\tra.xlsx
+2024-08-14 18:26:47,839 - INFO - master_excel:89 - Master Excel file 'C:\Linux\6-Solv-1-Reac.xlsx' created successfully.
