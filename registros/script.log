@@ -940,3 +940,380 @@
 2024-08-13 17:12:14,529 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c1.sh creado con éxito.
 2024-08-13 17:12:14,531 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c2.sh creado con éxito.
 2024-08-13 17:12:14,531 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 18:22:10,185 - INFO - Spa-Gaus+CreateSH test:139 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 18:22:58,473 - INFO - Spa-Gaus+CreateSH test:189 - Se enviarán notificaciones al Whatsapp: +543416518799
+2024-08-13 18:22:58,474 - INFO - Spa-Gaus+CreateSH test:134 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 18:22:58,475 - INFO - Spa-Gaus+CreateSH test:134 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 18:22:58,475 - INFO - Spa-Gaus+CreateSH test:134 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 18:38:22,607 - INFO - Spa-Gaus+CreateSH test:139 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 18:38:40,409 - INFO - Spa-Gaus+CreateSH test:189 - Se enviarán notificaciones al Whatsapp: +543416518799
+2024-08-13 18:38:40,410 - INFO - Spa-Gaus+CreateSH test:134 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 18:38:40,411 - INFO - Spa-Gaus+CreateSH test:134 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 18:38:40,412 - INFO - Spa-Gaus+CreateSH test:134 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:16:33,681 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-13 20:16:33,682 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-13 20:16:33,688 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-R-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,689 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-R-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,690 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-S-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,690 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-S-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,691 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-S-TS-sp-solv_c2.sh
+2024-08-13 20:16:33,691 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-R-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,692 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-R-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,692 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-R-TS-sp-solv_c2.sh
+2024-08-13 20:16:33,693 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,693 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,693 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-prod-sp-solv_c3.sh
+2024-08-13 20:16:33,694 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-TS-sp-solv_c1.sh
+2024-08-13 20:16:33,694 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-TS-sp-solv_c2.sh
+2024-08-13 20:16:33,694 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-R-TS-sp-solv_c3.sh
+2024-08-13 20:16:33,695 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-S-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,695 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-S-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,696 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-S-TS-sp-solv_c2.sh
+2024-08-13 20:16:33,696 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-S-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,696 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-S-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,697 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-S-TS-sp-solv_c1.sh
+2024-08-13 20:16:33,697 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-S-TS-sp-solv_c2.sh
+2024-08-13 20:16:33,697 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-Im-E-sp-solv_c1.sh
+2024-08-13 20:16:33,698 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-Im-E-sp-solv_c2.sh
+2024-08-13 20:16:33,698 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-Im-E-sp-solv_c3.sh
+2024-08-13 20:16:33,698 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-Im-Z-sp-solv_c1.sh
+2024-08-13 20:16:33,699 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-Im-Z-sp-solv_c2.sh
+2024-08-13 20:16:33,699 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\cyclopentadiene-sp-solv.sh
+2024-08-13 20:16:33,699 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\trans-2-butenal-sp-solv_c1.sh
+2024-08-13 20:16:33,700 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\trans-2-butenal-sp-solv_c2.sh
+2024-08-13 20:16:33,700 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,701 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,701 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c3.sh
+2024-08-13 20:16:33,701 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c1.sh
+2024-08-13 20:16:33,702 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c2.sh
+2024-08-13 20:16:33,702 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c3.sh
+2024-08-13 20:16:33,708 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-R-prod-sp-solv_c1_186540.log - No finalizó correctamente
+2024-08-13 20:16:33,709 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-13 20:16:33,711 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-prod-sp-solv_c1_186540.log a Termino Mal
+2024-08-13 20:16:33,712 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-R-prod-sp-solv_c2_186541.log - No finalizó correctamente
+2024-08-13 20:16:33,714 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-prod-sp-solv_c2_186541.log a Termino Mal
+2024-08-13 20:16:33,716 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-S-prod-sp-solv_c1_186543.log - No finalizó correctamente
+2024-08-13 20:16:33,718 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-prod-sp-solv_c1_186543.log a Termino Mal
+2024-08-13 20:16:33,719 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-S-prod-sp-solv_c2_186544.log - No finalizó correctamente
+2024-08-13 20:16:33,722 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-prod-sp-solv_c2_186544.log a Termino Mal
+2024-08-13 20:16:33,723 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-S-TS-sp-solv_c2_186542.log - No finalizó correctamente
+2024-08-13 20:16:33,726 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-sp-solv_c2_186542.log a Termino Mal
+2024-08-13 20:16:33,727 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-Z-R-prod-sp-solv_c1_186546.log - No finalizó correctamente
+2024-08-13 20:16:33,729 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-prod-sp-solv_c1_186546.log a Termino Mal
+2024-08-13 20:16:33,731 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-Z-R-prod-sp-solv_c2_186547.log - No finalizó correctamente
+2024-08-13 20:16:33,734 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-prod-sp-solv_c2_186547.log a Termino Mal
+2024-08-13 20:16:33,735 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-Z-R-TS-sp-solv_c2_186545.log - No finalizó correctamente
+2024-08-13 20:16:33,737 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-sp-solv_c2_186545.log a Termino Mal
+2024-08-13 20:16:33,739 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-prod-sp-solv_c1_186551.log - No finalizó correctamente
+2024-08-13 20:16:33,741 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-prod-sp-solv_c1_186551.log a Termino Mal
+2024-08-13 20:16:33,742 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-prod-sp-solv_c2_186552.log - No finalizó correctamente
+2024-08-13 20:16:33,745 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-prod-sp-solv_c2_186552.log a Termino Mal
+2024-08-13 20:16:33,747 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-prod-sp-solv_c3_186553.log - No finalizó correctamente
+2024-08-13 20:16:33,749 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-prod-sp-solv_c3_186553.log a Termino Mal
+2024-08-13 20:16:33,750 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-TS-sp-solv_c1_186548.log - No finalizó correctamente
+2024-08-13 20:16:33,753 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-sp-solv_c1_186548.log a Termino Mal
+2024-08-13 20:16:33,754 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-TS-sp-solv_c2_186549.log - No finalizó correctamente
+2024-08-13 20:16:33,756 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-sp-solv_c2_186549.log a Termino Mal
+2024-08-13 20:16:33,757 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-R-TS-sp-solv_c3_186550.log - No finalizó correctamente
+2024-08-13 20:16:33,760 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-sp-solv_c3_186550.log a Termino Mal
+2024-08-13 20:16:33,762 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-S-prod-sp-solv_c1_186555.log - No finalizó correctamente
+2024-08-13 20:16:33,764 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-prod-sp-solv_c1_186555.log a Termino Mal
+2024-08-13 20:16:33,766 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-S-prod-sp-solv_c2_186556.log - No finalizó correctamente
+2024-08-13 20:16:33,768 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-prod-sp-solv_c2_186556.log a Termino Mal
+2024-08-13 20:16:33,769 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-E-S-TS-sp-solv_c2_186554.log - No finalizó correctamente
+2024-08-13 20:16:33,772 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-sp-solv_c2_186554.log a Termino Mal
+2024-08-13 20:16:33,773 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-Z-S-prod-sp-solv_c1_186559.log - No finalizó correctamente
+2024-08-13 20:16:33,776 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-prod-sp-solv_c1_186559.log a Termino Mal
+2024-08-13 20:16:33,777 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-Z-S-prod-sp-solv_c2_186560.log - No finalizó correctamente
+2024-08-13 20:16:33,780 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-prod-sp-solv_c2_186560.log a Termino Mal
+2024-08-13 20:16:33,781 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-Z-S-TS-sp-solv_c1_186557.log - No finalizó correctamente
+2024-08-13 20:16:33,783 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-sp-solv_c1_186557.log a Termino Mal
+2024-08-13 20:16:33,784 - INFO - multi_procesador:56 - Relanzar archivo: 001-exo-Z-S-TS-sp-solv_c2_186558.log - No finalizó correctamente
+2024-08-13 20:16:33,787 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-sp-solv_c2_186558.log a Termino Mal
+2024-08-13 20:16:33,788 - INFO - multi_procesador:56 - Relanzar archivo: 001-Im-E-sp-solv_c1_186535.log - No finalizó correctamente
+2024-08-13 20:16:33,791 - INFO - multi_procesador:42 - Archivo movido: 001-Im-E-sp-solv_c1_186535.log a Termino Mal
+2024-08-13 20:16:33,793 - INFO - multi_procesador:56 - Relanzar archivo: 001-Im-E-sp-solv_c2_186536.log - No finalizó correctamente
+2024-08-13 20:16:33,796 - INFO - multi_procesador:42 - Archivo movido: 001-Im-E-sp-solv_c2_186536.log a Termino Mal
+2024-08-13 20:16:33,797 - INFO - multi_procesador:56 - Relanzar archivo: 001-Im-E-sp-solv_c3_186537.log - No finalizó correctamente
+2024-08-13 20:16:33,800 - INFO - multi_procesador:42 - Archivo movido: 001-Im-E-sp-solv_c3_186537.log a Termino Mal
+2024-08-13 20:16:33,802 - INFO - multi_procesador:56 - Relanzar archivo: 001-Im-Z-sp-solv_c1_186538.log - No finalizó correctamente
+2024-08-13 20:16:33,804 - INFO - multi_procesador:42 - Archivo movido: 001-Im-Z-sp-solv_c1_186538.log a Termino Mal
+2024-08-13 20:16:33,806 - INFO - multi_procesador:56 - Relanzar archivo: 001-Im-Z-sp-solv_c2_186539.log - No finalizó correctamente
+2024-08-13 20:16:33,808 - INFO - multi_procesador:42 - Archivo movido: 001-Im-Z-sp-solv_c2_186539.log a Termino Mal
+2024-08-13 20:16:33,809 - INFO - multi_procesador:56 - Relanzar archivo: cyclopentadiene-sp-solv.log - No finalizó correctamente
+2024-08-13 20:16:33,813 - INFO - multi_procesador:42 - Archivo movido: cyclopentadiene-sp-solv.log a Termino Mal
+2024-08-13 20:16:33,813 - INFO - multi_procesador:56 - Relanzar archivo: cyclopentadiene-sp-solv_186561.log - No finalizó correctamente
+2024-08-13 20:16:33,816 - INFO - multi_procesador:42 - Archivo movido: cyclopentadiene-sp-solv_186561.log a Termino Mal
+2024-08-13 20:16:33,816 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c1.log - No finalizó correctamente
+2024-08-13 20:16:33,819 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c1.log a Termino Mal
+2024-08-13 20:16:33,819 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c1_186562.log - No finalizó correctamente
+2024-08-13 20:16:33,822 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c1_186562.log a Termino Mal
+2024-08-13 20:16:33,822 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c2.log - No finalizó correctamente
+2024-08-13 20:16:33,825 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c2.log a Termino Mal
+2024-08-13 20:16:33,825 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c2_186563.log - No finalizó correctamente
+2024-08-13 20:16:33,828 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c2_186563.log a Termino Mal
+2024-08-13 20:16:33,829 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c1.log - No finalizó correctamente
+2024-08-13 20:16:33,832 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c1.log a Termino Mal
+2024-08-13 20:16:33,832 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c1_186564.log - No finalizó correctamente
+2024-08-13 20:16:33,834 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c1_186564.log a Termino Mal
+2024-08-13 20:16:33,835 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c2.log - No finalizó correctamente
+2024-08-13 20:16:33,837 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c2.log a Termino Mal
+2024-08-13 20:16:33,837 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c2_186565.log - No finalizó correctamente
+2024-08-13 20:16:33,840 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c2_186565.log a Termino Mal
+2024-08-13 20:16:33,840 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c3.log - No finalizó correctamente
+2024-08-13 20:16:33,843 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c3.log a Termino Mal
+2024-08-13 20:16:33,844 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c3_186566.log - No finalizó correctamente
+2024-08-13 20:16:33,847 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c3_186566.log a Termino Mal
+2024-08-13 20:16:33,847 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c1.log - No finalizó correctamente
+2024-08-13 20:16:33,850 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c1.log a Termino Mal
+2024-08-13 20:16:33,850 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c1_186567.log - No finalizó correctamente
+2024-08-13 20:16:33,853 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c1_186567.log a Termino Mal
+2024-08-13 20:16:33,853 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c2.log - No finalizó correctamente
+2024-08-13 20:16:33,855 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c2.log a Termino Mal
+2024-08-13 20:16:33,856 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c2_186568.log - No finalizó correctamente
+2024-08-13 20:16:33,859 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c2_186568.log a Termino Mal
+2024-08-13 20:16:33,859 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c3.log - No finalizó correctamente
+2024-08-13 20:16:33,862 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c3.log a Termino Mal
+2024-08-13 20:16:33,862 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c3_186569.log - No finalizó correctamente
+2024-08-13 20:16:33,865 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c3_186569.log a Termino Mal
+2024-08-13 20:16:33,868 - INFO - multi_procesador:99 - Archivos .log encontrados: ['001-endo-E-R-prod-sp-solv_c1.gjc', '001-endo-E-R-prod-sp-solv_c2.gjc', '001-endo-E-S-prod-sp-solv_c1.gjc', '001-endo-E-S-prod-sp-solv_c2.gjc', '001-endo-E-S-TS-sp-solv_c2.gjc', '001-endo-Z-R-prod-sp-solv_c1.gjc', '001-endo-Z-R-prod-sp-solv_c2.gjc', '001-endo-Z-R-TS-sp-solv_c2.gjc', '001-exo-E-R-prod-sp-solv_c1.gjc', '001-exo-E-R-prod-sp-solv_c2.gjc', '001-exo-E-R-prod-sp-solv_c3.gjc', '001-exo-E-R-TS-sp-solv_c1.gjc', '001-exo-E-R-TS-sp-solv_c2.gjc', '001-exo-E-R-TS-sp-solv_c3.gjc', '001-exo-E-S-prod-sp-solv_c1.gjc', '001-exo-E-S-prod-sp-solv_c2.gjc', '001-exo-E-S-TS-sp-solv_c2.gjc', '001-exo-Z-S-prod-sp-solv_c1.gjc', '001-exo-Z-S-prod-sp-solv_c2.gjc', '001-exo-Z-S-TS-sp-solv_c1.gjc', '001-exo-Z-S-TS-sp-solv_c2.gjc', '001-Im-E-sp-solv_c1.gjc', '001-Im-E-sp-solv_c2.gjc', '001-Im-E-sp-solv_c3.gjc', '001-Im-Z-sp-solv_c1.gjc', '001-Im-Z-sp-solv_c2.gjc']
+2024-08-13 20:16:33,870 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: cyclopentadiene-sp-solv.gjc
+2024-08-13 20:16:33,871 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-13 20:16:33,872 - INFO - multi_procesador:42 - Archivo movido: cyclopentadiene-sp-solv.gjc a Relanzar
+2024-08-13 20:16:33,873 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: trans-2-butenal-sp-solv_c1.gjc
+2024-08-13 20:16:33,876 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c1.gjc a Relanzar
+2024-08-13 20:16:33,876 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: trans-2-butenal-sp-solv_c2.gjc
+2024-08-13 20:16:33,879 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c2.gjc a Relanzar
+2024-08-13 20:16:33,879 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-endo-prod-sp-solv_c1.gjc
+2024-08-13 20:16:33,881 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c1.gjc a Relanzar
+2024-08-13 20:16:33,881 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-endo-prod-sp-solv_c2.gjc
+2024-08-13 20:16:33,883 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c2.gjc a Relanzar
+2024-08-13 20:16:33,883 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-endo-prod-sp-solv_c3.gjc
+2024-08-13 20:16:33,885 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c3.gjc a Relanzar
+2024-08-13 20:16:33,885 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-exo-prod-sp-solv_c1.gjc
+2024-08-13 20:16:33,887 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c1.gjc a Relanzar
+2024-08-13 20:16:33,887 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-exo-prod-sp-solv_c2.gjc
+2024-08-13 20:16:33,889 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c2.gjc a Relanzar
+2024-08-13 20:16:33,889 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: uncat-exo-prod-sp-solv_c3.gjc
+2024-08-13 20:16:33,892 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c3.gjc a Relanzar
+2024-08-13 20:16:33,895 - INFO - multi_procesador:177 - Archivo 001-endo-E-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,896 - INFO - multi_procesador:177 - Archivo 001-endo-E-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,897 - INFO - multi_procesador:177 - Archivo 001-endo-E-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,898 - INFO - multi_procesador:177 - Archivo 001-endo-E-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,899 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,900 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,901 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,902 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,903 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-TS-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,904 - INFO - multi_procesador:177 - Archivo 001-endo-E-S-TS-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,905 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,906 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,907 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,909 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,910 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-TS-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,911 - INFO - multi_procesador:177 - Archivo 001-endo-Z-R-TS-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,912 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,913 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,914 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,915 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,916 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c3.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,917 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-prod-sp-solv_c3.log movido a: C:\Linux\001
+2024-08-13 20:16:33,918 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,920 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,921 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,922 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,923 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c3.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,925 - INFO - multi_procesador:177 - Archivo 001-exo-E-R-TS-sp-solv_c3.log movido a: C:\Linux\001
+2024-08-13 20:16:33,926 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,927 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,928 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,929 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,930 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-TS-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,931 - INFO - multi_procesador:177 - Archivo 001-exo-E-S-TS-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,932 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,933 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,934 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,935 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,936 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-TS-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,937 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-TS-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,938 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-TS-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,939 - INFO - multi_procesador:177 - Archivo 001-exo-Z-S-TS-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,940 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,941 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,942 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,944 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,945 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c3.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,946 - INFO - multi_procesador:177 - Archivo 001-Im-E-sp-solv_c3.log movido a: C:\Linux\001
+2024-08-13 20:16:33,947 - INFO - multi_procesador:177 - Archivo 001-Im-Z-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,948 - INFO - multi_procesador:177 - Archivo 001-Im-Z-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-13 20:16:33,949 - INFO - multi_procesador:177 - Archivo 001-Im-Z-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-13 20:16:33,950 - INFO - multi_procesador:177 - Archivo 001-Im-Z-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-13 20:16:33,951 - INFO - multi_procesador:177 - Archivo extr movido a: C:\Linux\ext
+2024-08-13 20:16:33,956 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-E-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,956 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-E-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,957 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-E-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,957 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-E-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,958 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-E-S-TS-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,959 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-Z-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,959 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-Z-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,960 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-endo-Z-R-TS-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,960 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,961 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,961 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c3.log al Excel '001'
+2024-08-13 20:16:33,962 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-TS-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,962 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-TS-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,963 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-R-TS-sp-solv_c3.log al Excel '001'
+2024-08-13 20:16:33,964 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,964 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,965 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-E-S-TS-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,965 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-Z-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,966 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-Z-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,966 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-Z-S-TS-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,967 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-exo-Z-S-TS-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,968 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-Im-E-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,969 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-Im-E-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,970 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-Im-E-sp-solv_c3.log al Excel '001'
+2024-08-13 20:16:33,971 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-Im-Z-sp-solv_c1.log al Excel '001'
+2024-08-13 20:16:33,971 - INFO - multi_procesador:143 - Datos añadidos del archivo 001-Im-Z-sp-solv_c2.log al Excel '001'
+2024-08-13 20:16:33,995 - INFO - multi_procesador:153 - Archivo Excel guardado: 001.xlsx
+2024-08-13 20:16:34,007 - INFO - multi_procesador:153 - Archivo Excel guardado: ext.xlsx
+2024-08-13 20:25:00,217 - INFO - Spa-Gaus+CreateSH:122 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:25:12,354 - INFO - Spa-Gaus+CreateSH:117 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 20:25:12,355 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 20:25:12,356 - INFO - Spa-Gaus+CreateSH:117 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:25:12,357 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 20:25:12,358 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:25:12,359 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-endo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 20:25:12,360 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c1.sh creado con éxito.
+2024-08-13 20:25:12,360 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:25:12,362 - INFO - Spa-Gaus+CreateSH:117 - Archivo uncat-exo-prod-sp-solv_c3.sh creado con éxito.
+2024-08-13 20:27:57,904 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-13 20:27:57,904 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-13 20:27:57,906 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\cyclopentadiene-sp-solv.sh
+2024-08-13 20:27:57,906 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\trans-2-butenal-sp-solv_c1.sh
+2024-08-13 20:27:57,906 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\trans-2-butenal-sp-solv_c2.sh
+2024-08-13 20:27:57,907 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c1.sh
+2024-08-13 20:27:57,908 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c2.sh
+2024-08-13 20:27:57,908 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-prod-sp-solv_c3.sh
+2024-08-13 20:27:57,909 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c1.sh
+2024-08-13 20:27:57,909 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c2.sh
+2024-08-13 20:27:57,910 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-prod-sp-solv_c3.sh
+2024-08-13 20:27:57,911 - INFO - multi_procesador:56 - Relanzar archivo: cyclopentadiene-sp-solv_186576.log - No finalizó correctamente
+2024-08-13 20:27:57,912 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-13 20:27:57,915 - INFO - multi_procesador:42 - Archivo movido: cyclopentadiene-sp-solv_186576.log a Termino Mal
+2024-08-13 20:27:57,916 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c1_186577.log - No finalizó correctamente
+2024-08-13 20:27:57,918 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c1_186577.log a Termino Mal
+2024-08-13 20:27:57,919 - INFO - multi_procesador:56 - Relanzar archivo: trans-2-butenal-sp-solv_c2_186578.log - No finalizó correctamente
+2024-08-13 20:27:57,922 - INFO - multi_procesador:42 - Archivo movido: trans-2-butenal-sp-solv_c2_186578.log a Termino Mal
+2024-08-13 20:27:57,923 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c1_186579.log - No finalizó correctamente
+2024-08-13 20:27:57,925 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c1_186579.log a Termino Mal
+2024-08-13 20:27:57,927 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c2_186580.log - No finalizó correctamente
+2024-08-13 20:27:57,929 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c2_186580.log a Termino Mal
+2024-08-13 20:27:57,930 - INFO - multi_procesador:56 - Relanzar archivo: uncat-endo-prod-sp-solv_c3_186581.log - No finalizó correctamente
+2024-08-13 20:27:57,933 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-prod-sp-solv_c3_186581.log a Termino Mal
+2024-08-13 20:27:57,934 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c1_186582.log - No finalizó correctamente
+2024-08-13 20:27:57,937 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c1_186582.log a Termino Mal
+2024-08-13 20:27:57,939 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c2_186583.log - No finalizó correctamente
+2024-08-13 20:27:57,941 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c2_186583.log a Termino Mal
+2024-08-13 20:27:57,942 - INFO - multi_procesador:56 - Relanzar archivo: uncat-exo-prod-sp-solv_c3_186584.log - No finalizó correctamente
+2024-08-13 20:27:57,945 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-prod-sp-solv_c3_186584.log a Termino Mal
+2024-08-13 20:27:57,946 - INFO - multi_procesador:99 - Archivos .log encontrados: ['cyclopentadiene-sp-solv.gjc', 'trans-2-butenal-sp-solv_c1.gjc', 'trans-2-butenal-sp-solv_c2.gjc', 'uncat-endo-prod-sp-solv_c1.gjc', 'uncat-endo-prod-sp-solv_c2.gjc', 'uncat-endo-prod-sp-solv_c3.gjc', 'uncat-exo-prod-sp-solv_c1.gjc', 'uncat-exo-prod-sp-solv_c2.gjc', 'uncat-exo-prod-sp-solv_c3.gjc']
+2024-08-13 20:27:57,948 - INFO - multi_procesador:177 - Archivo cyclopentadiene-sp-solv.gjc movido a: C:\Linux\cyc
+2024-08-13 20:27:57,949 - INFO - multi_procesador:177 - Archivo cyclopentadiene-sp-solv.log movido a: C:\Linux\cyc
+2024-08-13 20:27:57,951 - INFO - multi_procesador:177 - Archivo extr movido a: C:\Linux\ext
+2024-08-13 20:27:57,952 - INFO - multi_procesador:177 - Archivo trans-2-butenal-sp-solv_c1.gjc movido a: C:\Linux\tra
+2024-08-13 20:27:57,953 - INFO - multi_procesador:177 - Archivo trans-2-butenal-sp-solv_c1.log movido a: C:\Linux\tra
+2024-08-13 20:27:57,954 - INFO - multi_procesador:177 - Archivo trans-2-butenal-sp-solv_c2.gjc movido a: C:\Linux\tra
+2024-08-13 20:27:57,955 - INFO - multi_procesador:177 - Archivo trans-2-butenal-sp-solv_c2.log movido a: C:\Linux\tra
+2024-08-13 20:27:57,957 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c1.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,958 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c1.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,959 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c2.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,960 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c2.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,961 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c3.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,962 - INFO - multi_procesador:177 - Archivo uncat-endo-prod-sp-solv_c3.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,963 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c1.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,964 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c1.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,965 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c2.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,966 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c2.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,967 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c3.gjc movido a: C:\Linux\unc
+2024-08-13 20:27:57,968 - INFO - multi_procesador:177 - Archivo uncat-exo-prod-sp-solv_c3.log movido a: C:\Linux\unc
+2024-08-13 20:27:57,971 - INFO - multi_procesador:143 - Datos añadidos del archivo cyclopentadiene-sp-solv.log al Excel 'cyc'
+2024-08-13 20:27:57,991 - INFO - multi_procesador:153 - Archivo Excel guardado: cyc.xlsx
+2024-08-13 20:27:57,999 - INFO - multi_procesador:153 - Archivo Excel guardado: ext.xlsx
+2024-08-13 20:27:58,001 - INFO - multi_procesador:143 - Datos añadidos del archivo trans-2-butenal-sp-solv_c1.log al Excel 'tra'
+2024-08-13 20:27:58,002 - INFO - multi_procesador:143 - Datos añadidos del archivo trans-2-butenal-sp-solv_c2.log al Excel 'tra'
+2024-08-13 20:27:58,014 - INFO - multi_procesador:153 - Archivo Excel guardado: tra.xlsx
+2024-08-13 20:27:58,016 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-endo-prod-sp-solv_c1.log al Excel 'unc'
+2024-08-13 20:27:58,016 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-endo-prod-sp-solv_c2.log al Excel 'unc'
+2024-08-13 20:27:58,017 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-endo-prod-sp-solv_c3.log al Excel 'unc'
+2024-08-13 20:27:58,018 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-exo-prod-sp-solv_c1.log al Excel 'unc'
+2024-08-13 20:27:58,018 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-exo-prod-sp-solv_c2.log al Excel 'unc'
+2024-08-13 20:27:58,019 - INFO - multi_procesador:143 - Datos añadidos del archivo uncat-exo-prod-sp-solv_c3.log al Excel 'unc'
+2024-08-13 20:27:58,031 - INFO - multi_procesador:153 - Archivo Excel guardado: unc.xlsx
+2024-08-13 20:33:21,796 - INFO - Spa-Gaus+CreateSH notific:148 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:33:32,926 - INFO - Spa-Gaus+CreateSH notific:190 - Se enviarán notificaciones por Slack
+2024-08-13 20:33:32,930 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 20:33:32,931 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 20:33:32,932 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:41:05,816 - INFO - Spa-Gaus+CreateSH notific:148 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:41:15,304 - INFO - Spa-Gaus+CreateSH notific:190 - Se enviarán notificaciones por Slack
+2024-08-13 20:41:15,305 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 20:41:15,306 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 20:41:15,307 - INFO - Spa-Gaus+CreateSH notific:143 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 20:52:43,018 - INFO - Spa-Gaus+CreateSH notific:138 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:52:54,308 - INFO - Spa-Gaus+CreateSH notific:181 - Se enviarán notificaciones por Slack
+2024-08-13 20:53:39,028 - INFO - Spa-Gaus+CreateSH notific:138 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:53:48,320 - INFO - Spa-Gaus+CreateSH notific:181 - Se enviarán notificaciones por Slack
+2024-08-13 20:54:16,070 - INFO - Spa-Gaus+CreateSH notific:138 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:54:22,413 - INFO - Spa-Gaus+CreateSH notific:182 - Se enviarán notificaciones por Slack
+2024-08-13 20:55:20,967 - INFO - Spa-Gaus+CreateSH notific:138 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 20:55:27,480 - INFO - Spa-Gaus+CreateSH notific:182 - Se enviarán notificaciones por Slack
+2024-08-13 21:17:37,722 - INFO - Spa-Gaus+CreateSH notific:144 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 21:17:45,233 - INFO - Spa-Gaus+CreateSH notific:186 - Se enviarán notificaciones por Slack
+2024-08-13 21:17:45,234 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 21:17:45,235 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 21:17:45,236 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
+2024-08-13 21:22:22,238 - INFO - Spa-Gaus+CreateSH notific:144 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-13 21:22:33,621 - INFO - Spa-Gaus+CreateSH notific:186 - Se enviarán notificaciones por Slack
+2024-08-13 21:22:33,622 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo cyclopentadiene-sp-solv.sh creado con éxito.
+2024-08-13 21:22:33,623 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo trans-2-butenal-sp-solv_c1.sh creado con éxito.
+2024-08-13 21:22:33,624 - INFO - Spa-Gaus+CreateSH notific:139 - Archivo trans-2-butenal-sp-solv_c2.sh creado con éxito.
