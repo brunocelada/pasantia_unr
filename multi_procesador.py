@@ -44,11 +44,16 @@ def move_file_to_folder(file_path, folder_name):
         logging.error(f"Error moviendo archivo {file_path}: {e}")
 
 # Funcion que verifica la correcta terminación de los archivos .log
-def verificar_terminacion_log(carpeta_base):
+def verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorados):
     os.chdir(carpeta_base)
     
     for file in glob.glob("*.log"):
         try:
+            # Ignorar archivos que contengan cualquiera de los patrones en su nombre
+            if any(patron in file for patron in patrones_ignorados):
+                logging.info(f"Archivo {file} ignorado porque contiene un patrón de la lista ignorada: {patrones_ignorados}")
+                continue
+
             with open(file, "r") as old:
                 lines = old.readlines()[-3:]
     
@@ -60,10 +65,9 @@ def verificar_terminacion_log(carpeta_base):
     
             # Key phrases para buscar frecuencias negativas
             target_phrases = ["NImag=1", "NImag\n=1", "NIma\ng=1", "NI\nmag=1"]
-            avoided_type = ["TS"]
 
-            # Verificar si el archivo tiene un prefijo que debe evitarse
-            if not any(file.startswith(prefijo) for prefijo in avoided_type):
+            # Verificar si el archivo tiene un patrón en su nombre que debe evitarse
+            if not any(patron in file for patron in patrones_conocidos):
                 with open(file, "r") as old:
                     content = old.read().replace("\n", "")
 
@@ -107,13 +111,13 @@ def procesar_archivos_gjc(carpeta_base):
             logging.error(f"Error procesando archivo .gjc: {e}")
 
 # Funcion que crea archivos Excel para los .log correctamente procesados
-def crear_excel(carpeta_base, prefijos_ignorados):
+def crear_excel(carpeta_base, patrones_ignorados):
     carpetas = glob.glob(os.path.join(carpeta_base, "*"))
     
     for carpeta in carpetas:
         nombre_carpeta = os.path.basename(carpeta)
 
-        if nombre_carpeta in prefijos_ignorados:
+        if nombre_carpeta in patrones_ignorados:
             continue
 
         os.chdir(carpeta)
@@ -153,28 +157,33 @@ def crear_excel(carpeta_base, prefijos_ignorados):
         logging.info(f"Archivo Excel guardado: {nombre_carpeta}.xlsx")
 
 # Funcion que organiza los archivos en carpetas con prefijos seleccionados
-def organizar_archivos(carpeta_base, prefijos_conocidos, prefijos_ignorados):
+def organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados):
     archivos = os.listdir(carpeta_base)
     carpetas_creadas = {}
 
     for archivo in archivos:
         try:
-            for prefijo in prefijos_conocidos:
-                if archivo.startswith(prefijo):
-                    lenght = len(prefijo)
-                    nombre_carpeta = f"{archivo[:lenght + 4]}"
+            # Ignorar archivos que contengan cualquiera de los patrones en su nombre
+            if any(patron in archivo for patron in patrones_ignorados):
+                logging.info(f"Archivo {archivo} ignorado porque contiene un patrón de la lista ignorada: {patrones_ignorados}")
+                continue
+
+            for patron in patrones_conocidos:
+                if patron in archivo:
+                    nombre_carpeta = archivo.split("-")[0] + "-" + patron
                     break
             else:
-                nombre_carpeta = archivo[:3]
+                nombre_carpeta = archivo.split("-")[0]
 
-            if nombre_carpeta not in carpetas_creadas and nombre_carpeta not in prefijos_ignorados:
+            if nombre_carpeta not in carpetas_creadas and nombre_carpeta not in patrones_ignorados:
                 nueva_carpeta = os.path.join(carpeta_base, nombre_carpeta)
                 os.makedirs(nueva_carpeta)
                 carpetas_creadas[nombre_carpeta] = nueva_carpeta
 
-            if nombre_carpeta not in prefijos_ignorados:
+            if nombre_carpeta not in patrones_ignorados:
                 shutil.move(os.path.join(carpeta_base, archivo), carpetas_creadas[nombre_carpeta])
                 logging.info(f"Archivo {archivo} movido a: {carpetas_creadas[nombre_carpeta]}")
+
         except Exception as e:
             logging.error(f"Error organizando archivo {archivo}: {e}")
 
@@ -185,19 +194,19 @@ def main():
 
     carpeta_base = "C:\\Linux"
     
-    # Lista de prefijos conocidos
-    prefijos_conocidos = ["TS", "IRCFO", "IRCRE"]
+    # Lista de patrones conocidos
+    patrones_conocidos = ["TS"]
     
     # Carpetas que no se procesarán
-    prefijos_ignorados = ["Frecuencias Negativas", "Fre", "Relanzar", "Rel", "Termino Mal", "Ter"]
+    patrones_ignorados = ["Frecuencias Negativas", "Fre", "Relanzar", "Rel", "Termino Mal", "Ter"]
 
     verificar_instalar_openpyxl()
     eliminar_archivos_sh(carpeta_base)
-    verificar_terminacion_log(carpeta_base)
+    verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorados)
     renombrar_archivos_out_a_log(carpeta_base)
     procesar_archivos_gjc(carpeta_base)
-    organizar_archivos(carpeta_base, prefijos_conocidos, prefijos_ignorados)
-    crear_excel(carpeta_base, prefijos_ignorados)
+    organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados)
+    crear_excel(carpeta_base, patrones_ignorados)
 
     print("\nProcesamiento finalizado\n")
 

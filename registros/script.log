@@ -1514,3 +1514,822 @@
 2024-08-14 18:26:47,807 - INFO - master_excel:56 - Processing file: C:\Linux\tra.xlsx
 2024-08-14 18:26:47,810 - INFO - master_excel:70 - Added sheet tra from C:\Linux\tra.xlsx
 2024-08-14 18:26:47,839 - INFO - master_excel:89 - Master Excel file 'C:\Linux\6-Solv-1-Reac.xlsx' created successfully.
+2024-08-14 19:07:28,802 - INFO - Spa-Gaus+CreateSH notific 2.0:169 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-14 19:07:43,029 - INFO - Spa-Gaus+CreateSH notific 2.0:211 - Se enviarán notificaciones por Slack
+2024-08-14 19:07:43,030 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo test.sh creado con éxito.
+2024-08-14 19:15:01,578 - INFO - Spa-Gaus+CreateSH notific 2.0:169 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-14 19:15:10,167 - INFO - Spa-Gaus+CreateSH notific 2.0:211 - Se enviarán notificaciones por Slack
+2024-08-14 19:15:10,168 - INFO - Spa-Gaus+CreateSH notific 2.0:164 - Archivo test.sh creado con éxito.
+2024-08-15 07:30:57,801 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-15 07:30:57,802 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-15 07:30:57,802 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-S-TS-optb_c1.sh
+2024-08-15 07:30:57,817 - INFO - multi_procesador:72 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-15 07:30:57,818 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-15 07:30:57,824 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-15 07:30:57,824 - INFO - multi_procesador:56 - Relanzar archivo: 001-endo-E-S-TS-optb_c1_186925.log - No finalizó correctamente
+2024-08-15 07:30:57,825 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-15 07:30:57,827 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1_186925.log a Termino Mal
+2024-08-15 07:30:57,828 - INFO - multi_procesador:99 - Archivos .log encontrados: []
+2024-08-15 07:30:57,829 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c1.gjc
+2024-08-15 07:30:57,829 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-15 07:30:57,831 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-15 07:35:37,987 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-15 07:36:07,978 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-E-S-TS-optb_c1.gjc
+2024-08-15 07:36:43,513 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-15 07:36:43,523 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-E-S-TS-optb_c1.gjc
+2024-08-15 07:37:07,314 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-E-S-TS-optb_c1.gjc
+2024-08-15 07:40:32,239 - INFO - Spa-Gaus+CreateSH notific 2.0:171 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 07:40:56,804 - INFO - Spa-Gaus+CreateSH notific 2.0:213 - Se enviarán notificaciones por Slack
+2024-08-15 07:40:56,805 - INFO - Spa-Gaus+CreateSH notific 2.0:166 - Archivo 001-endo-E-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-15 19:08:17,719 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-15 19:08:17,720 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-15 19:08:17,747 - INFO - multi_procesador:72 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-15 19:08:17,748 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-15 19:08:17,752 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-15 19:08:17,753 - INFO - multi_procesador:99 - Archivos .log encontrados: []
+2024-08-15 19:08:17,754 - INFO - multi_procesador:104 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c1.gjc
+2024-08-15 19:08:17,754 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-15 19:08:17,766 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-15 19:17:17,773 - INFO - multi_procesador:184 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-15 19:17:17,775 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-15 19:17:17,789 - INFO - multi_procesador:99 - Archivos .log encontrados: ['TS-001-endo-E-S-TS-optb_c1.gjc']
+2024-08-15 19:17:17,791 - INFO - multi_procesador:177 - Archivo TS-001-endo-E-S-TS-optb_c1.gjc movido a: C:\Linux\TS-001
+2024-08-15 19:17:17,792 - INFO - multi_procesador:177 - Archivo TS-001-endo-E-S-TS-optb_c1.log movido a: C:\Linux\TS-001
+2024-08-15 19:17:17,809 - INFO - multi_procesador:143 - Datos añadidos del archivo TS-001-endo-E-S-TS-optb_c1.log al Excel 'TS-001'
+2024-08-15 19:17:17,834 - INFO - multi_procesador:153 - Archivo Excel guardado: TS-001.xlsx
+2024-08-15 19:21:24,401 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 19:21:42,037 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-15 19:21:42,038 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-horas1.sh creado con éxito.
+2024-08-15 19:21:42,039 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-min1.sh creado con éxito.
+2024-08-15 19:21:42,040 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-seg.sh creado con éxito.
+2024-08-15 19:23:33,686 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 19:23:45,867 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-15 19:23:45,868 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test.sh creado con éxito.
+2024-08-15 19:24:02,287 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 19:24:12,075 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-15 19:24:12,076 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test2.sh creado con éxito.
+2024-08-15 19:38:44,774 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 19:38:53,293 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-15 19:38:53,294 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-min1.sh creado con éxito.
+2024-08-15 19:38:53,294 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-seg.sh creado con éxito.
+2024-08-15 19:40:41,402 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 19:40:48,962 - INFO - Spa-Gaus+CreateSH notific 2.0:216 - No se enviarán notificaciones por slack.
+2024-08-15 19:40:48,963 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test-seg.sh creado con éxito.
+2024-08-15 21:05:30,617 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-15 21:05:45,316 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-15 21:05:45,317 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo test.sh creado con éxito.
+2024-08-16 10:18:56,329 - INFO - multi_procesador:191 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:18:56,329 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:18:56,376 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,376 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-16 10:18:56,376 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,398 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:18:56,398 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:18:56,435 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,446 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,468 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:18:56,481 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:18:56,528 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,528 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,550 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:18:56,563 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:18:56,615 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,615 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,634 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:18:56,643 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:18:56,662 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c3.log - Frecuencias negativas
+2024-08-16 10:18:56,664 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.log a Frecuencias Negativas
+2024-08-16 10:18:56,726 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,731 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,801 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:18:56,806 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:18:56,830 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:18:56,832 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:18:56,832 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:18:56,832 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:18:56,845 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:18:56,849 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:18:56,854 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:18:56,857 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:18:56,863 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:18:56,864 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:18:56,869 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:18:56,871 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:18:56,874 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:18:56,877 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:18:56,882 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:18:56,884 - INFO - multi_procesador:101 - Archivos .log encontrados: ['001-endo-E-R-prod-optb_c1.gjc', '001-endo-E-R-prod-optb_c2.gjc', '001-endo-E-S-prod-optb_c1.gjc', '001-endo-E-S-prod-optb_c2.gjc', '001-endo-Z-R-prod-optb_c1.gjc', '001-endo-Z-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c1.gjc', '001-exo-E-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c3.gjc', '001-exo-E-S-prod-optb_c1.gjc', '001-exo-E-S-prod-optb_c2.gjc', '001-exo-E-S-TS-optb_c2.gjc', '001-exo-Z-S-prod-optb_c1.gjc', '001-exo-Z-S-prod-optb_c2.gjc', 'test-min1.gjc', 'test-seg.gjc']
+2024-08-16 10:18:56,885 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c1.gjc
+2024-08-16 10:18:56,885 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 10:18:56,885 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,885 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c2.gjc
+2024-08-16 10:18:56,885 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:18:56,885 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c1.gjc
+2024-08-16 10:18:56,885 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,885 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c2.gjc
+2024-08-16 10:18:56,885 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:18:56,885 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c1.gjc
+2024-08-16 10:18:56,894 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,895 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c2.gjc
+2024-08-16 10:18:56,897 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:18:56,897 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c1.gjc
+2024-08-16 10:18:56,900 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,900 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c2.gjc
+2024-08-16 10:18:56,901 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:18:56,901 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c3.gjc
+2024-08-16 10:18:56,902 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.gjc a Relanzar
+2024-08-16 10:18:56,902 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-S-TS-optb_c1.gjc
+2024-08-16 10:18:56,902 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,902 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c1.gjc
+2024-08-16 10:18:56,902 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:18:56,902 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c2.gjc
+2024-08-16 10:18:56,902 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:18:56,902 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: IRCFO_010_c2.gjc
+2024-08-16 10:18:56,910 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.gjc a Relanzar
+2024-08-16 10:18:56,910 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: IRCRE_010_c2.gjc
+2024-08-16 10:18:56,913 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.gjc a Relanzar
+2024-08-16 10:18:56,913 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_endo1.gjc
+2024-08-16 10:18:56,915 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.gjc a Relanzar
+2024-08-16 10:18:56,915 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_endo2.gjc
+2024-08-16 10:18:56,916 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.gjc a Relanzar
+2024-08-16 10:18:56,916 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_exo1.gjc
+2024-08-16 10:18:56,917 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.gjc a Relanzar
+2024-08-16 10:18:56,917 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_exo2.gjc
+2024-08-16 10:18:56,917 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.gjc a Relanzar
+2024-08-16 10:18:56,917 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,928 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,930 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,944 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c3.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c3.log movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,946 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:18:56,960 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-TS-optb_c2.log movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:18:56,962 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,963 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:18:56,964 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:18:56,966 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:18:56,966 - INFO - multi_procesador:166 - Archivo Frecuencias Negativas ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:18:56,966 - INFO - multi_procesador:166 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:18:56,966 - INFO - multi_procesador:166 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:18:56,967 - INFO - multi_procesador:183 - Archivo test-min1.gjc movido a: C:\Linux\test
+2024-08-16 10:18:56,969 - INFO - multi_procesador:183 - Archivo test-min1.log movido a: C:\Linux\test
+2024-08-16 10:18:56,970 - INFO - multi_procesador:183 - Archivo test-seg.gjc movido a: C:\Linux\test
+2024-08-16 10:18:56,971 - INFO - multi_procesador:183 - Archivo test-seg.log movido a: C:\Linux\test
+2024-08-16 10:18:56,978 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:56,984 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:56,986 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:56,993 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:56,994 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:56,994 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:57,010 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:57,015 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:57,015 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c3.log al Excel '001'
+2024-08-16 10:18:57,015 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:57,030 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:57,030 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:18:57,046 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:18:57,062 - INFO - multi_procesador:155 - Archivo Excel guardado: 001.xlsx
+2024-08-16 10:18:57,077 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c2.log al Excel '001-exo-E-S-TS-optb'
+2024-08-16 10:18:57,093 - INFO - multi_procesador:155 - Archivo Excel guardado: 001-exo-E-S-TS-optb.xlsx
+2024-08-16 10:18:57,093 - INFO - multi_procesador:145 - Datos añadidos del archivo test-min1.log al Excel 'test'
+2024-08-16 10:18:57,093 - INFO - multi_procesador:145 - Datos añadidos del archivo test-seg.log al Excel 'test'
+2024-08-16 10:18:57,093 - INFO - multi_procesador:155 - Archivo Excel guardado: test.xlsx
+2024-08-16 10:21:30,766 - INFO - multi_procesador:191 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:21:30,766 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:21:30,804 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:30,805 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-16 10:21:30,809 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:30,819 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:21:30,825 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:21:30,855 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:30,868 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:30,888 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:21:30,900 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:21:30,934 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:30,934 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:30,964 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:21:30,966 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:21:31,016 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:31,025 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:31,048 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:21:31,048 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:21:31,070 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c3.log - Frecuencias negativas
+2024-08-16 10:21:31,070 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.log a Frecuencias Negativas
+2024-08-16 10:21:31,132 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:31,132 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:31,212 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:21:31,222 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:21:31,252 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:21:31,265 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:21:31,270 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:21:31,271 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:21:31,273 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:21:31,273 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:21:31,284 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:21:31,285 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:21:31,293 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:21:31,294 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:21:31,298 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:21:31,300 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:21:31,304 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:21:31,305 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:21:31,309 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:21:31,309 - INFO - multi_procesador:101 - Archivos .log encontrados: ['001-endo-E-R-prod-optb_c1.gjc', '001-endo-E-R-prod-optb_c2.gjc', '001-endo-E-S-prod-optb_c1.gjc', '001-endo-E-S-prod-optb_c2.gjc', '001-endo-Z-R-prod-optb_c1.gjc', '001-endo-Z-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c1.gjc', '001-exo-E-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c3.gjc', '001-exo-E-S-prod-optb_c1.gjc', '001-exo-E-S-prod-optb_c2.gjc', '001-exo-E-S-TS-optb_c2.gjc', '001-exo-Z-S-prod-optb_c1.gjc', '001-exo-Z-S-prod-optb_c2.gjc']
+2024-08-16 10:21:31,309 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c1.gjc
+2024-08-16 10:21:31,309 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 10:21:31,314 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,314 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c2.gjc
+2024-08-16 10:21:31,317 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:21:31,317 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c1.gjc
+2024-08-16 10:21:31,319 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,319 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c2.gjc
+2024-08-16 10:21:31,321 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:21:31,321 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c1.gjc
+2024-08-16 10:21:31,322 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,322 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c2.gjc
+2024-08-16 10:21:31,322 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:21:31,322 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c1.gjc
+2024-08-16 10:21:31,325 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,325 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c2.gjc
+2024-08-16 10:21:31,325 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:21:31,325 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c3.gjc
+2024-08-16 10:21:31,330 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.gjc a Relanzar
+2024-08-16 10:21:31,330 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-E-S-TS-optb_c1.gjc
+2024-08-16 10:21:31,333 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,333 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c1.gjc
+2024-08-16 10:21:31,335 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:21:31,335 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c2.gjc
+2024-08-16 10:21:31,337 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:21:31,337 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: IRCFO_010_c2.gjc
+2024-08-16 10:21:31,339 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.gjc a Relanzar
+2024-08-16 10:21:31,339 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: IRCRE_010_c2.gjc
+2024-08-16 10:21:31,341 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.gjc a Relanzar
+2024-08-16 10:21:31,341 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_endo1.gjc
+2024-08-16 10:21:31,342 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.gjc a Relanzar
+2024-08-16 10:21:31,342 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_endo2.gjc
+2024-08-16 10:21:31,344 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.gjc a Relanzar
+2024-08-16 10:21:31,344 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_exo1.gjc
+2024-08-16 10:21:31,346 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.gjc a Relanzar
+2024-08-16 10:21:31,346 - INFO - multi_procesador:106 - No se encontró el archivo .log correspondiente a: TS_exo2.gjc
+2024-08-16 10:21:31,347 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.gjc a Relanzar
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,350 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,364 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,366 - INFO - multi_procesador:183 - Archivo 001-endo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,368 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,369 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,371 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,372 - INFO - multi_procesador:183 - Archivo 001-endo-Z-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,373 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,375 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,376 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,377 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,379 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c3.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,380 - INFO - multi_procesador:183 - Archivo 001-exo-E-R-prod-optb_c3.log movido a: C:\Linux\001
+2024-08-16 10:21:31,383 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-E-S-TS-optb_c2.log movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:21:31,385 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:21:31,398 - INFO - multi_procesador:183 - Archivo 001-exo-Z-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:21:31,398 - INFO - multi_procesador:166 - Archivo Frecuencias Negativas ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:21:31,398 - INFO - multi_procesador:166 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:21:31,398 - INFO - multi_procesador:166 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:21:31,405 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,411 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,414 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,422 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,427 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,435 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,441 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,447 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,454 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c3.log al Excel '001'
+2024-08-16 10:21:31,467 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,470 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,484 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:21:31,489 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:21:31,502 - INFO - multi_procesador:155 - Archivo Excel guardado: 001.xlsx
+2024-08-16 10:21:31,517 - INFO - multi_procesador:145 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c2.log al Excel '001-exo-E-S-TS-optb'
+2024-08-16 10:21:31,526 - INFO - multi_procesador:155 - Archivo Excel guardado: 001-exo-E-S-TS-optb.xlsx
+2024-08-16 10:22:49,298 - INFO - multi_procesador:191 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:22:49,299 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:23:01,348 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,348 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-16 10:23:01,357 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,372 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:23:01,376 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:23:01,410 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,423 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,449 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-E-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:23:01,463 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:23:01,506 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,508 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,529 - INFO - multi_procesador:74 - Relanzar archivo: 001-endo-Z-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:23:01,539 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:23:01,591 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,591 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,623 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:23:01,630 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:23:01,649 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-R-TS-optb_c3.log - Frecuencias negativas
+2024-08-16 10:23:01,655 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.log a Frecuencias Negativas
+2024-08-16 10:23:01,708 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,708 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,791 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:23:01,791 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:23:01,825 - INFO - multi_procesador:74 - Relanzar archivo: 001-exo-Z-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:23:01,829 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:23:01,829 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:23:01,829 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:23:01,840 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:23:01,843 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:23:01,848 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:23:01,850 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:23:01,856 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:23:01,859 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:23:01,860 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:23:01,860 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:23:01,868 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:23:01,870 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:23:01,874 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:23:46,326 - INFO - multi_procesador:191 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:23:46,326 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:28:21,322 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:28:21,323 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:28:23,506 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,507 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-16 10:28:23,517 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,536 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:28:23,536 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:28:23,573 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,585 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,607 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:28:23,619 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:28:23,652 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-Z-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,663 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,702 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-Z-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:28:23,707 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:28:23,763 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,768 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,789 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:28:23,795 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:28:23,802 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c3.log - Frecuencias negativas
+2024-08-16 10:28:23,821 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.log a Frecuencias Negativas
+2024-08-16 10:28:23,869 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,884 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,952 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:28:23,952 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:28:23,986 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:28:23,986 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:28:23,986 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:28:23,986 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:28:24,003 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:28:24,004 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:28:24,011 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:28:24,013 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:28:24,018 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:28:24,018 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:28:24,033 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:28:24,035 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:28:24,043 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:28:24,045 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:28:24,050 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:30:26,722 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:30:26,722 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:30:26,753 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:26,753 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:26,771 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:30:26,776 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:30:26,811 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:26,811 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:26,838 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-E-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:30:26,838 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:30:26,871 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-Z-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:26,889 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:26,909 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-Z-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:30:26,909 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:30:26,955 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:26,970 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:26,992 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:30:26,992 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:30:27,009 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-R-TS-optb_c3.log - Frecuencias negativas
+2024-08-16 10:30:27,025 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.log a Frecuencias Negativas
+2024-08-16 10:30:27,071 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-E-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:27,086 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:27,153 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-S-TS-optb_c1.log - Frecuencias negativas
+2024-08-16 10:30:27,153 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.log a Frecuencias Negativas
+2024-08-16 10:30:27,175 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-S-TS-optb_c2.log - Frecuencias negativas
+2024-08-16 10:30:27,187 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.log a Frecuencias Negativas
+2024-08-16 10:30:27,187 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:30:27,198 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:30:27,201 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:30:27,204 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:30:27,204 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:30:27,215 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:30:27,219 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:30:27,222 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:30:27,222 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:30:27,231 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:30:27,234 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:30:27,238 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:30:27,238 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-R-prod-optb_c1.gjc', '001-endo-E-R-prod-optb_c2.gjc', '001-endo-E-S-prod-optb_c1.gjc', '001-endo-E-S-prod-optb_c2.gjc', '001-endo-Z-R-prod-optb_c1.gjc', '001-endo-Z-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c1.gjc', '001-exo-E-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c3.gjc', '001-exo-E-S-prod-optb_c1.gjc', '001-exo-E-S-prod-optb_c2.gjc', '001-exo-E-S-TS-optb_c2.gjc', '001-exo-Z-S-prod-optb_c1.gjc', '001-exo-Z-S-prod-optb_c2.gjc']
+2024-08-16 10:30:27,238 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c1.gjc
+2024-08-16 10:30:27,238 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 10:30:27,238 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,238 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-E-R-TS-optb_c2.gjc
+2024-08-16 10:30:27,238 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:30:27,238 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c1.gjc
+2024-08-16 10:30:27,238 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,238 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-E-S-TS-optb_c2.gjc
+2024-08-16 10:30:27,255 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:30:27,255 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c1.gjc
+2024-08-16 10:30:27,258 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,259 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-Z-R-TS-optb_c2.gjc
+2024-08-16 10:30:27,262 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:30:27,262 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c1.gjc
+2024-08-16 10:30:27,264 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,264 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c2.gjc
+2024-08-16 10:30:27,264 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:30:27,264 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-E-R-TS-optb_c3.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-R-TS-optb_c3.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-E-S-TS-optb_c1.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c1.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c1.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-Z-S-TS-optb_c2.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-S-TS-optb_c2.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCFO_010_c2.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCRE_010_c2.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo1.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo2.gjc
+2024-08-16 10:30:27,271 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.gjc a Relanzar
+2024-08-16 10:30:27,271 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo1.gjc
+2024-08-16 10:30:27,286 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.gjc a Relanzar
+2024-08-16 10:30:27,286 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo2.gjc
+2024-08-16 10:30:27,287 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.gjc a Relanzar
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,287 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,303 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,319 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.log movido a: C:\Linux\001
+2024-08-16 10:30:27,320 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.log movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:30:27,322 - INFO - multi_procesador:168 - Archivo Frecuencias Negativas ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:30:27,322 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:30:27,322 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:30:27,336 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,336 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,336 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,357 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,357 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,369 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,370 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,370 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,370 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c3.log al Excel '001'
+2024-08-16 10:30:27,386 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,386 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,404 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:30:27,404 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:30:27,423 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-16 10:30:27,436 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c2.log al Excel '001-exo-E-S-TS-optb'
+2024-08-16 10:30:27,436 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-exo-E-S-TS-optb.xlsx
+2024-08-16 10:32:13,794 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:32:13,795 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:32:14,064 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:32:14,064 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:32:14,080 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:32:14,080 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:32:14,090 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:32:14,091 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:32:14,092 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:32:14,099 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:32:14,104 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:32:14,106 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:32:14,110 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:32:14,111 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:32:14,115 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:32:14,118 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-R-prod-optb_c1.gjc', '001-endo-E-R-prod-optb_c2.gjc', '001-endo-E-R-TS-optb_c1.gjc', '001-endo-E-R-TS-optb_c2.gjc', '001-endo-E-S-prod-optb_c1.gjc', '001-endo-E-S-prod-optb_c2.gjc', '001-endo-E-S-TS-optb_c1.gjc', '001-endo-E-S-TS-optb_c2.gjc', '001-endo-Z-R-prod-optb_c1.gjc', '001-endo-Z-R-prod-optb_c2.gjc', '001-endo-Z-R-TS-optb_c1.gjc', '001-endo-Z-R-TS-optb_c2.gjc', '001-exo-E-R-prod-optb_c1.gjc', '001-exo-E-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c3.gjc', '001-exo-E-R-TS-optb_c1.gjc', '001-exo-E-R-TS-optb_c2.gjc', '001-exo-E-R-TS-optb_c3.gjc', '001-exo-E-S-prod-optb_c1.gjc', '001-exo-E-S-prod-optb_c2.gjc', '001-exo-E-S-TS-optb_c1.gjc', '001-exo-E-S-TS-optb_c2.gjc', '001-exo-Z-S-prod-optb_c1.gjc', '001-exo-Z-S-prod-optb_c2.gjc', '001-exo-Z-S-TS-optb_c1.gjc', '001-exo-Z-S-TS-optb_c2.gjc']
+2024-08-16 10:32:14,120 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCFO_010_c2.gjc
+2024-08-16 10:32:14,121 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 10:32:14,123 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.gjc a Relanzar
+2024-08-16 10:32:14,123 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCRE_010_c2.gjc
+2024-08-16 10:32:14,124 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.gjc a Relanzar
+2024-08-16 10:32:14,124 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo1.gjc
+2024-08-16 10:32:14,124 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.gjc a Relanzar
+2024-08-16 10:32:14,124 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo2.gjc
+2024-08-16 10:32:14,131 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.gjc a Relanzar
+2024-08-16 10:32:14,131 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo1.gjc
+2024-08-16 10:32:14,131 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.gjc a Relanzar
+2024-08-16 10:32:14,131 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo2.gjc
+2024-08-16 10:32:14,131 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.gjc a Relanzar
+2024-08-16 10:32:14,131 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,131 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,131 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,131 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c1.gjc movido a: C:\Linux\001-endo-E-R-TS-optb
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c1.log movido a: C:\Linux\001-endo-E-R-TS-optb
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c2.gjc movido a: C:\Linux\001-endo-E-R-TS-optb
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c2.log movido a: C:\Linux\001-endo-E-R-TS-optb
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,148 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c1.gjc movido a: C:\Linux\001-endo-E-S-TS-optb
+2024-08-16 10:32:14,163 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c1.log movido a: C:\Linux\001-endo-E-S-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-endo-E-S-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c2.log movido a: C:\Linux\001-endo-E-S-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c1.gjc movido a: C:\Linux\001-endo-Z-R-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c1.log movido a: C:\Linux\001-endo-Z-R-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c2.gjc movido a: C:\Linux\001-endo-Z-R-TS-optb
+2024-08-16 10:32:14,164 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c2.log movido a: C:\Linux\001-endo-Z-R-TS-optb
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,180 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.log movido a: C:\Linux\001
+2024-08-16 10:32:14,189 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c1.gjc movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,189 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c1.log movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,189 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c2.gjc movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,189 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c2.log movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,189 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c3.gjc movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c3.log movido a: C:\Linux\001-exo-E-R-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c1.gjc movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c1.log movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.log movido a: C:\Linux\001-exo-E-S-TS-optb
+2024-08-16 10:32:14,197 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c1.gjc movido a: C:\Linux\001-exo-Z-S-TS-optb
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c1.log movido a: C:\Linux\001-exo-Z-S-TS-optb
+2024-08-16 10:32:14,213 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c2.gjc movido a: C:\Linux\001-exo-Z-S-TS-optb
+2024-08-16 10:32:14,230 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c2.log movido a: C:\Linux\001-exo-Z-S-TS-optb
+2024-08-16 10:32:14,230 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:32:14,230 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:32:14,230 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,230 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,247 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,247 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,247 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,264 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,264 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,264 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,280 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c3.log al Excel '001'
+2024-08-16 10:32:14,289 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,297 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,297 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:32:14,314 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:32:14,330 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-16 10:32:14,330 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-optb_c1.log al Excel '001-endo-E-R-TS-optb'
+2024-08-16 10:32:14,346 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-optb_c2.log al Excel '001-endo-E-R-TS-optb'
+2024-08-16 10:32:14,348 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-endo-E-R-TS-optb.xlsx
+2024-08-16 10:32:14,364 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-TS-optb_c1.log al Excel '001-endo-E-S-TS-optb'
+2024-08-16 10:32:14,364 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-TS-optb_c2.log al Excel '001-endo-E-S-TS-optb'
+2024-08-16 10:32:14,389 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-endo-E-S-TS-optb.xlsx
+2024-08-16 10:32:14,397 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-TS-optb_c1.log al Excel '001-endo-Z-R-TS-optb'
+2024-08-16 10:32:14,397 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-TS-optb_c2.log al Excel '001-endo-Z-R-TS-optb'
+2024-08-16 10:32:14,414 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-endo-Z-R-TS-optb.xlsx
+2024-08-16 10:32:14,430 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c1.log al Excel '001-exo-E-R-TS-optb'
+2024-08-16 10:32:14,430 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c2.log al Excel '001-exo-E-R-TS-optb'
+2024-08-16 10:32:14,447 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c3.log al Excel '001-exo-E-R-TS-optb'
+2024-08-16 10:32:14,447 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-exo-E-R-TS-optb.xlsx
+2024-08-16 10:32:14,465 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c1.log al Excel '001-exo-E-S-TS-optb'
+2024-08-16 10:32:14,465 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c2.log al Excel '001-exo-E-S-TS-optb'
+2024-08-16 10:32:14,480 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-exo-E-S-TS-optb.xlsx
+2024-08-16 10:32:14,497 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c1.log al Excel '001-exo-Z-S-TS-optb'
+2024-08-16 10:32:14,513 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c2.log al Excel '001-exo-Z-S-TS-optb'
+2024-08-16 10:32:14,515 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-exo-Z-S-TS-optb.xlsx
+2024-08-16 10:34:38,870 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 10:34:38,870 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 10:34:39,147 - INFO - multi_procesador:61 - Relanzar archivo: IRCFO_010_c2.log - No finalizó correctamente
+2024-08-16 10:34:39,147 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 10:34:39,155 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.log a Termino Mal
+2024-08-16 10:34:39,155 - INFO - multi_procesador:61 - Relanzar archivo: IRCRE_010_c2.log - No finalizó correctamente
+2024-08-16 10:34:39,163 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.log a Termino Mal
+2024-08-16 10:34:39,164 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo1.log - No finalizó correctamente
+2024-08-16 10:34:39,166 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.log a Termino Mal
+2024-08-16 10:34:39,166 - INFO - multi_procesador:61 - Relanzar archivo: TS_endo2.log - No finalizó correctamente
+2024-08-16 10:34:39,175 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.log a Termino Mal
+2024-08-16 10:34:39,178 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo1.log - No finalizó correctamente
+2024-08-16 10:34:39,183 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.log a Termino Mal
+2024-08-16 10:34:39,184 - INFO - multi_procesador:61 - Relanzar archivo: TS_exo2.log - No finalizó correctamente
+2024-08-16 10:34:39,185 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.log a Termino Mal
+2024-08-16 10:34:39,185 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-R-prod-optb_c1.gjc', '001-endo-E-R-prod-optb_c2.gjc', '001-endo-E-R-TS-optb_c1.gjc', '001-endo-E-R-TS-optb_c2.gjc', '001-endo-E-S-prod-optb_c1.gjc', '001-endo-E-S-prod-optb_c2.gjc', '001-endo-E-S-TS-optb_c1.gjc', '001-endo-E-S-TS-optb_c2.gjc', '001-endo-Z-R-prod-optb_c1.gjc', '001-endo-Z-R-prod-optb_c2.gjc', '001-endo-Z-R-TS-optb_c1.gjc', '001-endo-Z-R-TS-optb_c2.gjc', '001-exo-E-R-prod-optb_c1.gjc', '001-exo-E-R-prod-optb_c2.gjc', '001-exo-E-R-prod-optb_c3.gjc', '001-exo-E-R-TS-optb_c1.gjc', '001-exo-E-R-TS-optb_c2.gjc', '001-exo-E-R-TS-optb_c3.gjc', '001-exo-E-S-prod-optb_c1.gjc', '001-exo-E-S-prod-optb_c2.gjc', '001-exo-E-S-TS-optb_c1.gjc', '001-exo-E-S-TS-optb_c2.gjc', '001-exo-Z-S-prod-optb_c1.gjc', '001-exo-Z-S-prod-optb_c2.gjc', '001-exo-Z-S-TS-optb_c1.gjc', '001-exo-Z-S-TS-optb_c2.gjc']
+2024-08-16 10:34:39,185 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCFO_010_c2.gjc
+2024-08-16 10:34:39,185 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 10:34:39,193 - INFO - multi_procesador:42 - Archivo movido: IRCFO_010_c2.gjc a Relanzar
+2024-08-16 10:34:39,194 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: IRCRE_010_c2.gjc
+2024-08-16 10:34:39,196 - INFO - multi_procesador:42 - Archivo movido: IRCRE_010_c2.gjc a Relanzar
+2024-08-16 10:34:39,196 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo1.gjc
+2024-08-16 10:34:39,198 - INFO - multi_procesador:42 - Archivo movido: TS_endo1.gjc a Relanzar
+2024-08-16 10:34:39,199 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_endo2.gjc
+2024-08-16 10:34:39,201 - INFO - multi_procesador:42 - Archivo movido: TS_endo2.gjc a Relanzar
+2024-08-16 10:34:39,201 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo1.gjc
+2024-08-16 10:34:39,202 - INFO - multi_procesador:42 - Archivo movido: TS_exo1.gjc a Relanzar
+2024-08-16 10:34:39,202 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: TS_exo2.gjc
+2024-08-16 10:34:39,202 - INFO - multi_procesador:42 - Archivo movido: TS_exo2.gjc a Relanzar
+2024-08-16 10:34:39,212 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,214 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,217 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,218 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,218 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,218 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,227 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,242 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,243 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,258 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,261 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,261 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,261 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,261 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-optb_c3.log movido a: C:\Linux\001
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c3.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-TS-optb_c3.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,266 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,276 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,278 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c1.log movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.gjc movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-optb_c2.log movido a: C:\Linux\001
+2024-08-16 10:34:39,280 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,294 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,295 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,295 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-16 10:34:39,295 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:34:39,295 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 10:34:39,295 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,309 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,309 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,309 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,309 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,326 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,326 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,326 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,343 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-optb_c3.log al Excel '001'
+2024-08-16 10:34:39,343 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,359 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,366 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c1.log al Excel '001'
+2024-08-16 10:34:39,366 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-optb_c2.log al Excel '001'
+2024-08-16 10:34:39,376 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-16 10:34:39,393 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,393 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,409 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,410 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,426 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,426 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,443 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,443 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,466 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-TS-optb_c3.log al Excel '001-TS'
+2024-08-16 10:34:39,466 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,476 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,494 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c1.log al Excel '001-TS'
+2024-08-16 10:34:39,494 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c2.log al Excel '001-TS'
+2024-08-16 10:34:39,510 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx

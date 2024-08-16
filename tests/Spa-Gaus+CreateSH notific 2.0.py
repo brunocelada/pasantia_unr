@@ -48,6 +48,7 @@ echo "Running:"
 echo " "
 
 {calc_notif}
+
 {commands}
 
 
@@ -132,14 +133,16 @@ curl -X POST -H 'Content-type: application/json; charset=utf-8' \
         final_notif = f"""
 # -------- Send Slack Termination Notification -----------------------------------------
 
+echo "END_TIME (success)   = `date +'%y-%m-%d %H:%M:%S %s'`"
+END_TIME=`date +%s`
 RUN_TIME_SECONDS=$(($END_TIME - $START_TIME))
 
-# Calcular horas y minutos
+# Calcular horas, minutos y segundos
 if [ $RUN_TIME_SECONDS -ge 3600 ]; then
-    RUN_TIME=$(awk 'BEGIN {{printf \"%.3f\", $RUN_TIME_SECONDS/3600}}')
+    RUN_TIME=$(awk "BEGIN {{printf \\"%.3f\\", $RUN_TIME_SECONDS/3600}}")
     TIME_UNIT="horas"
 elif [ $RUN_TIME_SECONDS -ge 60 ]; then
-    RUN_TIME=$(awk 'BEGIN {{printf \"%.3f\", $RUN_TIME_SECONDS/60}}')
+    RUN_TIME=$(awk "BEGIN {{printf \\"%.3f\\", $RUN_TIME_SECONDS/60}}")
     TIME_UNIT="minutos"
 else
     RUN_TIME=$RUN_TIME_SECONDS
@@ -192,10 +195,10 @@ def main():
 
     nprocshared = input("Cuantos procesadores queres?: ")
 
-    jobtime = int(input("Que tiempo queres? 1 para 12 h, 5 para 24 h, 9 para 28 h: "))
+    jobtime = int(input("Que tiempo queres? 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
     while jobtime not in [1, 5, 9]:
         print("Tipeaste mal")
-        jobtime = int(input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 28 h: "))
+        jobtime = int(input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
     tiempo = {1: "12", 5: "24", 9: "48"}[jobtime]        
 
     folder = input("Folder: ")
