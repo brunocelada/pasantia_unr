@@ -1,6 +1,7 @@
 import glob
 import os
 import logging
+import Spa_Gaus_CreateSH_Slack
 
 # Configuración de logging
 logging.basicConfig(filename="registros/script.log", level=logging.INFO, encoding="utf-8",
@@ -78,5 +79,10 @@ for file in glob.glob("*.gjc"):
 
     except Exception as e:
             logging.error(f"Error creando archivo .gjc {file}: {e}")
+
+create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
+
+if create_sh == "y":
+    Spa_Gaus_CreateSH_Slack.main()
 
 print("\nScript finalizado\n")

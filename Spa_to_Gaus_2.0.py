@@ -2,6 +2,7 @@ import os
 import shutil
 import gzip
 import subprocess
+import Spa_Gaus_CreateSH_Slack
 
 # Constantes
 BASE_DIR = r"C:\Linux"
@@ -148,20 +149,6 @@ def update_gjc_files():
 
     print('Done')
 
-# Ejecución de funciones en orden necesario
-def main():
-    rename_files()
-    extract_files()
-    rename_input_files()
-    rename_and_copy_gz_files()
-    extract_and_cleanup_gz_files()
-    update_gjc_files()
-    
-    create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
-    
-    if create_sh == "y":
-        generate_sh_files()
-
 def generate_sh_files():
     import glob
     import os
@@ -237,6 +224,26 @@ def generate_sh_files():
                 f.write(nuevo_contenido)
 
     print("Reemplazo completado.")
+
+# Ejecución de funciones en orden necesario
+def main():
+    rename_files()
+    extract_files()
+    rename_input_files()
+    rename_and_copy_gz_files()
+    extract_and_cleanup_gz_files()
+
+    Spa_Gaus_CreateSH_Slack.main()
+
+    '''Función removida para poder utilizar el módulo de creación de .sh junto con las notificaciones por Slack
+    En caso de querer utilizar las fuciones base de este archivo, dejar como comentario la línea anterior 
+    "Spa_Gaus_CreateSH_Slack.main()" y des-comentar las líneas posteriores a esta nota.
+    '''
+    # update_gjc_files()
+    # create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
+    
+    # if create_sh == "y":
+        # generate_sh_files()
 
 if __name__ == "__main__":
     main()

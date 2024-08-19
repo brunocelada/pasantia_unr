@@ -2333,3 +2333,644 @@
 2024-08-16 10:34:39,494 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c1.log al Excel '001-TS'
 2024-08-16 10:34:39,494 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-TS-optb_c2.log al Excel '001-TS'
 2024-08-16 10:34:39,510 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-16 14:04:47,026 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 14:04:47,027 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 14:04:47,128 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-R-prod-sp-solv_c1.gjc', '001-endo-E-R-prod-sp-solv_c2.gjc', '001-endo-E-S-prod-sp-solv_c1.gjc', '001-endo-E-S-prod-sp-solv_c2.gjc', '001-endo-Z-R-prod-sp-solv_c1.gjc', '001-endo-Z-R-prod-sp-solv_c2.gjc', '001-exo-E-R-prod-sp-solv_c1.gjc', '001-exo-E-R-prod-sp-solv_c2.gjc', '001-exo-E-R-prod-sp-solv_c3.gjc', '001-exo-E-S-prod-sp-solv_c1.gjc', '001-exo-E-S-prod-sp-solv_c2.gjc', '001-exo-Z-S-prod-sp-solv_c1.gjc', '001-exo-Z-S-prod-sp-solv_c2.gjc']
+2024-08-16 14:04:47,130 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,132 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,133 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,134 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,136 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,137 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,139 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,140 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,141 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,143 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,144 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,145 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,146 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,147 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,148 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,150 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,151 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c3.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,152 - INFO - multi_procesador:185 - Archivo 001-exo-E-R-prod-sp-solv_c3.log movido a: C:\Linux\001
+2024-08-16 14:04:47,153 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,154 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,156 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,157 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,158 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,159 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-16 14:04:47,160 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-16 14:04:47,161 - INFO - multi_procesador:185 - Archivo 001-exo-Z-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-16 14:04:47,165 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,165 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,166 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,166 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,167 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,167 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,168 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,169 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,169 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-R-prod-sp-solv_c3.log al Excel '001'
+2024-08-16 14:04:47,170 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,170 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,171 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-16 14:04:47,171 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-16 14:04:47,194 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-16 15:09:17,676 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 15:09:32,674 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-16 15:09:32,675 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-endo-TS-optb_c1.sh creado con éxito.
+2024-08-16 15:09:32,676 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-endo-TS-optb_c2.sh creado con éxito.
+2024-08-16 15:09:32,677 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-endo-TS-optb_c3.sh creado con éxito.
+2024-08-16 15:09:32,677 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-exo-TS-optb_c1.sh creado con éxito.
+2024-08-16 15:09:32,678 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-exo-TS-optb_c2.sh creado con éxito.
+2024-08-16 15:09:32,678 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-exo-TS-optb_c3.sh creado con éxito.
+2024-08-16 15:53:16,527 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-16 15:53:16,551 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-E-R-TS-optb_c1.gjc
+2024-08-16 15:53:16,575 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-E-R-TS-optb_c2.gjc
+2024-08-16 15:53:16,599 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-E-S-TS-optb_c1.gjc
+2024-08-16 15:53:16,619 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-Z-R-TS-optb_c1.gjc
+2024-08-16 15:53:16,642 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-exo-E-S-TS-optb_c1.gjc
+2024-08-16 15:55:47,840 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-E-R-TS-optb_c1.gjc
+2024-08-16 15:55:47,846 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-E-R-TS-optb_c2.gjc
+2024-08-16 15:55:47,856 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-E-S-TS-optb_c1.gjc
+2024-08-16 15:55:47,863 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-Z-R-TS-optb_c1.gjc
+2024-08-16 15:55:47,869 - INFO - Create_gjc_2.0:77 - Archivo creado 001-exo-E-S-TS-optb_c1.gjc
+2024-08-16 15:58:42,377 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 16:00:22,976 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 16:00:36,971 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-16 16:00:36,972 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-endo-E-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-16 16:00:36,973 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-endo-E-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-16 16:00:36,974 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-endo-Z-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-16 16:00:36,975 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-exo-E-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-16 16:01:47,140 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 16:01:47,141 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 16:01:47,150 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-S-TS-sp-solv_c1.gjc']
+2024-08-16 16:01:47,152 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 16:01:47,154 - INFO - multi_procesador:185 - Archivo 001-endo-E-S-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-16 16:01:47,157 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-S-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-16 16:01:47,177 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-16 16:30:25,539 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 16:30:39,355 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-16 16:30:39,355 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-endo-Z-S-prod-optb_spartan_c1.sh creado con éxito.
+2024-08-16 16:30:39,356 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-endo-Z-S-prod-optb_spartan_c2.sh creado con éxito.
+2024-08-16 16:30:39,357 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-exo-Z-R-prod-optb_spartan_c1.sh creado con éxito.
+2024-08-16 16:30:39,357 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo 001-exo-Z-R-prod-optb_spartan_c2.sh creado con éxito.
+2024-08-16 16:31:59,996 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 16:31:59,996 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 16:31:59,997 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-R-TS-sp-solv_c1.sh
+2024-08-16 16:31:59,998 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-E-R-TS-sp-solv_c2.sh
+2024-08-16 16:31:59,998 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-R-TS-sp-solv_c1.sh
+2024-08-16 16:31:59,999 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-E-S-TS-sp-solv_c1.sh
+2024-08-16 16:32:00,000 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-optb_c1.sh
+2024-08-16 16:32:00,000 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-optb_c2.sh
+2024-08-16 16:32:00,001 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-optb_c3.sh
+2024-08-16 16:32:00,001 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-optb_c1.sh
+2024-08-16 16:32:00,001 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-optb_c2.sh
+2024-08-16 16:32:00,002 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-optb_c3.sh
+2024-08-16 16:32:00,004 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-E-R-TS-sp-solv_c1_187318.log - No finalizó correctamente
+2024-08-16 16:32:00,005 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 16:32:00,007 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-sp-solv_c1_187318.log a Termino Mal
+2024-08-16 16:32:00,008 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-E-R-TS-sp-solv_c2_187319.log - No finalizó correctamente
+2024-08-16 16:32:00,011 - INFO - multi_procesador:42 - Archivo movido: 001-endo-E-R-TS-sp-solv_c2_187319.log a Termino Mal
+2024-08-16 16:32:00,012 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-R-TS-sp-solv_c1_187320.log - No finalizó correctamente
+2024-08-16 16:32:00,015 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-R-TS-sp-solv_c1_187320.log a Termino Mal
+2024-08-16 16:32:00,016 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-E-S-TS-sp-solv_c1_187321.log - No finalizó correctamente
+2024-08-16 16:32:00,019 - INFO - multi_procesador:42 - Archivo movido: 001-exo-E-S-TS-sp-solv_c1_187321.log a Termino Mal
+2024-08-16 16:32:00,037 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-optb_c1.log - No finalizó correctamente
+2024-08-16 16:32:00,042 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-optb_c1.log a Termino Mal
+2024-08-16 16:32:00,043 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-optb_c1_187312.log - No finalizó correctamente
+2024-08-16 16:32:00,046 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-optb_c1_187312.log a Termino Mal
+2024-08-16 16:32:00,052 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-optb_c2_187313.log - No finalizó correctamente
+2024-08-16 16:32:00,054 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-optb_c2_187313.log a Termino Mal
+2024-08-16 16:32:00,062 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-optb_c3_187314.log - No finalizó correctamente
+2024-08-16 16:32:00,065 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-optb_c3_187314.log a Termino Mal
+2024-08-16 16:32:00,071 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-optb_c1_187315.log - No finalizó correctamente
+2024-08-16 16:32:00,074 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-optb_c1_187315.log a Termino Mal
+2024-08-16 16:32:00,079 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-optb_c2_187316.log - No finalizó correctamente
+2024-08-16 16:32:00,082 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-optb_c2_187316.log a Termino Mal
+2024-08-16 16:32:00,086 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-optb_c3_187317.log - No finalizó correctamente
+2024-08-16 16:32:00,089 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-optb_c3_187317.log a Termino Mal
+2024-08-16 16:32:00,089 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-E-R-TS-sp-solv_c1.gjc', '001-endo-E-R-TS-sp-solv_c2.gjc', '001-endo-Z-R-TS-sp-solv_c1.gjc', '001-exo-E-S-TS-sp-solv_c1.gjc', 'uncat-endo-TS-optb_c2.gjc', 'uncat-endo-TS-optb_c3.gjc', 'uncat-exo-TS-optb_c1.gjc', 'uncat-exo-TS-optb_c2.gjc', 'uncat-exo-TS-optb_c3.gjc']
+2024-08-16 16:32:00,090 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: uncat-endo-TS-optb_c1.gjc
+2024-08-16 16:32:00,090 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-16 16:32:00,092 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-optb_c1.gjc a Relanzar
+2024-08-16 16:32:00,094 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,095 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,097 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-sp-solv_c2.gjc movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,098 - INFO - multi_procesador:185 - Archivo 001-endo-E-R-TS-sp-solv_c2.log movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,099 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,100 - INFO - multi_procesador:185 - Archivo 001-endo-Z-R-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,101 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,102 - INFO - multi_procesador:185 - Archivo 001-exo-E-S-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-16 16:32:00,102 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 16:32:00,102 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 16:32:00,103 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c2.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,104 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c2.log movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,106 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c3.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,107 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c3.log movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,108 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c1.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,109 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c1.log movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,110 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c2.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,111 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c2.log movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,112 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c3.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,114 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-optb_c3.log movido a: C:\Linux\uncat-TS
+2024-08-16 16:32:00,116 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-16 16:32:00,116 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-E-R-TS-sp-solv_c2.log al Excel '001-TS'
+2024-08-16 16:32:00,117 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-R-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-16 16:32:00,118 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-E-S-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-16 16:32:00,135 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-16 16:32:00,143 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-optb_c2.log al Excel 'uncat-TS'
+2024-08-16 16:32:00,152 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-optb_c3.log al Excel 'uncat-TS'
+2024-08-16 16:32:00,159 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-optb_c1.log al Excel 'uncat-TS'
+2024-08-16 16:32:00,165 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-optb_c2.log al Excel 'uncat-TS'
+2024-08-16 16:32:00,170 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-optb_c3.log al Excel 'uncat-TS'
+2024-08-16 16:32:00,183 - INFO - multi_procesador:157 - Archivo Excel guardado: uncat-TS.xlsx
+2024-08-16 16:40:00,304 - INFO - Spa-Gaus+CreateSH notific 2.0:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 16:40:11,662 - INFO - Spa-Gaus+CreateSH notific 2.0:214 - Se enviarán notificaciones por Slack
+2024-08-16 16:40:11,663 - INFO - Spa-Gaus+CreateSH notific 2.0:167 - Archivo uncat-endo-TS-optb_c1.sh creado con éxito.
+2024-08-16 17:23:10,796 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 17:23:10,798 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 17:23:10,799 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-optb_c1.sh
+2024-08-16 17:23:10,805 - INFO - multi_procesador:103 - Archivos .log encontrados: ['uncat-endo-TS-optb_c1.gjc']
+2024-08-16 17:23:10,807 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c1.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:23:10,808 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-optb_c1.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:23:10,817 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-optb_c1.log al Excel 'uncat-TS'
+2024-08-16 17:23:10,837 - INFO - multi_procesador:157 - Archivo Excel guardado: uncat-TS.xlsx
+2024-08-16 17:24:46,135 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-16 17:24:46,150 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-endo-TS-optb_c1.gjc
+2024-08-16 17:24:46,165 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-endo-TS-optb_c2.gjc
+2024-08-16 17:24:46,185 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-endo-TS-optb_c3.gjc
+2024-08-16 17:24:46,199 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-exo-TS-optb_c1.gjc
+2024-08-16 17:24:46,214 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-exo-TS-optb_c2.gjc
+2024-08-16 17:24:46,226 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a uncat-exo-TS-optb_c3.gjc
+2024-08-16 17:25:26,547 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-endo-TS-optb_c1.gjc
+2024-08-16 17:25:26,553 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-endo-TS-optb_c2.gjc
+2024-08-16 17:25:26,560 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-endo-TS-optb_c3.gjc
+2024-08-16 17:25:26,565 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-TS-optb_c1.gjc
+2024-08-16 17:25:26,572 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-TS-optb_c2.gjc
+2024-08-16 17:25:26,577 - INFO - Create_gjc_2.0:77 - Archivo creado uncat-exo-TS-optb_c3.gjc
+2024-08-16 17:27:05,484 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-16 17:27:16,863 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-16 17:27:16,865 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-endo-TS-sp-solv_c1.sh creado con éxito.
+2024-08-16 17:27:16,865 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-endo-TS-sp-solv_c2.sh creado con éxito.
+2024-08-16 17:27:16,866 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-endo-TS-sp-solv_c3.sh creado con éxito.
+2024-08-16 17:27:16,867 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-exo-TS-sp-solv_c1.sh creado con éxito.
+2024-08-16 17:27:16,868 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-exo-TS-sp-solv_c2.sh creado con éxito.
+2024-08-16 17:27:16,868 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo uncat-exo-TS-sp-solv_c3.sh creado con éxito.
+2024-08-16 17:32:37,417 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-16 17:32:37,417 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-16 17:32:37,418 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-sp-solv_c1.sh
+2024-08-16 17:32:37,419 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-sp-solv_c2.sh
+2024-08-16 17:32:37,420 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-endo-TS-sp-solv_c3.sh
+2024-08-16 17:32:37,420 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-sp-solv_c1.sh
+2024-08-16 17:32:37,421 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-sp-solv_c2.sh
+2024-08-16 17:32:37,421 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\uncat-exo-TS-sp-solv_c3.sh
+2024-08-16 17:32:37,423 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-sp-solv_c1_187328.log - No finalizó correctamente
+2024-08-16 17:32:37,424 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-16 17:32:37,426 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-sp-solv_c1_187328.log a Termino Mal
+2024-08-16 17:32:37,427 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-sp-solv_c2_187329.log - No finalizó correctamente
+2024-08-16 17:32:37,429 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-sp-solv_c2_187329.log a Termino Mal
+2024-08-16 17:32:37,430 - INFO - multi_procesador:61 - Relanzar archivo: uncat-endo-TS-sp-solv_c3_187330.log - No finalizó correctamente
+2024-08-16 17:32:37,433 - INFO - multi_procesador:42 - Archivo movido: uncat-endo-TS-sp-solv_c3_187330.log a Termino Mal
+2024-08-16 17:32:37,435 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-sp-solv_c1_187331.log - No finalizó correctamente
+2024-08-16 17:32:37,437 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-sp-solv_c1_187331.log a Termino Mal
+2024-08-16 17:32:37,439 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-sp-solv_c2_187332.log - No finalizó correctamente
+2024-08-16 17:32:37,442 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-sp-solv_c2_187332.log a Termino Mal
+2024-08-16 17:32:37,443 - INFO - multi_procesador:61 - Relanzar archivo: uncat-exo-TS-sp-solv_c3_187333.log - No finalizó correctamente
+2024-08-16 17:32:37,446 - INFO - multi_procesador:42 - Archivo movido: uncat-exo-TS-sp-solv_c3_187333.log a Termino Mal
+2024-08-16 17:32:37,447 - INFO - multi_procesador:103 - Archivos .log encontrados: ['uncat-endo-TS-sp-solv_c1.gjc', 'uncat-endo-TS-sp-solv_c2.gjc', 'uncat-endo-TS-sp-solv_c3.gjc', 'uncat-exo-TS-sp-solv_c1.gjc', 'uncat-exo-TS-sp-solv_c2.gjc', 'uncat-exo-TS-sp-solv_c3.gjc']
+2024-08-16 17:32:37,447 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-16 17:32:37,449 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c1.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,450 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c1.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,452 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c2.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,453 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c2.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,455 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c3.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,456 - INFO - multi_procesador:185 - Archivo uncat-endo-TS-sp-solv_c3.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,457 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c1.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,459 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c1.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,460 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c2.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,461 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c2.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,462 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c3.gjc movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,463 - INFO - multi_procesador:185 - Archivo uncat-exo-TS-sp-solv_c3.log movido a: C:\Linux\uncat-TS
+2024-08-16 17:32:37,465 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-sp-solv_c1.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,466 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-sp-solv_c2.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,466 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-endo-TS-sp-solv_c3.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,467 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-sp-solv_c1.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,467 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-sp-solv_c2.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,468 - INFO - multi_procesador:147 - Datos añadidos del archivo uncat-exo-TS-sp-solv_c3.log al Excel 'uncat-TS'
+2024-08-16 17:32:37,485 - INFO - multi_procesador:157 - Archivo Excel guardado: uncat-TS.xlsx
+2024-08-17 02:23:17,156 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-17 02:23:17,157 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-17 02:23:17,158 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-prod-optb_spartan_c1.sh
+2024-08-17 02:23:17,158 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-prod-optb_spartan_c2.sh
+2024-08-17 02:23:17,159 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-optb_spartan_c1.sh
+2024-08-17 02:23:17,159 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-optb_spartan_c2.sh
+2024-08-17 02:23:17,176 - INFO - multi_procesador:76 - Relanzar archivo: 001-endo-Z-S-prod-optb_spartan_c1.log - Frecuencias negativas
+2024-08-17 02:23:17,177 - INFO - multi_procesador:39 - Carpeta creada: Frecuencias Negativas
+2024-08-17 02:23:17,181 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-optb_spartan_c1.log a Frecuencias Negativas
+2024-08-17 02:23:17,181 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-prod-optb_spartan_c1_187323.log - No finalizó correctamente
+2024-08-17 02:23:17,182 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-17 02:23:17,184 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-optb_spartan_c1_187323.log a Termino Mal
+2024-08-17 02:23:17,232 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-prod-optb_spartan_c2_187324.log - No finalizó correctamente
+2024-08-17 02:23:17,235 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-optb_spartan_c2_187324.log a Termino Mal
+2024-08-17 02:23:17,251 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c1.log - Frecuencias negativas
+2024-08-17 02:23:17,256 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c1.log a Frecuencias Negativas
+2024-08-17 02:23:17,257 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c1_187325.log - No finalizó correctamente
+2024-08-17 02:23:17,261 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c1_187325.log a Termino Mal
+2024-08-17 02:23:17,276 - INFO - multi_procesador:76 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c2.log - Frecuencias negativas
+2024-08-17 02:23:17,280 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c2.log a Frecuencias Negativas
+2024-08-17 02:23:17,280 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c2_187326.log - No finalizó correctamente
+2024-08-17 02:23:17,283 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c2_187326.log a Termino Mal
+2024-08-17 02:23:17,284 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-prod-optb_spartan_c2.gjc']
+2024-08-17 02:23:17,284 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-endo-Z-S-prod-optb_spartan_c1.gjc
+2024-08-17 02:23:17,285 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-17 02:23:17,287 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-optb_spartan_c1.gjc a Relanzar
+2024-08-17 02:23:17,287 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-Z-R-prod-optb_spartan_c1.gjc
+2024-08-17 02:23:17,289 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c1.gjc a Relanzar
+2024-08-17 02:23:17,289 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: 001-exo-Z-R-prod-optb_spartan_c2.gjc
+2024-08-17 02:23:17,292 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c2.gjc a Relanzar
+2024-08-17 02:23:17,294 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-optb_spartan_c2.gjc movido a: C:\Linux\001
+2024-08-17 02:23:17,296 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-optb_spartan_c2.log movido a: C:\Linux\001
+2024-08-17 02:23:17,296 - INFO - multi_procesador:168 - Archivo Frecuencias Negativas ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-17 02:23:17,296 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-17 02:23:17,296 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-17 02:23:17,321 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-prod-optb_spartan_c2.log al Excel '001'
+2024-08-17 02:23:17,341 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-17 02:27:37,610 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 02:27:48,611 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 02:27:48,612 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-prod-optb_spartan_c1.sh creado con éxito.
+2024-08-17 02:27:48,613 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-prod-optb_spartan_c1.sh creado con éxito.
+2024-08-17 02:27:48,613 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-prod-optb_spartan_c2.sh creado con éxito.
+2024-08-17 02:29:04,739 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-17 02:29:04,773 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-Z-S-prod-optb_spartan_c2.gjc
+2024-08-17 02:29:52,538 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-Z-S-prod-optb_spartan_c2.gjc
+2024-08-17 02:30:07,865 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 02:30:18,863 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 02:30:18,865 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-prod-optb_spartan_c2.sh creado con éxito.
+2024-08-17 02:35:38,803 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 02:35:46,925 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 02:35:46,926 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-prod-sp-solv_c2.sh creado con éxito.
+2024-08-17 02:40:18,747 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 02:40:33,025 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 02:40:33,026 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-TS-optb_c2.sh creado con éxito.
+2024-08-17 10:30:05,950 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-17 10:30:05,951 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-17 10:30:05,953 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-prod-optb_spartan_c1.sh
+2024-08-17 10:30:05,953 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-optb_spartan_c1.sh
+2024-08-17 10:30:05,954 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-optb_spartan_c2.sh
+2024-08-17 10:30:05,972 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-prod-optb_spartan_c1_187428.log - No finalizó correctamente
+2024-08-17 10:30:05,973 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-17 10:30:05,975 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-optb_spartan_c1_187428.log a Termino Mal
+2024-08-17 10:30:05,993 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c1_187429.log - No finalizó correctamente
+2024-08-17 10:30:05,996 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c1_187429.log a Termino Mal
+2024-08-17 10:30:06,015 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-optb_spartan_c2_187430.log - No finalizó correctamente
+2024-08-17 10:30:06,017 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-optb_spartan_c2_187430.log a Termino Mal
+2024-08-17 10:30:06,018 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-prod-optb_spartan_c1.gjc', '001-exo-Z-R-prod-optb_spartan_c1.gjc', '001-exo-Z-R-prod-optb_spartan_c2.gjc']
+2024-08-17 10:30:06,020 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-optb_spartan_c1.gjc movido a: C:\Linux\001
+2024-08-17 10:30:06,021 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-optb_spartan_c1.log movido a: C:\Linux\001
+2024-08-17 10:30:06,023 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-optb_spartan_c1.gjc movido a: C:\Linux\001
+2024-08-17 10:30:06,024 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-optb_spartan_c1.log movido a: C:\Linux\001
+2024-08-17 10:30:06,025 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-optb_spartan_c2.gjc movido a: C:\Linux\001
+2024-08-17 10:30:06,026 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-optb_spartan_c2.log movido a: C:\Linux\001
+2024-08-17 10:30:06,026 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-17 10:30:06,037 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-prod-optb_spartan_c1.log al Excel '001'
+2024-08-17 10:30:06,047 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-optb_spartan_c1.log al Excel '001'
+2024-08-17 10:30:06,057 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-optb_spartan_c2.log al Excel '001'
+2024-08-17 10:30:06,074 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-17 10:43:18,171 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 10:43:34,937 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 10:43:34,939 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-TS-optb_c1.sh creado con éxito.
+2024-08-17 10:43:34,939 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-TS-optb_c1.sh creado con éxito.
+2024-08-17 10:43:34,940 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-TS-optb_c2.sh creado con éxito.
+2024-08-17 10:45:25,261 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-17 10:45:25,261 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-17 10:45:25,262 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-TS-optb_c2.sh
+2024-08-17 10:45:25,278 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-TS-optb_c2.gjc']
+2024-08-17 10:45:25,281 - ERROR - multi_procesador:188 - Error organizando archivo 001: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Linux\\001'
+2024-08-17 10:45:25,282 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-17 10:45:25,283 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-17 10:45:25,297 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-prod-optb_spartan_c1.log al Excel '001'
+2024-08-17 10:45:25,308 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-optb_spartan_c1.log al Excel '001'
+2024-08-17 10:45:25,320 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-optb_spartan_c2.log al Excel '001'
+2024-08-17 10:45:25,331 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-17 10:45:25,349 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-TS-optb_c2.log al Excel '001-TS'
+2024-08-17 10:45:25,364 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-17 10:53:29,626 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-17 10:53:29,639 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-Z-S-prod-sp-solv_c1.gjc
+2024-08-17 10:53:29,660 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-Z-S-TS-sp-solv_c2.gjc
+2024-08-17 10:53:29,672 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-exo-Z-R-prod-sp-solv_c1.gjc
+2024-08-17 10:53:29,684 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-exo-Z-R-prod-sp-solv_c2.gjc
+2024-08-17 10:53:58,851 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-Z-S-prod-sp-solv_c1.gjc
+2024-08-17 10:53:58,857 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-Z-S-TS-sp-solv_c2.gjc
+2024-08-17 10:53:58,863 - INFO - Create_gjc_2.0:77 - Archivo creado 001-exo-Z-R-prod-sp-solv_c1.gjc
+2024-08-17 10:53:58,872 - INFO - Create_gjc_2.0:77 - Archivo creado 001-exo-Z-R-prod-sp-solv_c2.gjc
+2024-08-17 10:56:10,419 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-17 10:56:18,763 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-17 10:56:18,764 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-prod-sp-solv_c1.sh creado con éxito.
+2024-08-17 10:56:18,765 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-TS-sp-solv_c2.sh creado con éxito.
+2024-08-17 10:56:18,766 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-prod-sp-solv_c1.sh creado con éxito.
+2024-08-17 10:56:18,767 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-prod-sp-solv_c2.sh creado con éxito.
+2024-08-17 10:57:12,395 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-17 10:57:12,396 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-17 10:57:12,397 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-prod-sp-solv_c2.sh
+2024-08-17 10:57:12,399 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-prod-sp-solv_c2.gjc']
+2024-08-17 10:57:12,401 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-17 10:57:12,402 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-17 10:57:12,404 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-prod-sp-solv_c2.log al Excel '001'
+2024-08-17 10:57:12,424 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-17 11:50:19,625 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-17 11:50:19,626 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-17 11:50:19,626 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-prod-sp-solv_c1.sh
+2024-08-17 11:50:19,627 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-TS-sp-solv_c2.sh
+2024-08-17 11:50:19,627 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-sp-solv_c1.sh
+2024-08-17 11:50:19,628 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-prod-sp-solv_c2.sh
+2024-08-17 11:50:19,630 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-prod-sp-solv_c1_187440.log - No finalizó correctamente
+2024-08-17 11:50:19,631 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-17 11:50:19,633 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-prod-sp-solv_c1_187440.log a Termino Mal
+2024-08-17 11:50:19,634 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-TS-sp-solv_c2_187439.log - No finalizó correctamente
+2024-08-17 11:50:19,636 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-TS-sp-solv_c2_187439.log a Termino Mal
+2024-08-17 11:50:19,637 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-sp-solv_c1_187441.log - No finalizó correctamente
+2024-08-17 11:50:19,640 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-sp-solv_c1_187441.log a Termino Mal
+2024-08-17 11:50:19,641 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-prod-sp-solv_c2_187442.log - No finalizó correctamente
+2024-08-17 11:50:19,643 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-prod-sp-solv_c2_187442.log a Termino Mal
+2024-08-17 11:50:19,644 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-prod-sp-solv_c1.gjc', '001-endo-Z-S-TS-sp-solv_c2.gjc', '001-exo-Z-R-prod-sp-solv_c1.gjc', '001-exo-Z-R-prod-sp-solv_c2.gjc']
+2024-08-17 11:50:19,646 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-17 11:50:19,648 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-17 11:50:19,649 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-sp-solv_c2.gjc movido a: C:\Linux\001-TS
+2024-08-17 11:50:19,650 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-sp-solv_c2.log movido a: C:\Linux\001-TS
+2024-08-17 11:50:19,651 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-sp-solv_c1.gjc movido a: C:\Linux\001
+2024-08-17 11:50:19,653 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-sp-solv_c1.log movido a: C:\Linux\001
+2024-08-17 11:50:19,654 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-sp-solv_c2.gjc movido a: C:\Linux\001
+2024-08-17 11:50:19,655 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-prod-sp-solv_c2.log movido a: C:\Linux\001
+2024-08-17 11:50:19,655 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-17 11:50:19,658 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-prod-sp-solv_c1.log al Excel '001'
+2024-08-17 11:50:19,658 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-sp-solv_c1.log al Excel '001'
+2024-08-17 11:50:19,659 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-prod-sp-solv_c2.log al Excel '001'
+2024-08-17 11:50:19,679 - INFO - multi_procesador:157 - Archivo Excel guardado: 001.xlsx
+2024-08-17 11:50:19,681 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-TS-sp-solv_c2.log al Excel '001-TS'
+2024-08-17 11:50:19,693 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-18 00:57:28,646 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-18 00:57:28,650 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-18 00:57:28,651 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-TS-optb_c1.sh
+2024-08-18 00:57:28,652 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-TS-optb_c1.sh
+2024-08-18 00:57:28,652 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-TS-optb_c2.sh
+2024-08-18 00:57:28,671 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-TS-optb_c1_187436.log - No finalizó correctamente
+2024-08-18 00:57:28,673 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-18 00:57:28,675 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-TS-optb_c1_187436.log a Termino Mal
+2024-08-18 00:57:28,695 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-TS-optb_c1_187437.log - No finalizó correctamente
+2024-08-18 00:57:28,697 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-TS-optb_c1_187437.log a Termino Mal
+2024-08-18 00:57:28,712 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-TS-optb_c2_187438.log - No finalizó correctamente
+2024-08-18 00:57:28,715 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-TS-optb_c2_187438.log a Termino Mal
+2024-08-18 00:57:28,716 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-TS-optb_c1.gjc', '001-exo-Z-R-TS-optb_c1.gjc', '001-exo-Z-R-TS-optb_c2.gjc']
+2024-08-18 00:57:28,718 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,719 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,720 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-optb_c1.gjc movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,721 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-optb_c1.log movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,722 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-optb_c2.gjc movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,723 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-optb_c2.log movido a: C:\Linux\001-TS
+2024-08-18 00:57:28,723 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-18 00:57:28,748 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-TS-optb_c1.log al Excel '001-TS'
+2024-08-18 00:57:28,773 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-TS-optb_c1.log al Excel '001-TS'
+2024-08-18 00:57:28,791 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-TS-optb_c2.log al Excel '001-TS'
+2024-08-18 00:57:28,815 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-18 01:01:45,733 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-18 01:02:55,361 - INFO - Create_gjc_2.0:9 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-18 01:02:55,407 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-endo-Z-S-TS-sp-solv_c1.gjc
+2024-08-18 01:02:55,436 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-exo-Z-R-TS-sp-solv_c1.gjc
+2024-08-18 01:02:55,462 - INFO - Create_gjc_2.0:43 - Estructura optimizada copiada a 001-exo-Z-R-TS-sp-solv_c2.gjc
+2024-08-18 01:03:14,508 - INFO - Create_gjc_2.0:77 - Archivo creado 001-endo-Z-S-TS-sp-solv_c1.gjc
+2024-08-18 01:03:14,514 - INFO - Create_gjc_2.0:77 - Archivo creado 001-exo-Z-R-TS-sp-solv_c1.gjc
+2024-08-18 01:03:14,521 - INFO - Create_gjc_2.0:77 - Archivo creado 001-exo-Z-R-TS-sp-solv_c2.gjc
+2024-08-18 01:03:19,351 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-18 01:03:29,925 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-18 01:03:29,926 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-endo-Z-S-TS-sp-solv_c1.sh creado con éxito.
+2024-08-18 01:03:29,927 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-18 01:03:29,928 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 001-exo-Z-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-18 08:11:00,883 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-18 08:11:00,884 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-18 08:11:00,885 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-endo-Z-S-TS-sp-solv_c1.sh
+2024-08-18 08:11:00,886 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-TS-sp-solv_c1.sh
+2024-08-18 08:11:00,886 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\001-exo-Z-R-TS-sp-solv_c2.sh
+2024-08-18 08:11:00,888 - INFO - multi_procesador:61 - Relanzar archivo: 001-endo-Z-S-TS-sp-solv_c1_187504.log - No finalizó correctamente
+2024-08-18 08:11:00,889 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-18 08:11:00,891 - INFO - multi_procesador:42 - Archivo movido: 001-endo-Z-S-TS-sp-solv_c1_187504.log a Termino Mal
+2024-08-18 08:11:00,892 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-TS-sp-solv_c1_187505.log - No finalizó correctamente
+2024-08-18 08:11:00,895 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-TS-sp-solv_c1_187505.log a Termino Mal
+2024-08-18 08:11:00,896 - INFO - multi_procesador:61 - Relanzar archivo: 001-exo-Z-R-TS-sp-solv_c2_187506.log - No finalizó correctamente
+2024-08-18 08:11:00,898 - INFO - multi_procesador:42 - Archivo movido: 001-exo-Z-R-TS-sp-solv_c2_187506.log a Termino Mal
+2024-08-18 08:11:00,899 - INFO - multi_procesador:103 - Archivos .log encontrados: ['001-endo-Z-S-TS-sp-solv_c1.gjc', '001-exo-Z-R-TS-sp-solv_c1.gjc', '001-exo-Z-R-TS-sp-solv_c2.gjc']
+2024-08-18 08:11:00,901 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,902 - INFO - multi_procesador:185 - Archivo 001-endo-Z-S-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,904 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-sp-solv_c1.gjc movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,905 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-sp-solv_c1.log movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,906 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-sp-solv_c2.gjc movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,907 - INFO - multi_procesador:185 - Archivo 001-exo-Z-R-TS-sp-solv_c2.log movido a: C:\Linux\001-TS
+2024-08-18 08:11:00,907 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-18 08:11:00,916 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-endo-Z-S-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-18 08:11:00,917 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-TS-sp-solv_c1.log al Excel '001-TS'
+2024-08-18 08:11:00,918 - INFO - multi_procesador:147 - Datos añadidos del archivo 001-exo-Z-R-TS-sp-solv_c2.log al Excel '001-TS'
+2024-08-18 08:11:00,942 - INFO - multi_procesador:157 - Archivo Excel guardado: 001-TS.xlsx
+2024-08-18 08:14:19,714 - INFO - multi_procesador:193 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-18 08:14:19,714 - INFO - multi_procesador:17 - openpyxl ya está instalado.
+2024-08-18 08:14:19,715 - INFO - multi_procesador:30 - Archivo eliminado: C:\Linux\test.sh
+2024-08-18 08:14:19,716 - INFO - multi_procesador:61 - Relanzar archivo: test.log - No finalizó correctamente
+2024-08-18 08:14:19,717 - INFO - multi_procesador:39 - Carpeta creada: Termino Mal
+2024-08-18 08:14:19,719 - INFO - multi_procesador:42 - Archivo movido: test.log a Termino Mal
+2024-08-18 08:14:19,720 - INFO - multi_procesador:61 - Relanzar archivo: test_187282.log - No finalizó correctamente
+2024-08-18 08:14:19,723 - INFO - multi_procesador:42 - Archivo movido: test_187282.log a Termino Mal
+2024-08-18 08:14:19,724 - INFO - multi_procesador:103 - Archivos .log encontrados: []
+2024-08-18 08:14:19,724 - INFO - multi_procesador:108 - No se encontró el archivo .log correspondiente a: test.gjc
+2024-08-18 08:14:19,725 - INFO - multi_procesador:39 - Carpeta creada: Relanzar
+2024-08-18 08:14:19,728 - INFO - multi_procesador:42 - Archivo movido: test.gjc a Relanzar
+2024-08-18 08:14:19,728 - INFO - multi_procesador:168 - Archivo Relanzar ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-18 08:14:19,728 - INFO - multi_procesador:168 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-18 14:25:01,370 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-18 14:26:38,878 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-18 14:26:53,289 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-18 14:26:53,291 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 002-Im-E-optb_c1.sh creado con éxito.
+2024-08-18 14:26:53,292 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 002-Im-E-optb_c2.sh creado con éxito.
+2024-08-18 14:26:53,292 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 002-Im-Z-optb_c1.sh creado con éxito.
+2024-08-18 14:26:53,293 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 002-Im-Z-optb_c2.sh creado con éxito.
+2024-08-18 15:12:38,349 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-18 15:13:01,838 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-18 15:13:01,840 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 003-Im-E-optb_c1.sh creado con éxito.
+2024-08-18 15:13:01,841 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 003-Im-E-optb_c2.sh creado con éxito.
+2024-08-18 15:13:01,841 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 003-Im-Z-optb_c1.sh creado con éxito.
+2024-08-18 15:13:01,842 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 003-Im-Z-optb_c2.sh creado con éxito.
+2024-08-18 15:29:46,033 - INFO - Spa-Gaus+CreateSH Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-18 15:30:05,053 - INFO - Spa-Gaus+CreateSH Slack:214 - Se enviarán notificaciones por Slack
+2024-08-18 15:30:05,054 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-E-optb_c1.sh creado con éxito.
+2024-08-18 15:30:05,055 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-E-optb_c2.sh creado con éxito.
+2024-08-18 15:30:05,056 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-E-optb_c3.sh creado con éxito.
+2024-08-18 15:30:05,056 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-E-optb_c4.sh creado con éxito.
+2024-08-18 15:30:05,057 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c1.sh creado con éxito.
+2024-08-18 15:30:05,058 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c2.sh creado con éxito.
+2024-08-18 15:30:05,058 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c3.sh creado con éxito.
+2024-08-18 15:30:05,059 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c4.sh creado con éxito.
+2024-08-18 15:30:05,059 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c5.sh creado con éxito.
+2024-08-18 15:30:05,060 - INFO - Spa-Gaus+CreateSH Slack:167 - Archivo 004-Im-Z-optb_c6.sh creado con éxito.
+2024-08-19 10:46:43,967 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-19 10:46:43,967 - INFO - Spa_Gaus_CreateSH_Slack:78 - No se necesita procesar ningún archivo
+2024-08-19 10:47:21,484 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 002-Im-E_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 002-Im-E_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 002-Im-Z_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 002-Im-Z_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 003-Im-E_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 003-Im-E_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 003-Im-Z_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 003-Im-Z_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-E_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-E_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-E_spartan_c3.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-E_spartan_c4.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c1.gjc se procesó correctamente.
+2024-08-19 10:47:21,485 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c2.gjc se procesó correctamente.
+2024-08-19 10:47:21,499 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c3.gjc se procesó correctamente.
+2024-08-19 10:47:21,499 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c4.gjc se procesó correctamente.
+2024-08-19 10:47:21,500 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c5.gjc se procesó correctamente.
+2024-08-19 10:47:21,501 - INFO - Spa_Gaus_CreateSH_Slack:110 - El archivo 004-Im-Z_spartan_c6.gjc se procesó correctamente.
+2024-08-19 10:47:33,571 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-19 10:47:33,571 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-Im-E_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,587 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-Im-E_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,590 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-Im-Z_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,591 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-Im-Z_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,593 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 003-Im-E_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,593 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 003-Im-E_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,593 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 003-Im-Z_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,597 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 003-Im-Z_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-E_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-E_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-E_spartan_c3.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-E_spartan_c4.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c1.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c2.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c3.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c4.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c5.sh creado con éxito.
+2024-08-19 10:47:33,599 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 004-Im-Z_spartan_c6.sh creado con éxito.
+2024-08-19 10:55:31,618 - INFO - Create_gjc_2.0:10 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-19 10:55:31,626 - INFO - Create_gjc_2.0:44 - Estructura optimizada copiada a 001-endo-E-R-TS-optb_c1.gjc
+2024-08-19 10:55:31,643 - INFO - Create_gjc_2.0:44 - Estructura optimizada copiada a 001-exo-Z-S-TS-optb_c2.gjc
+2024-08-19 10:56:19,289 - INFO - Create_gjc_2.0:78 - Archivo creado 001-endo-E-R-TS-optb_c1.gjc
+2024-08-19 10:56:19,291 - INFO - Create_gjc_2.0:78 - Archivo creado 001-exo-Z-S-TS-optb_c2.gjc
+2024-08-19 10:56:23,300 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-19 10:56:40,797 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-19 10:56:40,802 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 001-endo-E-R-TS-optb_c1.sh creado con éxito.
+2024-08-19 10:56:40,804 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 001-exo-Z-S-TS-optb_c2.sh creado con éxito.
