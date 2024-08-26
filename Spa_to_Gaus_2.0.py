@@ -3,6 +3,7 @@ import shutil
 import gzip
 import subprocess
 import Spa_Gaus_CreateSH_Slack
+import charge_changer
 
 # Constantes
 BASE_DIR = r"C:\Linux"
@@ -233,7 +234,13 @@ def main():
     rename_and_copy_gz_files()
     extract_and_cleanup_gz_files()
 
+    # Llama a la función main del script "spa_gaus_createsh_slack" para crear las notificaciones
+    # en los archivos .sh
     Spa_Gaus_CreateSH_Slack.main()
+
+    # Llama la función main del script "charge_changer" para cambiar las cargas que son
+    # creadas incorrectamente en este script.
+    charge_changer.main()
 
     '''Función removida para poder utilizar el módulo de creación de .sh junto con las notificaciones por Slack
     En caso de querer utilizar las fuciones base de este archivo, dejar como comentario la línea anterior 

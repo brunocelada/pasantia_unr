@@ -3,8 +3,8 @@ import os
 import shutil
 import subprocess
 import sys
-from openpyxl import Workbook
-import logging  
+import logging 
+from openpyxl import Workbook 
 
 # Configuración de logging
 logging.basicConfig(filename="registros/script.log", level=logging.INFO, encoding="utf-8",
@@ -14,12 +14,14 @@ logging.basicConfig(filename="registros/script.log", level=logging.INFO, encodin
 def verificar_instalar_openpyxl():
     try:
         import openpyxl
+        from openpyxl import Workbook
         logging.info("openpyxl ya está instalado.")
     except ImportError:
         print("openpyxl no está instalado. Instalando...")
         logging.info("openpyxl no está instalado. Instalando...")
         subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
         import openpyxl
+        from openpyxl import Workbook
 
 # Funcion que elimina los archivos .sh
 def eliminar_archivos_sh(carpeta_base):
@@ -133,21 +135,42 @@ def crear_excel(carpeta_base, patrones_ignorados):
                 with open(file, "r") as old_file:
                     rline = old_file.readlines()
 
-                    scf = next((i for i, line in enumerate(rline) if "SCF Done:" in line), None)
-                    gibbs = next((i for i, line in enumerate(rline) if "Sum of electronic and thermal Free Energies=" in line), None)
+                    # Encontrar la última línea con "SCF Done:"
+                    scf_line = next((line for line in reversed(rline) if "SCF Done:" in line), None)
+                    # Encontrar la última línea con "Sum of electronic and thermal Free Energies="
+                    gibbs_line_index = next((i for i, line in enumerate(reversed(rline)) if "Sum of electronic and thermal Free Energies=" in line), None)
 
-                    if gibbs is None:
-                        sheet.append([(file.rsplit(".", 1)[0]), rline[scf].split()[4], "-", "-", "-"])
+                    if scf_line is None:
+                        logging.error(f"No se encontró la energía SCF en el archivo {file}")
+                        continue
+
+                    # Extraer el valor de SCF de la línea encontrada
+                    try:
+                        scf_value = scf_line.split()[4]  # Extraemos el valor SCF
+                    except IndexError:
+                        logging.error(f"Error extrayendo el valor SCF en el archivo {file}")
+                        continue
+
+                    if gibbs_line_index is None:
+                        # Si no se encuentra la línea de Gibbs, escribir solo SCF
+                        sheet.append([(file.rsplit(".", 1)[0]), scf_value, "-", "-", "-"])
                     else:
-                        wzpe = rline[gibbs - 3].split()
-                        wentalpie = rline[gibbs - 1].split()
-                        wgibbs = rline[gibbs].split()
-                        sheet.append([(file.rsplit(".", 1)[0]), rline[scf].split()[4], wzpe[6], wentalpie[6], wgibbs[7]])
+                        # Extraer ZPE, entalpía y Gibbs
+                        gibbs_line_index = len(rline) - gibbs_line_index - 1  # Convertimos el índice de reversed a índice normal
+                        try:
+                            wzpe = rline[gibbs_line_index - 3].split()
+                            wentalpie = rline[gibbs_line_index - 1].split()
+                            wgibbs = rline[gibbs_line_index].split()
+                            sheet.append([(file.rsplit(".", 1)[0]), scf_value, wzpe[6], wentalpie[6], wgibbs[7]])
+                        except IndexError:
+                            logging.error(f"Error extrayendo ZPE, entalpía o Gibbs en el archivo {file}")
 
                 logging.info(f"Datos añadidos del archivo {file} al Excel '{nombre_carpeta}'")
             except Exception as e:
                 logging.error(f"Error procesando archivo {file} para Excel {nombre_carpeta}: {e}")
 
+
+        # Ajustar el ancho de las columnas
         for col in sheet.columns:
             max_length = max(len(str(cell.value)) for cell in col if cell.value)
             adjusted_width = max_length + 2
