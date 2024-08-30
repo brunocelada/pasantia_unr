@@ -66,7 +66,7 @@ def verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorad
                 continue
     
             # Key phrases para buscar frecuencias negativas
-            target_phrases = ["NImag=1", "NImag\n=1", "NIma\ng=1", "NI\nmag=1"]
+            target_phrases = ["NImag=1", "NImag=\n1", "NIm\nag=1", "N\nImag=1", "NImag\n=1", "NIma\ng=1", "NI\nmag=1"]
 
             # Verificar si el archivo tiene un patrón en su nombre que debe evitarse
             if not any(patron in file for patron in patrones_conocidos):

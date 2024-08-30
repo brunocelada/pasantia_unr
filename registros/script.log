@@ -6287,3 +6287,124 @@
 2024-08-26 20:32:08,690 - INFO - multi_procesador:168 - Datos añadidos del archivo uncat-exo-TS-sp-solv_c2.log al Excel 'uncat-TS'
 2024-08-26 20:32:08,691 - INFO - multi_procesador:168 - Datos añadidos del archivo uncat-exo-TS-sp-solv_c3.log al Excel 'uncat-TS'
 2024-08-26 20:32:08,703 - INFO - multi_procesador:180 - Archivo Excel guardado: uncat-TS.xlsx
+2024-08-27 18:19:59,963 - INFO - multi_procesador:216 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-27 18:19:59,964 - INFO - multi_procesador:18 - openpyxl ya está instalado.
+2024-08-27 18:19:59,965 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS_spartan_c1.sh
+2024-08-27 18:20:00,004 - INFO - multi_procesador:105 - Archivos .log encontrados: ['002-exo-E-R-TS_spartan_c1.gjc']
+2024-08-27 18:20:00,006 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c1.gjc movido a: C:\Linux\002-TS
+2024-08-27 18:20:00,008 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c1.log movido a: C:\Linux\002-TS
+2024-08-27 18:20:00,047 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS_spartan_c1.log al Excel '002-TS'
+2024-08-27 18:20:00,070 - INFO - multi_procesador:180 - Archivo Excel guardado: 002-TS.xlsx
+2024-08-27 18:24:45,861 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-27 18:25:12,064 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-27 18:25:12,065 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS_spartan_c1.sh creado con éxito.
+2024-08-27 18:28:26,332 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-27 18:29:00,635 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-27 18:29:08,468 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-27 18:29:08,469 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS_spartan_c2.sh creado con éxito.
+2024-08-28 16:58:30,268 - INFO - multi_procesador:216 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-28 16:58:30,269 - INFO - multi_procesador:18 - openpyxl ya está instalado.
+2024-08-28 16:58:30,270 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS_spartan_c1.sh
+2024-08-28 16:58:30,270 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS_spartan_c2.sh
+2024-08-28 16:58:30,317 - INFO - multi_procesador:63 - Relanzar archivo: 002-exo-E-R-TS_spartan_c1_189669.log - No finalizó correctamente
+2024-08-28 16:58:30,317 - INFO - multi_procesador:41 - Carpeta creada: Termino Mal
+2024-08-28 16:58:30,320 - INFO - multi_procesador:44 - Archivo movido: 002-exo-E-R-TS_spartan_c1_189669.log a Termino Mal
+2024-08-28 16:58:30,356 - INFO - multi_procesador:63 - Relanzar archivo: 002-exo-E-R-TS_spartan_c2_189670.log - No finalizó correctamente
+2024-08-28 16:58:30,360 - INFO - multi_procesador:44 - Archivo movido: 002-exo-E-R-TS_spartan_c2_189670.log a Termino Mal
+2024-08-28 16:58:30,361 - INFO - multi_procesador:105 - Archivos .log encontrados: ['002-exo-E-R-TS_spartan_c1.gjc', '002-exo-E-R-TS_spartan_c2.gjc']
+2024-08-28 16:58:30,363 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c1.gjc movido a: C:\Linux\002-TS
+2024-08-28 16:58:30,365 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c1.log movido a: C:\Linux\002-TS
+2024-08-28 16:58:30,367 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c2.gjc movido a: C:\Linux\002-TS
+2024-08-28 16:58:30,368 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS_spartan_c2.log movido a: C:\Linux\002-TS
+2024-08-28 16:58:30,369 - INFO - multi_procesador:191 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-28 16:58:30,396 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS_spartan_c1.log al Excel '002-TS'
+2024-08-28 16:58:30,418 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS_spartan_c2.log al Excel '002-TS'
+2024-08-28 16:58:30,445 - INFO - multi_procesador:180 - Archivo Excel guardado: 002-TS.xlsx
+2024-08-28 17:06:27,606 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-28 17:06:38,824 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-28 17:06:38,825 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS-optb_c1.sh creado con éxito.
+2024-08-28 17:07:19,674 - INFO - Create_gjc_2.0:10 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-28 17:07:19,708 - INFO - Create_gjc_2.0:44 - Estructura optimizada copiada a 002-exo-E-R-TS-optb_c2.gjc
+2024-08-28 17:07:49,615 - INFO - Create_gjc_2.0:78 - Archivo creado 002-exo-E-R-TS-optb_c2.gjc
+2024-08-28 17:07:52,745 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-28 17:08:13,543 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-28 17:08:13,544 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS-optb_c2.sh creado con éxito.
+2024-08-28 17:08:44,949 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-28 17:08:56,263 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-28 17:08:56,264 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS-sp-solv_c2.sh creado con éxito.
+2024-08-28 18:52:54,865 - INFO - multi_procesador:216 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-28 18:52:54,867 - INFO - multi_procesador:18 - openpyxl ya está instalado.
+2024-08-28 18:52:54,867 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS-sp-solv_c2.sh
+2024-08-28 18:52:54,869 - INFO - multi_procesador:63 - Relanzar archivo: 002-exo-E-R-TS-sp-solv_c2_191052.log - No finalizó correctamente
+2024-08-28 18:52:54,869 - INFO - multi_procesador:41 - Carpeta creada: Termino Mal
+2024-08-28 18:52:54,871 - INFO - multi_procesador:44 - Archivo movido: 002-exo-E-R-TS-sp-solv_c2_191052.log a Termino Mal
+2024-08-28 18:52:54,872 - INFO - multi_procesador:105 - Archivos .log encontrados: ['002-exo-E-R-TS-sp-solv_c2.gjc']
+2024-08-28 18:52:54,873 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-sp-solv_c2.gjc movido a: C:\Linux\002-TS
+2024-08-28 18:52:54,874 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-sp-solv_c2.log movido a: C:\Linux\002-TS
+2024-08-28 18:52:54,874 - INFO - multi_procesador:191 - Archivo Termino Mal ignorado porque contiene un patrón de la lista ignorada: ['Frecuencias Negativas', 'Fre', 'Relanzar', 'Rel', 'Termino Mal', 'Ter']
+2024-08-28 18:52:54,877 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS-sp-solv_c2.log al Excel '002-TS'
+2024-08-28 18:52:54,898 - INFO - multi_procesador:180 - Archivo Excel guardado: 002-TS.xlsx
+2024-08-29 08:21:06,718 - INFO - Create_gjc_2.0:10 - 
+
+-------NEW CREADOR SINGLE POINT-------
+
+2024-08-29 08:21:06,732 - INFO - Create_gjc_2.0:44 - Estructura optimizada copiada a 002-exo-E-R-TS-sp-solv_c1.gjc
+2024-08-29 08:21:39,964 - INFO - Create_gjc_2.0:78 - Archivo creado 002-exo-E-R-TS-sp-solv_c1.gjc
+2024-08-29 08:21:41,379 - INFO - Spa_Gaus_CreateSH_Slack:172 - 
+
+-------NEW SPA TO GAUSS + CREATE SH-------
+
+2024-08-29 08:21:52,091 - INFO - Spa_Gaus_CreateSH_Slack:214 - Se enviarán notificaciones por Slack
+2024-08-29 08:21:52,096 - INFO - Spa_Gaus_CreateSH_Slack:167 - Archivo 002-exo-E-R-TS-sp-solv_c1.sh creado con éxito.
+2024-08-29 08:22:56,422 - INFO - multi_procesador:216 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-29 08:22:56,422 - INFO - multi_procesador:18 - openpyxl ya está instalado.
+2024-08-29 08:22:56,423 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS-optb_c1.sh
+2024-08-29 08:22:56,435 - INFO - multi_procesador:105 - Archivos .log encontrados: ['002-exo-E-R-TS-optb_c1.gjc']
+2024-08-29 08:22:56,441 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-optb_c1.gjc movido a: C:\Linux\002-TS
+2024-08-29 08:22:56,443 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-optb_c1.log movido a: C:\Linux\002-TS
+2024-08-29 08:22:56,453 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS-optb_c1.log al Excel '002-TS'
+2024-08-29 08:22:56,471 - INFO - multi_procesador:180 - Archivo Excel guardado: 002-TS.xlsx
+2024-08-29 21:00:25,983 - INFO - multi_procesador:216 - 
+
+-------NEW MULTI_PROCESADOR FINAL-------
+
+2024-08-29 21:00:25,984 - INFO - multi_procesador:18 - openpyxl ya está instalado.
+2024-08-29 21:00:25,985 - INFO - multi_procesador:32 - Archivo eliminado: C:\Linux\002-exo-E-R-TS-optb_c1.sh
+2024-08-29 21:00:26,011 - INFO - multi_procesador:105 - Archivos .log encontrados: ['002-exo-E-R-TS-optb_c1.gjc']
+2024-08-29 21:00:26,013 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-optb_c1.gjc movido a: C:\Linux\002-TS
+2024-08-29 21:00:26,014 - INFO - multi_procesador:208 - Archivo 002-exo-E-R-TS-optb_c1.log movido a: C:\Linux\002-TS
+2024-08-29 21:00:26,032 - INFO - multi_procesador:168 - Datos añadidos del archivo 002-exo-E-R-TS-optb_c1.log al Excel '002-TS'
+2024-08-29 21:00:26,052 - INFO - multi_procesador:180 - Archivo Excel guardado: 002-TS.xlsx
