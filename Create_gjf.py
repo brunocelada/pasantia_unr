@@ -1,9 +1,9 @@
 import glob
 import os
 
-os.chdir ("C:\linux")
+os.chdir ("C:\\linux")
 
-listing = glob.glob("C:\linux\*.out")
+listing = glob.glob("C:\\linux\\*.out")
 
 for file in listing:
     os.rename(file,( file.rsplit( ".", 1 )[ 0 ] )+".log"); #to rename file

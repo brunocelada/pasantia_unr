@@ -3,25 +3,26 @@ import os
 import shutil
 import subprocess
 import sys
-import logging 
-from openpyxl import Workbook 
+import logging
+import boltz_procesador
+import master_excel
+
+# Verificar e instalar openpyxl si no está instalado
+try:
+    import openpyxl
+    from openpyxl import Workbook
+    logging.info("openpyxl ya está instalado.")
+except ImportError:
+    print("openpyxl no está instalado. Instalando...")
+    logging.info("openpyxl no está instalado. Instalando...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
+    import openpyxl
+    from openpyxl import Workbook
+
 
 # Configuración de logging
 logging.basicConfig(filename="registros/script.log", level=logging.INFO, encoding="utf-8",
                     format="%(asctime)s - %(levelname)s - %(module)s:%(lineno)d - %(message)s")
-
-# Función para verificar e instalar openpyxl si no está instalado
-def verificar_instalar_openpyxl():
-    try:
-        import openpyxl
-        from openpyxl import Workbook
-        logging.info("openpyxl ya está instalado.")
-    except ImportError:
-        print("openpyxl no está instalado. Instalando...")
-        logging.info("openpyxl no está instalado. Instalando...")
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "openpyxl"])
-        import openpyxl
-        from openpyxl import Workbook
 
 # Funcion que elimina los archivos .sh
 def eliminar_archivos_sh(carpeta_base):
@@ -48,7 +49,7 @@ def move_file_to_folder(file_path, folder_name):
 # Funcion que verifica la correcta terminación de los archivos .log
 def verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorados):
     os.chdir(carpeta_base)
-    
+
     for file in glob.glob("*.log"):
         try:
             # Ignorar archivos que contengan cualquiera de los patrones en su nombre
@@ -58,13 +59,13 @@ def verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorad
 
             with open(file, "r") as old:
                 lines = old.readlines()[-3:]
-    
+
             if not any("Normal termination" in line for line in lines):
                 logging.info(f"Relanzar archivo: {file} - No finalizó correctamente")
                 print(f"Relanzar archivo: {file} - No finalizó correctamente")
                 move_file_to_folder(file, "Termino Mal")
                 continue
-    
+
             # Key phrases para buscar frecuencias negativas
             target_phrases = ["NImag=1", "NImag=\n1", "NIm\nag=1", "N\nImag=1", "NImag\n=1", "NIma\ng=1", "NI\nmag=1"]
 
@@ -115,7 +116,7 @@ def procesar_archivos_gjc(carpeta_base):
 # Funcion que crea archivos Excel para los .log correctamente procesados
 def crear_excel(carpeta_base, patrones_ignorados):
     carpetas = glob.glob(os.path.join(carpeta_base, "*"))
-    
+
     for carpeta in carpetas:
         nombre_carpeta = os.path.basename(carpeta)
 
@@ -124,7 +125,7 @@ def crear_excel(carpeta_base, patrones_ignorados):
 
         os.chdir(carpeta)
         renombrar_archivos_out_a_log(carpeta)
-        
+
         workbook = Workbook()
         sheet = workbook.active
         sheet.title = nombre_carpeta
@@ -179,6 +180,19 @@ def crear_excel(carpeta_base, patrones_ignorados):
         workbook.save(f"{nombre_carpeta}.xlsx")
         logging.info(f"Archivo Excel guardado: {nombre_carpeta}.xlsx")
 
+# Funcion que llama al script "master_excel.py" para unir los archivos Excel en 1 solo, separandolos por hojas
+def unirHojasExcel(carpeta_base, patrones_ignorados):
+    carpetas = glob.glob(os.path.join(carpeta_base, "*"))
+    
+    for carpeta in carpetas:
+        nombre_carpeta = os.path.basename(carpeta)
+
+        if nombre_carpeta in patrones_ignorados:
+            continue
+
+        # Unir los archivos Excel en uno solo, con hojas separadas
+        master_excel.process_excel_files(carpeta, f"{nombre_carpeta}_Boltz.xlsx")
+
 # Funcion que organiza los archivos en carpetas con prefijos seleccionados
 def organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados):
     archivos = os.listdir(carpeta_base)
@@ -216,20 +230,26 @@ def main():
     logging.info("\n\n-------NEW MULTI_PROCESADOR FINAL-------\n")
 
     carpeta_base = "C:\\Linux"
-    
+
     # Lista de patrones conocidos
     patrones_conocidos = ["TS"]
-    
+
     # Carpetas que no se procesarán
     patrones_ignorados = ["Frecuencias Negativas", "Fre", "Relanzar", "Rel", "Termino Mal", "Ter"]
 
-    verificar_instalar_openpyxl()
     eliminar_archivos_sh(carpeta_base)
     verificar_terminacion_log(carpeta_base, patrones_conocidos, patrones_ignorados)
     renombrar_archivos_out_a_log(carpeta_base)
     procesar_archivos_gjc(carpeta_base)
     organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados)
     crear_excel(carpeta_base, patrones_ignorados)
+
+    if (input("Quiere procesar los archivos para el estudio 'Boltzmann'? (y/n) ") == "y"):
+        # Procesar los archivos Boltzmann.xlsx renombrando por carpeta, editandolos.
+        boltz_procesador.main()
+
+        # Unir los archivos Excel en 1 solo
+        unirHojasExcel(carpeta_base, patrones_ignorados)
 
     print("\nProcesamiento finalizado\n")
 
