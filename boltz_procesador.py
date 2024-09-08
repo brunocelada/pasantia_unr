@@ -7,6 +7,10 @@ from openpyxl import Workbook, load_workbook
 from openpyxl.styles import Font, Alignment, PatternFill, Border, Side, numbers
 import boltz_2_ordenado_SCF
 
+# Configuración de logging
+logging.basicConfig(filename="registros/script.log", level=logging.INFO, encoding="utf-8",
+                    format="%(asctime)s - %(levelname)s - %(module)s:%(lineno)d - %(message)s")
+
 # Verificar e instalar openpyxl si no está instalado
 try:
     import xlwings as xw

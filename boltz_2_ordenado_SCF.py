@@ -4,6 +4,10 @@ import math
 from openpyxl import Workbook
 import logging
 
+# Configuración de logging
+logging.basicConfig(filename="registros/script.log", level=logging.INFO, encoding="utf-8",
+                    format="%(asctime)s - %(levelname)s - %(module)s:%(lineno)d - %(message)s")
+
 # Definir constantes
 K_B = 1.987e-3  # Constante de Boltzmann en kcal/(mol·K)
 TEMPERATURE = 298.15  # Temperatura en Kelvin
