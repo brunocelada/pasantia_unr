@@ -95,7 +95,7 @@ def process_excel_files(directory, master_file_name):
                     new_sheet_name = f"{file_name}-{sheet_number}" if sheet_number > 1 else file_name
                     master_sheet = master_workbook.create_sheet(title=new_sheet_name)
 
-                    # Copia de datos
+                    # Copia de datos (vieja)
                     # for row in ws.iter_rows(values_only=True):
                     #     master_sheet.append(row)
 
