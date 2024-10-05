@@ -104,7 +104,7 @@ def update_gjc_files():
 
     # Menú para seleccionar la command line
     print("Seleccione una opción para la command line:")
-    print("1) optb")
+    print("1) optb-normal")
     print("2) DP4")
     print("3) DP4+")
     print("4) ML")
@@ -125,6 +125,7 @@ def update_gjc_files():
     else:
         print("Opción no válida. Usando opción Custom por defecto.")
         valor_a3 = input('Custom command line: # ')
+        # B3LYP/6-31G* opt(TS,calcfc,noeigentest) freq=noraman
 
     for file in files:
         file_path = os.path.join(BASE_DIR, file)
@@ -236,21 +237,26 @@ def main():
 
     # Llama a la función main del script "spa_gaus_createsh_slack" para crear las notificaciones
     # en los archivos .sh
-    Spa_Gaus_CreateSH_Slack.main()
-
-    # Llama la función main del script "charge_changer" para cambiar las cargas que son
-    # creadas incorrectamente en este script.
-    charge_changer.main()
+    # Spa_Gaus_CreateSH_Slack.main()
 
     '''Función removida para poder utilizar el módulo de creación de .sh junto con las notificaciones por Slack
     En caso de querer utilizar las fuciones base de este archivo, dejar como comentario la línea anterior 
     "Spa_Gaus_CreateSH_Slack.main()" y des-comentar las líneas posteriores a esta nota.
     '''
-    # update_gjc_files()
-    # create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
+    update_gjc_files()
+    create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
     
-    # if create_sh == "y":
-        # generate_sh_files()
+    if create_sh == "y":
+        generate_sh_files()
+
+    # Llama la función main del script "charge_changer" para cambiar las cargas que son
+    # creadas incorrectamente en este script.
+    charge_changer.main()
+
+    # Recordatorio
+    print("\nAcordate de eliminar el sufico 'spartan' en caso de ser necesario")
+
+    print("\nFinalizado\n")
 
 if __name__ == "__main__":
     main()

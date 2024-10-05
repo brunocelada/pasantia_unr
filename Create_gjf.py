@@ -1,5 +1,6 @@
 import glob
 import os
+import charge_changer
 
 os.chdir ("C:\\linux")
 
@@ -42,3 +43,5 @@ print("", file=new)
 print("", file=new)
 
 new.close()
+
+charge_changer.main()

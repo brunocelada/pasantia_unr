@@ -24,7 +24,19 @@ sh_template = """#!/bin/bash
 
 # ------- Defining root directory for gaussian
 
-g09root=/opt/ohpc/pub/apps/software/Gaussian/09/AMD64.SSE4a-enabled
+CPU=$(head /proc/cpuinfo | grep "model name")
+
+MODELO="Intel(R)"
+
+if [[ $CPU = *$MODELO* ]]
+then
+    echo "micro Intel"
+    g09root=/opt/ohpc/pub/apps/software/Gaussian/09/EM64T.SSE4.2-enabled
+else
+    echo "micro AMD"
+    g09root=/opt/ohpc/pub/apps/software/Gaussian/09/AMD64.SSE4a-enabled
+fi
+
 mkdir /local/$USER
 GAUSS_SCRDIR=/local/$USER
 export g09root GAUSS_SCRDIR
@@ -156,7 +168,7 @@ if [ $status -eq 0 ]; then
 else
     curl -X POST -H 'Content-type: application/json; charset=utf-8' \
     --data "{{\\"text\\":\\"¡Error en el cálculo para el archivo {job_name}! Tiempo total: $RUN_TIME $TIME_UNIT.\\"}}" \
-    https://hooks.slack.com/services/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
+    https://hooks.slack.com/services/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
 fi
 """
 
@@ -187,18 +199,29 @@ def main():
         print("\nNo se crearán los archivos .sh. Se cerrará el programa.\n")
         sys.exit()
 
-    ETH = int(input("\nQue tipo de colas? 1 para HI, 9 para Lo: "))
-    while ETH not in [1, 9]:
+    ETH = int(input("\nQue tipo de colas? 1 para HI, 3 para epyc, 5 para IB100,6 para gpua10, 7 para colas cortas, 8 para organica, 9 para Lo:  "))
+    
+    while ETH not in [1, 3, 5, 6, 7, 8, 9]:
         print("Tipeaste mal")
-        ETH = int(input("Que tipo de colas? 1 para HI, 9 para Lo: "))
-    part = "eth_hi" if ETH == 1 else "eth_low"
-
+        ETH = int(input("Que tipo de colas? 1 para HI, 3 para epyc, 5 para IB100,6 para gpua10, 7 para colas cortas, 8 para organica, 9 para Lo:  "))
+    
+    part = {
+        1: "eth_hi",
+        3: "eth_epyc",
+        5: "ib100",
+        6: "gpua10",
+        7: "matcond,colisiones,colisionesNuevo,ferro,fiquin,organica",
+        8: "organica",
+        9: "eth_low"
+    }[ETH]
+    
     nprocshared = input("Cuantos procesadores queres?: ")
 
     jobtime = int(input("Que tiempo queres? 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
     while jobtime not in [1, 5, 9]:
         print("Tipeaste mal")
         jobtime = int(input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
+        
     tiempo = {1: "12", 5: "24", 9: "48"}[jobtime]        
 
     folder = input("Folder: ")

@@ -242,14 +242,18 @@ def main():
     renombrar_archivos_out_a_log(carpeta_base)
     procesar_archivos_gjc(carpeta_base)
     organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados)
-    crear_excel(carpeta_base, patrones_ignorados)
 
-    if (input("Quiere procesar los archivos para el estudio 'Boltzmann'? (y/n) ") == "y"):
-        # Procesar los archivos Boltzmann.xlsx renombrando por carpeta, editandolos.
-        boltz_procesador.main()
+    if (input("Quiere crear el excel con las energías? (y/n) ") == "y"):
+        # Crea el archivo excel con las energías de cada .log según el orden de las subcarpetas.
+        crear_excel(carpeta_base, patrones_ignorados)
+    
 
-        # Unir los archivos Excel en 1 solo
-        unirHojasExcel(carpeta_base, patrones_ignorados)
+        if (input("Quiere procesar los archivos para el estudio 'Boltzmann'? (y/n) ") == "y"):
+            # Procesar los archivos Boltzmann.xlsx renombrando por carpeta, editandolos.
+            boltz_procesador.main()
+
+            # Unir los archivos Excel en 1 solo
+            unirHojasExcel(carpeta_base, patrones_ignorados)
 
     print("\nProcesamiento finalizado\n")
 
