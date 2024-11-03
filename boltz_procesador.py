@@ -39,7 +39,8 @@ def calc_percent(ws, value1, value2):
     ws["F11"] = '=MAX(F7:G7)'
 
     for i in range(2, 1000):
-        ws[f"J{i}"] = f'=IF(A{i}<>"", IF(ISNUMBER(FIND($F$2, A{i})), $F$2, $G$2), "")'
+        ws[f"J{i}"] = f'=IF(A{i}<>"", IF(ISNUMBER(SEARCH($F$2, A{i})), $F$2, IF(ISNUMBER(SEARCH($G$2, A{i})), $G$2, "ERROR!")), "")'
+                      # =SI(A2<>""; SI(ESNUMERO(HALLAR($F$2; A2)); $F$2; SI(ESNUMERO(HALLAR($G$2; A2)); $G$2; "error!!")); "")
     
     style_sheet(ws)
 

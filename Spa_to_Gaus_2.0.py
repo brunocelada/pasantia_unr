@@ -249,12 +249,15 @@ def main():
     if create_sh == "y":
         generate_sh_files()
 
+    
+    change_charge = input("Cambiar carga/multip? (y/n): ").strip().lower()
     # Llama la función main del script "charge_changer" para cambiar las cargas que son
     # creadas incorrectamente en este script.
-    charge_changer.main()
+    if change_charge == "y":
+        charge_changer.main()
 
     # Recordatorio
-    print("\nAcordate de eliminar el sufico 'spartan' en caso de ser necesario")
+    print("\nAcordate de eliminar el sufijo 'spartan' en caso de ser necesario")
 
     print("\nFinalizado\n")
 

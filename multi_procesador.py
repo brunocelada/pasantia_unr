@@ -243,12 +243,12 @@ def main():
     procesar_archivos_gjc(carpeta_base)
     organizar_archivos(carpeta_base, patrones_conocidos, patrones_ignorados)
 
-    if (input("Quiere crear el excel con las energías? (y/n) ") == "y"):
+    if (input("Quiere crear el excel con las energías? (y/n) ").lower() == "y"):
         # Crea el archivo excel con las energías de cada .log según el orden de las subcarpetas.
         crear_excel(carpeta_base, patrones_ignorados)
     
 
-        if (input("Quiere procesar los archivos para el estudio 'Boltzmann'? (y/n) ") == "y"):
+        if (input("Quiere procesar los archivos para el estudio 'Boltzmann'? (y/n) ").lower() == "y"):
             # Procesar los archivos Boltzmann.xlsx renombrando por carpeta, editandolos.
             boltz_procesador.main()
 

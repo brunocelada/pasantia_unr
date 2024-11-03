@@ -44,4 +44,3 @@ print("", file=new)
 
 new.close()
 
-charge_changer.main()
