@@ -1,0 +1,210 @@
+2024-11-19 16:13:23,291 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:13:25,253 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:13:25,271 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:13:25,271 - INFO - structure_fusioner:252 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:13:25,271 - INFO - structure_fusioner:86 - Error buscando excel_file.
+2024-11-19 16:13:25,272 - INFO - structure_fusioner:260 - Error buscando el archivo excel con los smiles
+
+2024-11-19 16:14:32,951 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:14:33,457 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:14:33,463 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:14:33,463 - INFO - structure_fusioner:252 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:14:34,100 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:14:34,129 - INFO - structure_fusioner:266 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:14:34,150 - INFO - structure_fusioner:172 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:14:34,158 - INFO - structure_fusioner:172 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:14:34,168 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:14:34,176 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:14:34,185 - INFO - structure_fusioner:172 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:14:34,195 - INFO - structure_fusioner:172 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:14:34,205 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:14:34,208 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:14:34,208 - INFO - structure_fusioner:176 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:14:39,214 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-E-R-TS.png
+2024-11-19 16:14:39,230 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-E-S-TS.png
+2024-11-19 16:14:39,245 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-Z-R-TS.png
+2024-11-19 16:14:39,262 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-Z-S-TS.png
+2024-11-19 16:14:39,278 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-E-R-TS.png
+2024-11-19 16:14:39,295 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-E-S-TS.png
+2024-11-19 16:14:39,311 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-Z-R-TS.png
+2024-11-19 16:14:39,327 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-Z-S-TS.png
+2024-11-19 16:14:39,343 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_1.png
+2024-11-19 16:14:39,354 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_2.png
+2024-11-19 16:14:39,365 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_3.png
+2024-11-19 16:14:39,376 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_4.png
+2024-11-19 16:24:50,596 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:24:51,082 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:24:51,088 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:24:51,088 - INFO - structure_fusioner:246 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:24:51,500 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:24:51,501 - INFO - structure_fusioner:260 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:24:51,503 - INFO - structure_fusioner:172 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:24:51,504 - INFO - structure_fusioner:172 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:24:51,505 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:24:51,506 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:24:51,507 - INFO - structure_fusioner:172 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:24:51,509 - INFO - structure_fusioner:172 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:24:51,510 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:24:51,512 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:24:51,512 - INFO - structure_fusioner:176 - El archivo C22N4H26O5.xyz no es de tipo .mol, se omite.
+2024-11-19 16:24:51,512 - INFO - structure_fusioner:176 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:24:56,137 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-E-R-TS.png
+2024-11-19 16:24:56,153 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-E-S-TS.png
+2024-11-19 16:24:56,169 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-Z-R-TS.png
+2024-11-19 16:24:56,185 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-endo-Z-S-TS.png
+2024-11-19 16:24:56,201 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-E-R-TS.png
+2024-11-19 16:24:56,217 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-E-S-TS.png
+2024-11-19 16:24:56,233 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-Z-R-TS.png
+2024-11-19 16:24:56,249 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_001-exo-Z-S-TS.png
+2024-11-19 16:24:56,260 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_1.png
+2024-11-19 16:24:56,271 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_2.png
+2024-11-19 16:24:56,281 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_3.png
+2024-11-19 16:24:56,292 - INFO - structure_fusioner:103 - Estructura 3D guardada como fragment_4.png
+2024-11-19 16:25:09,469 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-endo-E-R-TS.xyz
+2024-11-19 16:25:09,474 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-endo-E-S-TS.xyz
+2024-11-19 16:25:09,477 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-endo-Z-R-TS.xyz
+2024-11-19 16:25:09,481 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-endo-Z-S-TS.xyz
+2024-11-19 16:25:09,485 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-exo-E-R-TS.xyz
+2024-11-19 16:25:09,490 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-exo-E-S-TS.xyz
+2024-11-19 16:25:09,494 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-exo-Z-R-TS.xyz
+2024-11-19 16:25:09,498 - INFO - structure_fusioner:240 - Archivo .xyz guardado en: C:\Linux\001-exo-Z-S-TS.xyz
+2024-11-19 16:30:18,509 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:30:19,024 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:30:19,029 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:30:19,030 - INFO - structure_fusioner:246 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:30:19,438 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:30:19,440 - INFO - structure_fusioner:260 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:30:19,441 - INFO - structure_fusioner:172 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:30:19,442 - INFO - structure_fusioner:176 - El archivo 001-endo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,443 - INFO - structure_fusioner:172 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:30:19,443 - INFO - structure_fusioner:176 - El archivo 001-endo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,444 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:30:19,444 - INFO - structure_fusioner:176 - El archivo 001-endo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,445 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:30:19,445 - INFO - structure_fusioner:176 - El archivo 001-endo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,447 - INFO - structure_fusioner:172 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:30:19,447 - INFO - structure_fusioner:176 - El archivo 001-exo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,448 - INFO - structure_fusioner:172 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:30:19,448 - INFO - structure_fusioner:176 - El archivo 001-exo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,450 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:30:19,450 - INFO - structure_fusioner:176 - El archivo 001-exo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,451 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:30:19,451 - INFO - structure_fusioner:176 - El archivo 001-exo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,451 - INFO - structure_fusioner:176 - El archivo C22N4H26O5.xyz no es de tipo .mol, se omite.
+2024-11-19 16:30:19,451 - INFO - structure_fusioner:176 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:31:08,237 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:31:08,715 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:31:08,720 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:31:08,720 - INFO - structure_fusioner:246 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:31:09,125 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:31:09,126 - INFO - structure_fusioner:260 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:31:09,128 - INFO - structure_fusioner:172 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:31:09,128 - INFO - structure_fusioner:176 - El archivo 001-endo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,129 - INFO - structure_fusioner:172 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:31:09,130 - INFO - structure_fusioner:176 - El archivo 001-endo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,131 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:31:09,131 - INFO - structure_fusioner:176 - El archivo 001-endo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,133 - INFO - structure_fusioner:172 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:31:09,133 - INFO - structure_fusioner:176 - El archivo 001-endo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,134 - INFO - structure_fusioner:172 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:31:09,135 - INFO - structure_fusioner:176 - El archivo 001-exo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,136 - INFO - structure_fusioner:172 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:31:09,136 - INFO - structure_fusioner:176 - El archivo 001-exo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,138 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:31:09,139 - INFO - structure_fusioner:176 - El archivo 001-exo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,141 - INFO - structure_fusioner:172 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:31:09,141 - INFO - structure_fusioner:176 - El archivo 001-exo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,141 - INFO - structure_fusioner:176 - El archivo C22N4H26O5.xyz no es de tipo .mol, se omite.
+2024-11-19 16:31:09,141 - INFO - structure_fusioner:176 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:34:09,406 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:34:09,884 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:34:09,890 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:34:09,890 - INFO - structure_fusioner:251 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:34:10,297 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:34:10,298 - INFO - structure_fusioner:265 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:34:10,300 - INFO - structure_fusioner:177 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:34:10,300 - INFO - structure_fusioner:181 - El archivo 001-endo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,301 - INFO - structure_fusioner:177 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:34:10,301 - INFO - structure_fusioner:181 - El archivo 001-endo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,303 - INFO - structure_fusioner:177 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:34:10,303 - INFO - structure_fusioner:181 - El archivo 001-endo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,304 - INFO - structure_fusioner:177 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:34:10,305 - INFO - structure_fusioner:181 - El archivo 001-endo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,306 - INFO - structure_fusioner:177 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:34:10,306 - INFO - structure_fusioner:181 - El archivo 001-exo-E-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,308 - INFO - structure_fusioner:177 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:34:10,308 - INFO - structure_fusioner:181 - El archivo 001-exo-E-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,309 - INFO - structure_fusioner:177 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:34:10,309 - INFO - structure_fusioner:181 - El archivo 001-exo-Z-R-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,311 - INFO - structure_fusioner:177 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:34:10,311 - INFO - structure_fusioner:181 - El archivo 001-exo-Z-S-TS.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,311 - INFO - structure_fusioner:181 - El archivo C22N4H26O5.xyz no es de tipo .mol, se omite.
+2024-11-19 16:34:10,312 - INFO - structure_fusioner:181 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:34:12,816 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-E-R-TS.png
+2024-11-19 16:34:12,831 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-E-S-TS.png
+2024-11-19 16:34:12,847 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-Z-R-TS.png
+2024-11-19 16:34:12,862 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-Z-S-TS.png
+2024-11-19 16:34:12,877 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-E-R-TS.png
+2024-11-19 16:34:12,893 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-E-S-TS.png
+2024-11-19 16:34:12,917 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-Z-R-TS.png
+2024-11-19 16:34:12,932 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-Z-S-TS.png
+2024-11-19 16:34:12,942 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_1.png
+2024-11-19 16:34:12,952 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_2.png
+2024-11-19 16:34:12,962 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_3.png
+2024-11-19 16:34:12,972 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_4.png
+2024-11-19 16:34:59,576 - INFO - structure_fusioner:50 - rdkit ya está instalado.
+2024-11-19 16:35:00,070 - INFO - structure_fusioner:61 - pandas ya está instalado.
+2024-11-19 16:35:00,076 - INFO - structure_fusioner:70 - py3Dmol ya está instalado.
+2024-11-19 16:35:00,077 - INFO - structure_fusioner:251 - 
+
+------- NEW STRUCTURE FUSIONER -------
+
+2024-11-19 16:35:00,490 - INFO - structure_fusioner:96 - Se han cargado 5 fragmentos.
+2024-11-19 16:35:00,491 - INFO - structure_fusioner:265 - Listado de fragmentos: ['C1CCC(C)*C1', 'c1cccc2c1cc(*)cc2', '*Oc(c1)cccc1C#N', 'c1cc(ccc1)*', 'C1=C(*)C=CC=C1']. Cada fragmento es tipo string.
+2024-11-19 16:35:00,493 - INFO - structure_fusioner:177 - Archivo 001-endo-E-R-TS.mol leído correctamente.
+2024-11-19 16:35:00,495 - INFO - structure_fusioner:177 - Archivo 001-endo-E-S-TS.mol leído correctamente.
+2024-11-19 16:35:00,496 - INFO - structure_fusioner:177 - Archivo 001-endo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:35:00,497 - INFO - structure_fusioner:177 - Archivo 001-endo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:35:00,499 - INFO - structure_fusioner:177 - Archivo 001-exo-E-R-TS.mol leído correctamente.
+2024-11-19 16:35:00,501 - INFO - structure_fusioner:177 - Archivo 001-exo-E-S-TS.mol leído correctamente.
+2024-11-19 16:35:00,503 - INFO - structure_fusioner:177 - Archivo 001-exo-Z-R-TS.mol leído correctamente.
+2024-11-19 16:35:00,504 - INFO - structure_fusioner:177 - Archivo 001-exo-Z-S-TS.mol leído correctamente.
+2024-11-19 16:35:00,505 - INFO - structure_fusioner:181 - El archivo fragments.xlsx no es de tipo .mol, se omite.
+2024-11-19 16:35:02,242 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-E-R-TS.png
+2024-11-19 16:35:02,258 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-E-S-TS.png
+2024-11-19 16:35:02,273 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-Z-R-TS.png
+2024-11-19 16:35:02,289 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-endo-Z-S-TS.png
+2024-11-19 16:35:02,305 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-E-R-TS.png
+2024-11-19 16:35:02,321 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-E-S-TS.png
+2024-11-19 16:35:02,337 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-Z-R-TS.png
+2024-11-19 16:35:02,352 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_001-exo-Z-S-TS.png
+2024-11-19 16:35:02,363 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_1.png
+2024-11-19 16:35:02,374 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_2.png
+2024-11-19 16:35:02,384 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_3.png
+2024-11-19 16:35:02,395 - INFO - structure_fusioner:108 - Estructura 3D guardada como fragment_4.png
+2024-11-19 16:35:03,723 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-endo-E-R-TS.xyz
+2024-11-19 16:35:03,727 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-endo-E-S-TS.xyz
+2024-11-19 16:35:03,734 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-endo-Z-R-TS.xyz
+2024-11-19 16:35:03,738 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-endo-Z-S-TS.xyz
+2024-11-19 16:35:03,743 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-exo-E-R-TS.xyz
+2024-11-19 16:35:03,747 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-exo-E-S-TS.xyz
+2024-11-19 16:35:03,753 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-exo-Z-R-TS.xyz
+2024-11-19 16:35:03,757 - INFO - structure_fusioner:245 - Archivo .xyz guardado en: C:\Linux\001-exo-Z-S-TS.xyz

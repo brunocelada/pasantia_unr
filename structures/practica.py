@@ -4,8 +4,9 @@ from rdkit import Chem
 from rdkit.Chem import AllChem
 import logging
 
-# Configurar logging
-logging.basicConfig(level=logging.INFO)
+# Configuración de logging
+logging.basicConfig(filename="/logging/unidor_estruct.log", level=logging.INFO, encoding="utf-8",
+                    format="%(asctime)s - %(levelname)s - %(module)s:%(lineno)d - %(message)s")
 
 def load_base_structure(mol_file_path):
     """Cargar la molécula base desde un archivo .mol."""
@@ -55,3 +56,4 @@ if base_mol:
 
 if fragments:
     logging.info(f"Primer fragmento: {fragments[0]}")
+

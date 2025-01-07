@@ -217,12 +217,12 @@ def main():
     
     nprocshared = input("Cuantos procesadores queres?: ")
 
-    jobtime = int(input("Que tiempo queres? 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
-    while jobtime not in [1, 5, 9]:
+    jobtime = int(input("Que tiempo queres? 1 para 12 h, 2 para 15h, 5 para 24 h, 9 para 48 h: "))
+    while jobtime not in [1, 2, 5, 9]:
         print("Tipeaste mal")
         jobtime = int(input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 48 h: "))
         
-    tiempo = {1: "12", 5: "24", 9: "48"}[jobtime]        
+    tiempo = {1: "12", 2: "15", 5: "24", 9: "48"}[jobtime]        
 
     folder = input("Folder: ")
     fold = f"g09 /home/{user}/{folder}/" if folder else f"g09 /home/{user}/"
