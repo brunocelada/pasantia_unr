@@ -1,0 +1,30 @@
+*ELIMINAR ARCHIVOS TEMPORALES CLUSTER CAPITAN*
+
+1) Dejar que finalicen todos los cálculos
+2) Evaluar desde una determinada fecha cuales son los nodos utilizados (llamados compute-x-y con x, y números de nodos)
+sacct -u bcelada.iquir --format=JobId,JobName,NodeList --starttime=YYYY-MM-DD
+(completar correctamente el nombre del usuario luego de -u y la fecha en formato Año-Mes-Día luego de starttime=)
+3) Entrar al nodo con comando "ssh compute-x-y" (Reemplazando x-y por el correspondiente valor)
+4) Entrar a la carpeta local con "cd /local"
+5) Evaluar carpetas creadas con "ls"
+6) Entrar a la subcarpeta del usuario correspondiente con "cd $USER" (yo uso cd bcelada.iquir)
+7) Evaluar archivos temporales dentro de la carpeta con "ls"
+8) Eliminar todos los archivos temporales en caso de no ser útiles con "rm -rf *"
+
+
+
+Generalmente en los scripts de Gaussian tienen las siguientes lineas:
+
+mkdir /local/$USER
+GAUSS_SCRDIR=/local/$USER
+
+Creando el directorio en el /local del nodo donde se va a correr y diciendole a Gaussian que ese va a ser el directorio de archivos temporales. Si querés y no los necesitas a los archivos temporales una vez corrido el programa, los podes eliminar automáticamente con la línea
+
+rm -Rf $GAUSS_SCRDIR
+
+Agregandola al final de tu script.
+
+
+
+
+
