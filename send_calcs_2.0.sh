@@ -1,6 +1,10 @@
 #!/bin/bash
 dos2unix "$0" # Convierte el script actual a formato Unix
 
+# ACLARACIÓN 1: Este script sirve para enviar cálculos simplemente a través del comando:
+#   sbatch archivo.sh. Si se desea enviar a algun nodo en particular, como en las computadoras
+#   de orgánica, debe modificarse. (aún no me tomé el tiempo de hacerlo)
+
 # ---------------------- PLANTILLA PARA ENVIAR MUCHOS CÁLCULOS AL CLUSTER ----------------------
 
   # SCRIPT HECHO POR BRUNO CELADA - 4TO AÑO LIC. EN QUÍMICA | FBIOYF - UNR | Pasantía en IQUIR-Computacional
@@ -12,8 +16,9 @@ dos2unix "$0" # Convierte el script actual a formato Unix
     # 1- Completar correctamente los datos de este archivo .sh:
       # - Webhook del canal de Slack para enviar notificaciones
 
-    # 2- Guardar el archivo .sh en una carpeta conocida del cluster (por ejemplo "scripts")
-    #   Los siguientes archivos .txt guardalos en la misma carpeta.
+    # 2- Guardar este archivo .sh en una carpeta conocida del cluster (por ejemplo "scripts")
+    #   Los siguientes archivos .txt, mencionados en los puntos 3 y 4, crearlos y guardalos
+    #   en esa misma carpeta.
     
     # 3- Crear un archivo llamado directories.txt y escribir una línea por cada ubicación
     #   de una carpeta para enviar los cálculos. Por ejemplo:

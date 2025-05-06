@@ -2,8 +2,8 @@ import os
 import shutil
 import gzip
 import subprocess
-import Spa_Gaus_CreateSH_Slack
 import charge_changer
+import Spa_Gaus_CreateSH_Slack_G09_16
 
 # Constantes
 BASE_DIR = r"C:\Linux"
@@ -151,82 +151,6 @@ def update_gjc_files():
 
     print('Done')
 
-def generate_sh_files():
-    import glob
-    import os
-
-    os.chdir(BASE_DIR)
-
-    ETH = input("Que tipo de colas? 1 para HI, 9 para Lo: ")
-    while (int(ETH) != 1) and (int(ETH) != 9):
-        print("Tipeaste mal")
-        ETH = input("Que tipo de colas? 1 para HI, 9 para Lo: ")
-
-    if int(ETH) == 1:
-        part = "eth_hi"
-    if int(ETH) == 9:
-        part = "eth_low"
-
-    nprocshared = input("Cuantos procesadores queres?: ")
-
-    jobtime = input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 28 h: ")
-    while (int(jobtime) != 1) and (int(jobtime) != 5) and (int(jobtime) != 9):
-        print("Tipeaste mal")
-        jobtime = input("Que tiempo queres?: 1 para 12 h, 5 para 24 h, 9 para 28 h: ")
-
-    if int(jobtime) == 1:
-        tiempo = "12"
-    if int(jobtime) == 5:
-        tiempo = "24"
-    if int(jobtime) == 9:
-        tiempo = "48"
-
-    folder = input("Folder: ")
-
-    name = input("Sufijo ")
-
-    if folder == "":
-        fold = "g09 /home/icortes.iquir/"
-    else:
-        fold = "g09 /home/icortes.iquir/" + folder + "/"
-
-    a = glob.glob("*.gjc")
-
-    counter = len(glob.glob("*.gjc"))
-
-    delta = int(input("Cuantos inputs por sh: "))
-
-    nsh = int(counter / delta)
-
-    for i in range(0, nsh):
-        with open(name + str(i + 1) + ".sh", "w") as f:
-            f.write("#!/bin/bash\n#SBATCH --job-name=G09job\n#SBATCH --nodes=1\n#SBATCH --partition=" + part + "\n#SBATCH --ntasks=" + nprocshared + "\n#SBATCH --time=" + tiempo + ":00:00\n#SBATCH --output=G09job_%j.log\n\n\n# ------- Defining root directory for gaussian\n\n###g09root=/share/apps/Gaussian09/EM64T.SSE4.2-enabled\ng09root=/opt/ohpc/pub/apps/software/Gaussian/09/AMD64.SSE4a-enabled\n##EM64T.SSE4.2-enabled\n##AMD64.SSE4a-enabled\nmkdir /local/$USER\nGAUSS_SCRDIR=/local/$USER\nexport g09root GAUSS_SCRDIR\n. $g09root/g09/bsd/g09.profile\n\n\n# -------- SECTION print some infos to stdout ---------------------------------\necho \" \"\necho \"START_TIME           = `date +\'%y-%m-%d %H:%M:%S %s\'`\"\nSTART_TIME=`date +%s`\necho \"HOSTNAME             = $HOSTNAME\"\necho \"JOB_NAME             = $JOB_NAME\"\necho \"JOB_ID               = $JOB_ID\"\necho \"SGE_O_WORKDIR        = $SGE_O_WORKDIR\"\necho \"NSLOTS               = $NSLOTS\"\necho \" \"\n\n\n# -------- SECTION executing program ---------------------------------\n\necho \" \"\necho \"Running:\"\necho \" \"\n\n")
-            for j in range(0, int(delta)):
-                f.write(fold + a[i * delta + j] + "\n")
-            f.write("\n\n# -------- SECTION final cleanup and timing statistics ------------------------\n\necho \"END_TIME (success)   = `date +\'%y-%m-%d %H:%M:%S %s\'`\"\nEND_TIME=`date +%s`\necho \"RUN_TIME (hours)     = \"`echo \"$START_TIME $END_TIME\" | awk \'{printf(\"%.4f\",($2-$1)/60.0/60.0)}\'`\n\n\nexit 0")
-
-    resto = int(counter - delta * nsh)
-
-    if resto != 0:
-        with open(name + str(nsh + 1) + ".sh", "w") as f:
-            f.write("#!/bin/bash\n#SBATCH --job-name=G09job\n#SBATCH --nodes=1\n#SBATCH --partition=eth_hi\n#SBATCH --ntasks=4\n#SBATCH --time=24:00:00\n#SBATCH --output=G09job_%j.log\n\n\n# ------- Defining root directory for gaussian\n\n###g09root=/share/apps/Gaussian09/EM64T.SSE4.2-enabled\ng09root=/opt/ohpc/pub/apps/software/Gaussian/09/AMD64.SSE4a-enabled\n##EM64T.SSE4.2-enabled\n##AMD64.SSE4a-enabled\nmkdir /local/$USER\nGAUSS_SCRDIR=/local/$USER\nexport g09root GAUSS_SCRDIR\n. $g09root/g09/bsd/g09.profile\n\n\n# -------- SECTION print some infos to stdout ---------------------------------\necho \" \"\necho \"START_TIME           = `date +\'%y-%m-%d %H:%M:%S %s\'`\"\nSTART_TIME=`date +%s`\necho \"HOSTNAME             = $HOSTNAME\"\necho \"JOB_NAME             = $JOB_NAME\"\necho \"JOB_ID               = $JOB_ID\"\necho \"SGE_O_WORKDIR        = $SGE_O_WORKDIR\"\necho \"NSLOTS               = $NSLOTS\"\necho \" \"\n\n\n# -------- SECTION executing program ---------------------------------\n\necho \" \"\necho \"Running:\"\necho \" \"\n\n")
-            for j in range(0, resto):
-                f.write(fold + a[nsh * delta + j] + "\n")
-            f.write("\n\n# -------- SECTION final cleanup and timing statistics ------------------------\n\necho \"END_TIME (success)   = `date +\'%y-%m-%d %H:%M:%S %s\'`\"\nEND_TIME=`date +%s`\necho \"RUN_TIME (hours)     = \"`echo \"$START_TIME $END_TIME\" | awk \'{printf(\"%.4f\",($2-$1)/60.0/60.0)}\'`\n\n\nexit 0")
-
-    # Actualizar nombres de job en los archivos .sh
-    nuevo_valor = input("job-name?")
-    for archivo in os.listdir(BASE_DIR):
-        if archivo.endswith(".sh"):
-            ruta_archivo = os.path.join(BASE_DIR, archivo)
-            with open(ruta_archivo, 'r') as f:
-                contenido = f.read()
-            nuevo_contenido = contenido.replace("G09job", nuevo_valor)
-            with open(ruta_archivo, 'w') as f:
-                f.write(nuevo_contenido)
-
-    print("Reemplazo completado.")
-
 # Ejecución de funciones en orden necesario
 def main():
     rename_files()
@@ -235,19 +159,13 @@ def main():
     rename_and_copy_gz_files()
     extract_and_cleanup_gz_files()
 
-    # Llama a la función main del script "spa_gaus_createsh_slack" para crear las notificaciones
-    # en los archivos .sh
-    # Spa_Gaus_CreateSH_Slack.main()
-
-    '''Función removida para poder utilizar el módulo de creación de .sh junto con las notificaciones por Slack
-    En caso de querer utilizar las fuciones base de este archivo, dejar como comentario la línea anterior 
-    "Spa_Gaus_CreateSH_Slack.main()" y des-comentar las líneas posteriores a esta nota.
-    '''
     update_gjc_files()
     create_sh = input("Crear archivos .sh? (y/n): ").strip().lower()
     
     if create_sh == "y":
-        generate_sh_files()
+        # Crea los archivos .sh con el script "Spa_Gaus_CreateSH_Slack_G09_16"
+        Spa_Gaus_CreateSH_Slack_G09_16.main()
+        
 
     
     change_charge = input("Cambiar carga/multip? (y/n): ").strip().lower()
