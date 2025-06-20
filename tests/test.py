@@ -1,6 +1,13 @@
-from sklearn.preprocessing import StandardScaler
-scaler = StandardScaler()
-print(scaler)
+import os
+import winsound
+
+winsound.MessageBeep(winsound.MB_ICONASTERISK)
+
+# winsound.Beep(frequency=1000,duration=300)
+
+# from sklearn.preprocessing import StandardScaler
+# scaler = StandardScaler()
+# print(scaler)
 
 
 

@@ -1066,7 +1066,7 @@ def main():
 
     print("Saving results...")
     results_df = pd.DataFrame({id_col_name_val : ids_val_series.values, target_col_name_val: y_val_series.values, 'Predicted_Target': np.ravel(y_val_pred)})
-    results_path = os.path.join(output_dir_name, f"results-{args.scaler}-{args.reduction}-{args.model}.xlsx")
+    results_path = os.path.join(output_dir_name, f"results-{args.scaler}-{args.reduction}-{args.model}.xlsx") #<----------------------------------------------------------------
     results_df.to_excel(results_path, index=False)
     print(f"Saved prediction results to {results_path}")
 

@@ -1,0 +1,4 @@
+predictor_V6.sh usar para solo 1 cálculo (es el homólogo de predictor_V6.py)
+
+batch_predictor usar para combinaciones (es el homólogo de predictor_launcher.py o test_V2.py)
+
