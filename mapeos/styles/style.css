@@ -16,9 +16,9 @@ body {
 }
 
 #contenedor {
-  max-width: 800px;
+  max-width: 90%;
   margin: 0 auto;
-  background-color: #3a3a3a;
+  background-color: #e7e7e7;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
@@ -162,6 +162,7 @@ ul.archivos-contenedor {
 .copy-icon:hover {
   text-decoration: underline;
   opacity: 0.5;
+  transition: opacity 0.2s ease; /* Suaviza la transición */
 }
 .copy-icon:hover {
   transform: scale(1.1);
@@ -180,6 +181,9 @@ span {
 .carpeta[title] {
   position: relative;
   cursor: help; /* Cambia el cursor a ? */
+}
+.carpeta[title]:hover {
+  opacity: 1;
 }
 .carpeta[title]::after {
   content: attr(title);
@@ -204,7 +208,7 @@ span {
 }
 /* Mostrar tooltip inmediatamente al hover */
 .carpeta[title]:hover::after {
-  opacity: 1;
+  opacity: 1 !important; /* Asegura que el tooltip se vea */
   transition-delay: 0.1s; /* Retraso mínimo */
 }
 /* Flechita inferior del tooltip */
