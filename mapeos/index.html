@@ -20,9 +20,10 @@
     <div class="file-selector">
       <label for="jsonFileInput" class="file-input-label">
         <span>📂 Seleccionar archivo JSON</span>
-        <input type="file" id="jsonFileInput" accept=".json" />
+        <input type="file" id="jsonFileInput" accept=".json,application/json">
       </label>
       <div id="file-name" class="file-name-display">Ningún archivo seleccionado</div>
+      <div id="file-error" class="error-message" style="color:red; display:none;"></div>
     </div>
     
     <!-- Contenedor para la estructura -->
@@ -34,5 +35,14 @@
 
   <!-- JavaScript desde GitHub -->
   <script src="https://cdn.jsdelivr.net/gh/brunocelada/pasantia_unr@main/mapeos/scripts/script.js"></script>
+  <script>
+    // Fallback si el script no carga
+    if(typeof renderizarEstructura === 'undefined') {
+      document.getElementById('estructura-raiz').innerHTML = `
+        <div class="error">
+          Error al cargar el script JavaScript. Intenta recargar la página.
+        </div>`;
+    }
+  </script>
 </body>
 </html>
