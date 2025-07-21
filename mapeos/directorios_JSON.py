@@ -60,6 +60,9 @@ def main():
 
     print(f"\n🧭 Mapeando {ruta}...")
     arbol = construir_arbol(ruta)
+
+    # Agregar la ruta base absoluta
+    arbol["__base_path"] = os.path.abspath(ruta)
     
     # Debug: muestra estadísticas
     desc_vacias = sum(1 for k, v in flatten_dict(arbol).items() 

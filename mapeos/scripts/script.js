@@ -1,5 +1,6 @@
 // Variables globales
 let currentStructure = null;
+let basePath = '';  // Nueva variable global
 
 // Esperar a que el DOM esté listo
 document.addEventListener('DOMContentLoaded', function () {
@@ -17,7 +18,10 @@ document.addEventListener('DOMContentLoaded', function () {
     reader.onload = function (e) {
       try {
         currentStructure = JSON.parse(e.target.result);
-        renderizarEstructura(currentStructure, file.name.replace(/\.[^/.]+$/, ''));
+        basePath = currentStructure.__base_path || '';
+        const nombreRaiz = basePath.split(/[\\/]/).filter(Boolean).pop();
+        delete currentStructure.__base_path;
+        renderizarEstructura(currentStructure, '', null, nombreRaiz);
         mostrarToast('✅ Estructura cargada correctamente');
       } catch (error) {
         mostrarError('Error al parsear el JSON: ' + error.message);
@@ -31,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Función para renderizar la estructura
-function renderizarEstructura(data, basePath = "", parentElement = null) {
+function renderizarEstructura(data, basePath = "", parentElement = null, nombreRaiz = 'Root') {
   const contenedor = parentElement || document.getElementById('estructura-raiz');
   contenedor.innerHTML = '';
 
@@ -41,9 +45,12 @@ function renderizarEstructura(data, basePath = "", parentElement = null) {
   }
 
   // Crear elemento raíz
-  const rootName = basePath || 'Root';
   const rootElement = document.createElement('ul');
   rootElement.id = 'estructura-raiz';
+
+  // 🌱 usar nombreRaiz (nuevo parámetro)
+  rootElement.innerHTML = generarHTML(data, basePath, nombreRaiz, true);
+  contenedor.appendChild(rootElement);
 
   // Función recursiva para generar HTML
   function generarHTML(node, path, name, isRoot = false) {
@@ -107,11 +114,11 @@ function renderizarEstructura(data, basePath = "", parentElement = null) {
           <ul class="lista-archivos" style="display:none;">`;
 
       node._archivos.forEach(archivo => {
-        const filePath = path ? `${path}/${archivo}` : archivo;
+        const relativeFilePath = `${path}/${archivo}`.replace(/^\/+/, '');
         const extension = archivo.split('.').pop().toLowerCase();
         html += `
           <li class="archivo-item">
-            <span class="copy-icon" onclick="copiarRuta('${escapeRuta(filePath)}')">📋</span>
+            <span class="copy-icon" onclick="copiarRuta('${escapeRuta(relativeFilePath)}')">📋</span>
             <span class="file-icon" data-ext="${extension}">${getFileIcon(extension)}</span>
             <span class="archivo-nombre">${htmlEscape(archivo)}</span>
           </li>`;
@@ -124,11 +131,15 @@ function renderizarEstructura(data, basePath = "", parentElement = null) {
     return html;
   }
 
-  rootElement.innerHTML = generarHTML(data, basePath, rootName, true);
+  rootElement.innerHTML = generarHTML(data, basePath, nombreRaiz, true);
   contenedor.appendChild(rootElement);
 
   // Formatear descripciones largas
   formatearDescripciones();
+
+  if (data.__base_path) {
+    delete data.__base_path;
+  }
 }
 
 // Función para obtener icono según extensión
@@ -162,9 +173,10 @@ window.toggle = function (elem) {
 };
 
 // Función para copiar rutas
-window.copiarRuta = function (ruta) {
-  navigator.clipboard.writeText(ruta).then(() => {
-    mostrarToast('Ruta copiada: ' + ruta);
+window.copiarRuta = function (rutaRelativa) {
+  const rutaAbsoluta = basePath ? `${basePath}/${rutaRelativa}`.replace(/\/+/g, '/') : rutaRelativa;
+  navigator.clipboard.writeText(rutaAbsoluta).then(() => {
+    mostrarToast('Ruta copiada: ' + rutaAbsoluta);
   }).catch(err => {
     mostrarToast('Error al copiar: ' + err);
   });
