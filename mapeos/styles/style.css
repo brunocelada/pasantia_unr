@@ -1,0 +1,243 @@
+:root {
+  --bg-color: #c4bfbf; /* Fondo claro*/
+  --text-color: #464646; /* Texto oscuro */
+  --accent-color: #4a80f0; /* Azul moderno */
+  --folder-color: #6bb9f0; /* Azul más claro para carpetas */
+  --file-color: #a0a0a0; /* Color archivos */
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+#contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #3a3a3a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ccc;
+}
+li {
+  margin: 4px 0;
+}
+.carpeta,
+.archivo-grupo {
+  font-weight: bold;
+  cursor: pointer;
+}
+.carpeta {
+  color: #2b4b84;
+}
+.archivo-grupo {
+  color: #555;
+}
+.archivo {
+  color: #464646;
+}
+.error {
+  color: red;
+  font-style: italic;
+}
+.type-icon {
+  margin-right: 5px;
+  display: inline-block;
+  width: 1.2em;
+}
+ul ul ul {
+  display: none;
+} /* Solo oculta los ul anidados a partir del segundo nivel */
+#estructura-raiz {
+  background-color: #edebeb;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+} /* Muestra el primer nivel */
+ul.archivos-contenedor {
+  padding-left: 10px;
+  border-left: 1px dashed #ddd;
+}
+.copy-icon {
+  cursor: pointer;
+  margin-right: 4px;
+  position: relative;
+}
+#toast {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 8px;
+  position: fixed;
+  z-index: 1;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.9em;
+}
+#toast.show {
+  visibility: visible;
+  animation: fadein 0.3s, fadeout 0.5s 1.2s;
+}
+
+/* Tooltip */
+.copy-icon::after {
+  content: "Click para copiar";
+  position: absolute;
+  bottom: 80%;
+  left: 50%;
+  transform: translateX(-50%) scale(0.9);
+  opacity: 0;
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+  z-index: 1000;
+  border: 1px solid #444; /* Borde sutil */
+}
+.copy-icon:hover::after {
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  bottom: 100%;
+  text-decoration: none; /* Sin subrayado */
+}
+/* Flechita inferior opcional (más visible) */
+.copy-icon::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px 6px 0 6px; /* Más grande */
+  border-style: solid;
+  border-color: #222 transparent transparent transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.copy-icon:hover::before {
+  opacity: 1;
+}
+
+/* Iconos con colores por tipo */
+.file-icon[data-ext="pdf"] {
+  color: #ff4d4d;
+}
+.file-icon[data-ext="xlsx"],
+.file-icon[data-ext="csv"] {
+  color: #4caf50;
+}
+.file-icon[data-ext="docx"] {
+  color: #2196f3;
+}
+.file-icon[data-ext="js"] {
+  color: #ffd600;
+}
+.file-icon[data-ext="rar"],
+.file-icon[data-ext="zip"] {
+  color: #ff9800;
+}
+
+/* Efectos hover */
+.carpeta:hover,
+.archivo-grupo:hover,
+.copy-icon:hover {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.copy-icon:hover {
+  transform: scale(1.1);
+  color: var(--accent-color);
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+/* Transiciones suaves */
+li,
+span {
+  transition: all 0.2s ease;
+}
+
+/* Tooltip para descripciones */
+.carpeta[title] {
+  position: relative;
+  cursor: help; /* Cambia el cursor a ? */
+}
+.carpeta[title]::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: pre-wrap; /* Permite saltos de línea */
+  max-width: 300px; /* Ancho máximo */
+  width: max-content;
+  opacity: 0;
+  transition: opacity 0.15s ease; /* Más rápido (0.15s vs 0.3s original) */
+  pointer-events: none;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+/* Mostrar tooltip inmediatamente al hover */
+.carpeta[title]:hover::after {
+  opacity: 1;
+  transition-delay: 0.1s; /* Retraso mínimo */
+}
+/* Flechita inferior del tooltip */
+.carpeta[title]::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% - 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 8px 6px 0 6px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.carpeta[title]:hover::before {
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
