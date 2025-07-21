@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 """
-Batch runner for predictor_V6.py: executes chosen combinations of scaler, reduction, and model.
+Batch runner for predictor.py: executes chosen combinations of scaler, reduction, and model.
 """
 import subprocess
 import os
@@ -11,19 +11,20 @@ from datetime import datetime
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Batch execute predictor_V6.py for multiple combinations.")
+    parser = argparse.ArgumentParser(description="Batch execute predictor.py for multiple combinations.")
     parser.add_argument('--training', required=True, help='Path to training Excel file')
     parser.add_argument('--validation', required=True, help='Path to validation Excel file')
     parser.add_argument('--scalers', default='zscore,minmax,decimal,robust,unit,none',
                         help='Comma-separated list of scalers to test')
-    parser.add_argument('--reductions', default='pca,efa,plsr,lasso,rfe,sparsepca,mihr,none',
+    parser.add_argument('--reductions', default='pca,pca_2,efa,plsr,lasso,rfe,rfe_2,sparsepca,sparsepca_2,mihr,pfi,pfi_2,none',
                         help='Comma-separated list of reductions to test')
-    parser.add_argument('--models', default='mlr,svm,dt,rf,xgb,knn,ann,gam,gpr,lgbm,catb',
+    parser.add_argument('--models', default='mlr,svm,dt,rf,xgb,knn,ann,gam,gpr,lgbm,catb,gbr,adaboost',
                         help='Comma-separated list of models to test')
     parser.add_argument('--trials', type=int, default=500, help='Number of Optuna trials per run')
-    parser.add_argument('--script', default='predictor_V6.py', help='Predictor script name')
+    parser.add_argument('--script', default='predictor.py', help='Predictor script name')
     parser.add_argument('--logs-dir', default='logs', help='Directory for successful logs')
     parser.add_argument('--error-dir', default='logs/error', help='Directory for error logs')
+    parser.add_argument("--shap", default='off', choices=['on', 'off'], help="Activa la generación de gráficos SHAP ('on' para activar). Por defecto: 'off'.")
     parser.add_argument('--no_intro', action='store_true', help='Pass --no_intro flag to predictor')
     return parser.parse_args()
 
@@ -63,6 +64,8 @@ def main():
         ]
         if args.no_intro:
             cmd.append('--no_intro')
+        if args.shap == 'on':
+            cmd.append('--shap')
 
         print(f"[{idx}/{total}] Running: {name}")
         start = datetime.now()

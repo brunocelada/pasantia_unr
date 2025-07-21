@@ -1,24 +1,27 @@
 #!/bin/bash
-#SBATCH --job-name=batch_pred_v6
+#SBATCH --job-name=batch_pred
 #SBATCH --output=log_salida.txt
 #SBATCH --error=log_error.txt
-#SBATCH --partition=organica
+#SBATCH --partition=eth_hi
 #SBATCH --time=72:00:00   # 3 días
 #SBATCH --mem=8G
-#SBATCH --ntasks=1
+#SBATCH --ntasks=4
+#SBATCH --nodes=1
 
 # ==== CONFIGURACIÓN ====
-subfolder="full-150"  # Cambia esto según el subdirectorio que necesites
+subfolder="SUBFOLDER"  # Cambia esto según el subdirectorio que necesites
 training_set="training_set" # Cambia esto según el training set que uses
 validation_set="validation_set" # Cambia esto según el validation set que uses
 
 TRAINING_FILE="/home/bcelada.iquir/scripts/Python/$subfolder/$training_set.xlsx"
 VALIDATION_FILE="/home/bcelada.iquir/scripts/Python/$subfolder/$validation_set.xlsx"
 SCALERS="zscore,minmax,decimal,robust,unit,none"
-REDUCTIONS="pca,efa,plsr,lasso,rfe,sparsepca,mihr,none"
-MODELS="mlr,svm,dt,rf,xgb,knn,ann,gam,gpr,lgbm,catb"
+REDUCTIONS="pca,pca_2,efa,plsr,lasso,rfe,rfe_2,sparsepca,sparsepca_2,mihr,pfi,pfi_2,none"
+MODELS="mlr,svm,dt,rf,xgb,knn,ann,gam,gpr,lgbm,catb,gbr,adaboost"
 TRIALS=100
+SHAP="off" # Cambia esto a 'on' si quieres activar SHAP
 SCRIPT="/home/bcelada.iquir/scripts/Python/$subfolder/batch_predictor.py"
+PRED_SCRIPT="/home/bcelada.iquir/scripts/Python/$subfolder/predictor_V11.py"
 LOG_FOLDER="logs_batch_predictor"
 
 # Crear carpeta de logs y error si no existe
@@ -59,6 +62,8 @@ python "$SCRIPT" \
   --trials "$TRIALS" \
   --logs-dir "$LOG_FOLDER" \
   --error-dir "$LOG_FOLDER/error" \
+  --shap "$SHAP" \
+  --script "$PRED_SCRIPT" \
   --no_intro
 
 echo "✅ Proceso finalizado"

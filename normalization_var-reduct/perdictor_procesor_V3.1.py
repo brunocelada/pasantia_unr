@@ -343,37 +343,76 @@ def guardar_plantilla_con_outliers(
 # -------------------- UTILIDAD 9: Extraer estadísticas desde 'Statistics.txt' --------------------
 def extract_statistics_from_txt(txt_path: str):
     """
-    Lee las líneas de txt_path (reverso) buscando R2, RMSE, MAE, MAPE.
-    Devuelve stats = {"R2": float or None, "RMSE":float or None, "MAE": str or None, "MAPE": str or None}.
+    Extrae métricas específicas de un archivo de texto:
+    - R2_LOOCV: bajo 'LOOCV (Evaluación Global)'
+    - R2_5FoldCV: bajo '5-Fold CV (Evaluación Global)'
+    - R2_ObsVsPred: bajo 'Rendimiento del Conjunto de Validación' -> 'R2 (Observado vs. Predicho)'
+    - MAE, RMSE, MAPE: del bloque 'Rendimiento del Conjunto de Validación'
+    
+    Devuelve:
+        dict con las métricas, o None si no se encuentran.
     """
-    stats = {"R2": None, "RMSE": None, "MAE": None, "MAPE": None}
+    stats = {
+        "R2_LOOCV": None,
+        "R2_5FoldCV": None,
+        "R2_ObsVsPred": None,
+        "MAE": None,
+        "RMSE": None,
+        "MAPE": None
+    }
+
     if not os.path.exists(txt_path):
         return stats
 
+    current_section = None
+
     with open(txt_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()[::-1]
-        for line in lines:
+        for line in f:
             line = line.strip()
-            if line.startswith("R2") and stats["R2"] is None:
+
+            # Cambiar sección según encabezado detectado
+            section_match = re.match(r"^\s*(LOOCV|5-Fold CV|Rendimiento del Conjunto de Validación)", line)
+            if section_match:
+                section_name = section_match.group(1).strip()
+                if "Rendimiento del Conjunto de Validación" in section_name:
+                    current_section = "Validation"
+                elif "5-Fold CV" in section_name:
+                    current_section = "5FoldCV"
+                elif "LOOCV" in section_name:
+                    current_section = "LOOCV"
+            # Analizar líneas dentro de cada sección
+            if current_section and current_section == "LOOCV" and stats["R2_LOOCV"] is None:
                 match = re.search(r"R2:\s*(-?\d+\.\d+)", line)
                 if match:
-                    stats["R2"] = float(match.group(1))
-            elif "RMSE" in line and stats["RMSE"] is None:
-                match = re.search(r"RMSE:\s*(\d+\.\d+)", line)
-                if match:
-                    stats["RMSE"] = float(match.group(1))
-            elif "MAE" in line and stats["MAE"] is None:
-                match = re.search(r"MAE:\s*(\d+\.\d+)", line)
-                if match:
-                    stats["MAE"] = match.group(1)
-            elif "MAPE" in line and stats["MAPE"] is None:
-                match = re.search(r"MAPE:\s*(\d+\.\d+%)", line)
-                if match:
-                    stats["MAPE"] = match.group(1)
+                    stats["R2_LOOCV"] = float(match.group(1))
 
-            # Si ya se encontraron todos, cortar el bucle
+            elif current_section and current_section == "5FoldCV" and stats["R2_5FoldCV"] is None:
+                match = re.search(r"R2:\s*(-?\d+\.\d+)", line)
+                if match:
+                    stats["R2_5FoldCV"] = float(match.group(1))
+
+            elif current_section and current_section == "Validation":
+                if "R2 (Observado vs. Predicho)" in line and stats["R2_ObsVsPred"] is None:
+                    match = re.search(r"R2 \(Observado vs\. Predicho\):\s*(-?\d+\.\d+)", line)
+                    if match:
+                        stats["R2_ObsVsPred"] = float(match.group(1))
+                elif "MAE" in line and stats["MAE"] is None:
+                    match = re.search(r"MAE:\s*(\d+\.\d+)", line)
+                    if match:
+                        stats["MAE"] = float(match.group(1))
+                elif "RMSE" in line and stats["RMSE"] is None:
+                    match = re.search(r"RMSE:\s*(\d+\.\d+)", line)
+                    if match:
+                        stats["RMSE"] = float(match.group(1))
+                elif "MAPE" in line and stats["MAPE"] is None:
+                    match = re.search(r"MAPE:\s*(\d+\.\d+%)", line)
+                    if match:
+                        stats["MAPE"] = match.group(1)
+
+            # Terminar si se encontró todo
             if all(val is not None for val in stats.values()):
                 break
+
     return stats
 
 
@@ -388,7 +427,7 @@ def create_master_table(
 ):
     """
     Genera Master_Table.xlsx con tres hojas:
-      - "Resumen" con columnas: #Entry, Modelo, R2, MAE, RMSE, MAPE,
+      - "Resumen" con columnas: #Entry, Modelo, R2_LOOCV, R2_5FoldCV, R2_ObsVsPred, MAE, RMSE, MAPE,
          Outlier_∆∆G-0.1 ... 0.5, Outlier_%ee-1% ... 5%.
       - "Outliers_∆∆G" con columnas: #Entry, Modelo, Outlier_∆∆G-0.01 ... 0.50.
       - "Outliers_%ee" con columnas: #Entry, Modelo, Outlier_%ee-1% ... 5.0%.
@@ -418,7 +457,7 @@ def create_master_table(
     ws_main.title = "Resumen"
 
     headers_main = [
-        "# Entry", "Modelo", "R2", "MAE", "RMSE", "MAPE"
+        "# Entry", "Modelo", "R2_LOOCV", "R2_5FoldCV", "R2_ObsVsPred", "MAE", "RMSE", "MAPE"
     ] + [f"Outlier_∆∆G-{x:.1f}" for x in [0.1, 0.2, 0.3, 0.4, 0.5]] \
       + [f"Outlier_%ee-{int(x)}%" for x in [10, 20, 30, 40, 50]]
     ws_main.append(headers_main)
@@ -454,7 +493,7 @@ def create_master_table(
         # 4.2) Fila principal
         row_main = [
             entry_number, model_name,
-            stats["R2"], stats["MAE"], stats["RMSE"], stats["MAPE"]
+            stats["R2_LOOCV"], stats["R2_5FoldCV"], stats["R2_ObsVsPred"], stats["MAE"], stats["RMSE"], stats["MAPE"]
         ]
 
         ws_main.append(row_main)
@@ -495,7 +534,7 @@ def create_master_table(
         wb,
         hoja_principal="Resumen",
         hoja_fuente="Outliers_∆∆G",
-        col_destino_inicio=7,  # Columna G
+        col_destino_inicio=9,  # Columna I
         col_fuente_inicio=12,   # Columna L
         step=10,
         repeticiones=5
@@ -504,7 +543,7 @@ def create_master_table(
         wb,
         hoja_principal="Resumen",
         hoja_fuente="Outliers_%ee",
-        col_destino_inicio=12,  # Columna L
+        col_destino_inicio=14,  # Columna N
         col_fuente_inicio=12,   # Columna L
         step=10,
         repeticiones=5
@@ -548,8 +587,9 @@ def main():
 
     # # 1) Inputs básicos
     base_folder = input("Ruta de la carpeta con subcarpetas de modelos: ").strip()
-    logging.info("Verificando estado de finalización de modelos...")
+    master_output_path = input("Ruta donde guardar el archivo Master_Table.xlsx: ").strip()
 
+    logging.info("Verificando estado de finalización de modelos...")
     lineas_criterio = pedir_lineas_criterio()
     log_folder = input("Ruta de la carpeta con LOGS de los modelos: ").strip()
     modelos_ok, modelos_error = obtener_listas_de_modelos(log_folder, lineas_criterio)
@@ -583,52 +623,67 @@ def main():
     # 5) Preparar JSONL para outliers
     ruta_ddg = os.path.join(carpeta_outliers_txt, "outlier_dict_ddg.txt")
     ruta_ee = os.path.join(carpeta_outliers_txt, "outlier_dict_ee.txt")
-    open(ruta_ddg, 'w').close()
-    open(ruta_ee, 'w').close()
 
     # 6) Iterar modelos y calcular outliers
     target_col_idx = column_index_from_string(target_column)
     pasos = 50
     sleep_time = 0.2
 
-    logging.info("Generando Templates (si aplica) y calculando outliers...")
-    for model_name, (values, subfolder) in column_data.items():
-        if guardar_templates:
-            # 6.1a) Copiar template en disco con openpyxl
-            wb = load_workbook(template_path)
-            ws = wb.active
-            for i, val in enumerate(values, start=1):
-                ws.cell(row=i, column=target_col_idx, value=val)
-            output_path_individual = os.path.join(carpeta_templates, f"Template_{model_name}.xlsx")
-            wb.save(output_path_individual)
-            wb.close()
-
-            # 6.2a) Calcular outliers sobre esa copia
-            outliers_ddg, outliers_ee = calcular_outliers_xlwings(
-                output_path_individual, l_cell, w_cell, k_cell, v_cell, pasos, sleep_time
-            )
-
-            # 6.3a) Guardar JSONL
-            guardar_outliers_jsonl(carpeta_outliers_txt, model_name, outliers_ddg, outliers_ee)
-
-            # 6.4a) Añadir hoja "Outliers" a la copia recién creada
-            guardar_plantilla_con_outliers(carpeta_templates, model_name, outliers_ddg, outliers_ee)
-
-            logging.info(f"Template de '{model_name}' guardado con hoja Outliers.")
-
+    # Si ambos diccionarios (ddg y ee) existen, preguntar si se desean usar
+    usar_outliers_existentes = False
+    if os.path.exists(ruta_ddg) and os.path.exists(ruta_ee):
+        respuesta = input("Se detectaron archivos de outliers existentes. ¿Desea usarlos? (s/n): ").strip().lower()
+        if respuesta == 's':
+            usar_outliers_existentes = True
         else:
-            # 6.1b) Usar plantilla original con xlwings SIN GUARDAR archivo
-            outliers_ddg, outliers_ee = calcular_outliers_sin_guardar_plantilla(
-                template_path, values, target_col_idx, l_cell, w_cell, k_cell, v_cell, pasos, sleep_time
-            )
-            # 6.2b) Guardar JSONL
-            guardar_outliers_jsonl(carpeta_outliers_txt, model_name, outliers_ddg, outliers_ee)
+            logging.info("Regenerando los archivos de outliers...")
+            # Vaciar los archivos
+            open(ruta_ddg, 'w').close()
+            open(ruta_ee, 'w').close()
+    else:
+        logging.info("No se encontraron archivos de outliers, se generarán por primera vez.")
+        open(ruta_ddg, 'w').close()
+        open(ruta_ee, 'w').close()
 
-            logging.info(f"Calculados outliers para '{model_name}' (sin guardar plantilla).")
+    if not usar_outliers_existentes:
+        logging.info("Generando Templates (si aplica) y calculando outliers...")
+        for model_name, (values, subfolder) in column_data.items():
+            if guardar_templates:
+                # 6.1a) Copiar template en disco con openpyxl
+                wb = load_workbook(template_path)
+                ws = wb.active
+                for i, val in enumerate(values, start=1):
+                    ws.cell(row=i, column=target_col_idx, value=val)
+                output_path_individual = os.path.join(carpeta_templates, f"Template_{model_name}.xlsx")
+                wb.save(output_path_individual)
+                wb.close()
+
+                # 6.2a) Calcular outliers sobre esa copia
+                outliers_ddg, outliers_ee = calcular_outliers_xlwings(
+                    output_path_individual, l_cell, w_cell, k_cell, v_cell, pasos, sleep_time
+                )
+
+                # 6.3a) Guardar JSONL
+                guardar_outliers_jsonl(carpeta_outliers_txt, model_name, outliers_ddg, outliers_ee)
+
+                # 6.4a) Añadir hoja "Outliers" a la copia recién creada
+                guardar_plantilla_con_outliers(carpeta_templates, model_name, outliers_ddg, outliers_ee)
+
+                logging.info(f"Template de '{model_name}' guardado con hoja Outliers.")
+
+            else:
+                # 6.1b) Usar plantilla original con xlwings SIN GUARDAR archivo
+                outliers_ddg, outliers_ee = calcular_outliers_sin_guardar_plantilla(
+                    template_path, values, target_col_idx, l_cell, w_cell, k_cell, v_cell, pasos, sleep_time
+                )
+                # 6.2b) Guardar JSONL
+                guardar_outliers_jsonl(carpeta_outliers_txt, model_name, outliers_ddg, outliers_ee)
+
+                logging.info(f"Calculados outliers para '{model_name}' (sin guardar plantilla).")
+    else:
+        logging.info("Usando los archivos de outliers existentes (se omite el cálculo).")
 
     # 7) Crear Master_Table.xlsx
-    winsound.MessageBeep(winsound.MB_ICONASTERISK)
-    master_output_path = input("Ruta donde guardar el archivo Master_Table.xlsx: ").strip()
     os.makedirs(master_output_path, exist_ok=True)
     global output_path
     output_path = os.path.join(master_output_path, "Master_Table.xlsx")
