@@ -257,6 +257,45 @@ span {
   color: #666;
 }
 
+.descripcion {
+  font-size: 0.9em;
+  color: #333;
+  margin: 4px 0 6px 2em;
+  line-height: 1.4;
+  font-style: italic;
+  background-color: #f3f3f3;
+  width: fit-content;
+  max-width: 75%;
+  border-radius: 10px;
+  padding: 3px;
+}
+.expandible {
+  max-width: 100%;
+}
+.ver-mas-btn {
+  background: none;
+  border: none;
+  color: var(--accent-color);
+  cursor: pointer;
+  font-size: 0.85em;
+  text-decoration: underline;
+  margin-left: 6px;
+  padding: 2px;
+}
+.ver-mas-btn:hover {
+  color: #2b4b84;
+}
+#link_py {
+  color: #2b4b84;
+  text-decoration: none;
+  font-weight: bold;
+}
+#link_py:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+
 @keyframes fadein {
   from {
     opacity: 0;
